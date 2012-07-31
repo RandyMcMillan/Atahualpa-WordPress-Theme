@@ -2,6 +2,10 @@ Wordpress Theme "Atahualpa" version 3.7.4
 
 VISIT THE SUPPORT FORUMS AT http://forum.bytesforall.com/
 
+
+![image](https://github.com/RandyMcMillan/Atahualpa-WordPress-Theme-/raw/master/ScreenShot%20copy.png)
+
+
 #####################################################################
 
 UPGRADE:
