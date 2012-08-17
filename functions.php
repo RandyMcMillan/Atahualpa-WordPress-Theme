@@ -55,7 +55,7 @@ function bfa_get_template_uri($fn){
 
 // get default theme options
 include_once( bfa_get_include_filename('/functions/bfa_theme_options.php') );
-include_once( bfa_get_include_filename('/functions/bfa_theme_options.php') );
+
 // Load options
 include_once( bfa_get_include_filename('/functions/bfa_get_options.php') );
 list($bfa_ata, $cols, $left_col, $left_col2, $right_col, $right_col2, $bfa_ata['h_blogtitle'], $bfa_ata['h_posttitle']) = bfa_get_options();
