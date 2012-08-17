@@ -16,6 +16,11 @@ load_theme_textdomain('atahualpa');
 $bfa_parent_theme_directory = get_template_directory();
 //Child Theme Template Directory Path
 $bfa_child_theme_directory = get_stylesheet_directory();
+//Parent Theme Template Directory Path
+$bfa_parent_theme_template_uri = get_template_directory_uri();
+//Child Theme Template Directory Path
+$bfa_child_theme_template_uri = get_stylesheet_directory_uri();
+
 
 // returns path & filename to include additional files from child theme directory if
 // possible and fall back to parent theme if necessary.
@@ -30,6 +35,22 @@ function bfa_get_include_filename($fn){
 		return( $bfa_parent_theme_directory . $fn );
 	}
 }
+
+// returns uri of filename from child theme directory if
+// possible and fall back to parent theme if necessary.
+function bfa_get_template_uri($fn){
+	
+	global $bfa_child_theme_directory, $bfa_parent_theme_template_uri, $bfa_child_theme_template_uri;
+	
+	// see if requested fn exists in the child theme's directory.
+	if( @file_exists( $bfa_child_theme_directory . $fn ) ) {
+		return( $bfa_child_theme_template_uri . $fn );
+	} else {
+		return( $bfa_parent_theme_template_uri . $fn );
+	}
+}
+
+
 
 
 // get default theme options
