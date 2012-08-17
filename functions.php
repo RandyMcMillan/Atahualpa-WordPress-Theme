@@ -10,10 +10,33 @@ load_theme_textdomain('atahualpa');
 #remove_filter('comment_text', 'wptexturize');
 #remove_filter('the_title', 'wptexturize');
 
+
+
+//Parent Theme Template Directory Path
+$bfa_parent_theme_directory = get_template_directory();
+//Child Theme Template Directory Path
+$bfa_child_theme_directory = get_stylesheet_directory();
+
+// returns path & filename to include additional files from child theme directory if
+// possible and fall back to parent theme if necessary.
+function bfa_get_include_filename($fn){
+	
+	global $bfa_parent_theme_directory, $bfa_child_theme_directory;
+	
+	// see if requested fn exists in the child theme's directory.
+	if( @file_exists( $bfa_child_theme_directory . $fn ) ) {
+		return( $bfa_child_theme_directory . $fn );
+	} else {
+		return( $bfa_parent_theme_directory . $fn );
+	}
+}
+
+
 // get default theme options
-include_once (get_template_directory() . '/functions/bfa_theme_options.php');
+include_once( bfa_get_include_filename('/functions/bfa_theme_options.php') );
+include_once( bfa_get_include_filename('/functions/bfa_theme_options.php') );
 // Load options
-include_once (get_template_directory() . '/functions/bfa_get_options.php');
+include_once( bfa_get_include_filename('/functions/bfa_get_options.php') );
 list($bfa_ata, $cols, $left_col, $left_col2, $right_col, $right_col2, $bfa_ata['h_blogtitle'], $bfa_ata['h_posttitle']) = bfa_get_options();
 // Sidebars:
 if ( function_exists('register_sidebar') ) {
@@ -66,27 +89,27 @@ if ( function_exists('register_sidebar') ) {
 
 #global $bfa_ata;
 // Load functions
-include_once (get_template_directory() . '/functions/bfa_header_config.php');
-include_once (get_template_directory() . '/functions/bfa_meta_tags.php');
-include_once (get_template_directory() . '/functions/bfa_hor_cats.php');
-include_once (get_template_directory() . '/functions/bfa_hor_pages.php');
+include_once( bfa_get_include_filename('/functions/bfa_header_config.php') );
+include_once( bfa_get_include_filename('/functions/bfa_meta_tags.php') );
+include_once( bfa_get_include_filename('/functions/bfa_hor_cats.php') );
+include_once( bfa_get_include_filename('/functions/bfa_hor_pages.php') );
 // New WP3 menus:
-include_once (get_template_directory() . '/functions/bfa_new_wp3_menus.php');
-include_once (get_template_directory() . '/functions/bfa_footer.php');
-include_once (get_template_directory() . '/functions/bfa_recent_comments.php');
-include_once (get_template_directory() . '/functions/bfa_popular_posts.php');
-include_once (get_template_directory() . '/functions/bfa_popular_in_cat.php');
-include_once (get_template_directory() . '/functions/bfa_subscribe.php');
-include_once (get_template_directory() . '/functions/bfa_postinfo.php');
-include_once (get_template_directory() . '/functions/bfa_rotating_header_images.php');
-include_once (get_template_directory() . '/functions/bfa_next_previous_links.php');
-include_once (get_template_directory() . '/functions/bfa_post_parts.php');
+include_once( bfa_get_include_filename('/functions/bfa_new_wp3_menus.php') );
+include_once( bfa_get_include_filename('/functions/bfa_footer.php') );
+include_once( bfa_get_include_filename('/functions/bfa_recent_comments.php') );
+include_once( bfa_get_include_filename('/functions/bfa_popular_posts.php') );
+include_once( bfa_get_include_filename('/functions/bfa_popular_in_cat.php') );
+include_once( bfa_get_include_filename('/functions/bfa_subscribe.php') );
+include_once( bfa_get_include_filename('/functions/bfa_postinfo.php') );
+include_once( bfa_get_include_filename('/functions/bfa_rotating_header_images.php') );
+include_once( bfa_get_include_filename('/functions/bfa_next_previous_links.php') );
+include_once( bfa_get_include_filename('/functions/bfa_post_parts.php') );
 if (!function_exists('paged_comments'))  
-	include_once (get_template_directory() . '/functions/bfa_custom_comments.php');
+	include_once( bfa_get_include_filename('/functions/bfa_custom_comments.php') );
 	
 // Since 3.5.2: JSON for PHP 4 & 5.1:
 if (!function_exists('json_decode')) {
-	include_once (get_template_directory() . '/functions/JSON.php');
+	include_once( bfa_get_include_filename('/functions/JSON.php') );
 	function json_encode($data) { $json = new Services_JSON(); return( $json->encode($data) ); }
 	function json_decode($data) { $json = new Services_JSON(); return( $json->decode($data) ); }
 }
@@ -99,19 +122,19 @@ function bfa_toArray($data) {
 
 // For plugin "Sociable":
 if (function_exists('sociable_html')) 
-	include_once (get_template_directory() . '/functions/bfa_sociable2.php'); 
+	include_once( bfa_get_include_filename('/functions/bfa_sociable2.php') ); 
 
 // "Find in directory" function, needed for finding header images on WPMU
 if (file_exists(ABSPATH."/wpmu-settings.php")) 
-	include_once (get_template_directory() . '/functions/bfa_m_find_in_dir.php');
+	include_once( bfa_get_include_filename('/functions/bfa_m_find_in_dir.php') );
 
 // CSS for admin area
-include_once (get_template_directory() . '/functions/bfa_css_admin_head.php');
+include_once( bfa_get_include_filename('/functions/bfa_css_admin_head.php') );
 // Add the CSS to the <head>...</head> of the theme option admin area
 add_action('admin_head', 'bfa_add_stuff_admin_head');
 
-include_once (get_template_directory() . '/functions/bfa_ata_add_admin.php');
-include_once (get_template_directory() . '/functions/bfa_ata_admin.php');
+include_once( bfa_get_include_filename('/functions/bfa_ata_add_admin.php') );
+include_once( bfa_get_include_filename('/functions/bfa_ata_admin.php') );
 add_action('admin_menu', 'bfa_ata_add_admin');
 
 
@@ -163,7 +186,7 @@ add_action('wp_head', 'bfa_add_html_inserts_header', 20);
 // Since 3.6.: ToDo: Remove legacy.comments.php after a while. Older WP's won't work anyway 
 // with the new WP requirements to REPLACE older functions with newer ones introduced in 2.8 (i.e. get_the_author_meta)
 if ( !function_exists('paged_comments') ) {
-	include_once (get_template_directory() . '/functions/bfa_custom_comments.php'); 
+	include_once( bfa_get_include_filename('/functions/bfa_custom_comments.php') ); 
 }
 
 // remove WP default inline CSS for ".recentcomments a" from header
@@ -232,17 +255,17 @@ function bfa_css_js_redirect() {
 	global $bfa_ata;
 	$bfa_ata_query_var_file = get_query_var('bfa_ata_file');
 	if ( $bfa_ata_query_var_file == "css" OR $bfa_ata_query_var_file == "js" ) {
-		include_once (get_template_directory() . '/' . $bfa_ata_query_var_file . '.php');
+		include_once( bfa_get_include_filename('/' . $bfa_ata_query_var_file . '.php') );
 		exit; // this stops WordPress entirely
 	}
 	// Since 3.4.7: Import/Export Settings
 	if ( $bfa_ata_query_var_file == "settings-download" ) {
 		if(isset($_FILES['userfile'])) $uploadedfile = $_FILES['userfile'];
-		include_once (get_template_directory() . '/download.php');
+		include_once( bfa_get_include_filename('/download.php') );
 		exit; // this stops WordPress entirely
 	}
 	if ( $bfa_ata_query_var_file == "settings-upload" ) {
-		include_once (get_template_directory() . '/upload.php');
+		include_once( bfa_get_include_filename('/upload.php') );
 		exit; // this stops WordPress entirely
 	}
 }
@@ -253,11 +276,11 @@ function bfa_inline_css_js() {
 	$bfa_ata_debug = get_query_var('bfa_debug');
 	if ( $bfa_ata_preview == 1 OR $bfa_ata['css_external'] == "Inline" OR 
 	( $bfa_ata_debug == 1 AND $bfa_ata['allow_debug'] == "Yes" ) ) {
-		include_once (get_template_directory() . '/css.php');
+		include_once( bfa_get_include_filename('/css.php') );
 	}
 	if ( $bfa_ata_preview == 1 OR $bfa_ata['javascript_external'] == "Inline" OR 
 	( $bfa_ata_debug == 1 AND $bfa_ata['allow_debug'] == "Yes" ) ) {
-		include_once (get_template_directory() . '/js.php');
+		include_once( bfa_get_include_filename('/js.php') );
 	}
 }
 
