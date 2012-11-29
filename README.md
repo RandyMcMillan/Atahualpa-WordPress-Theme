@@ -1,7 +1,7 @@
 Wordpress Theme "Atahualpa" version 3.7.4
 
 
-![image](https://github.com/RandyMcMillan/Atahualpa-WordPress-Theme-/raw/master/ScreenShot%20copy.png)
+![image](https://github.com/RandyMcMillan/Atahualpa-WordPress-Theme/raw/master/ScreenShot%20copy.png)
 
 
 LICENSE:
