@@ -1,4 +1,4 @@
-Wordpress Theme "Atahualpa" version 3.7.4
+Wordpress Theme "Atahualpa" version 3.7.9
 
 After installing import the file named [ata-reset.txt](https://github.com/RandyMcMillan/Atahualpa-WordPress-Theme/blob/master/ata-reset.txt) into the theme options. This provides a blank palette to work from. 
 
