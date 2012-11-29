@@ -1,165 +1,137 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Atahualpa 3.7.6\n"
+"Project-Id-Version: atahualpa\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-04-19 11:20-0500\n"
-"PO-Revision-Date: 2012-04-19 11:20-0500\n"
-"Last-Translator: Bytes For All <lmmmuc@gmail.com>\n"
-"Language-Team: \n"
+"POT-Creation-Date: 2012-09-12 23:19+0100\n"
+"PO-Revision-Date: 2012-09-12 23:19+0100\n"
+"Last-Translator: BytesForAll <lmmmuc@gmail.com>\n"
+"Language-Team: forum.bytesforall.com\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-KeywordsList: __;_e;gettext;gettext_noop\n"
+"X-Poedit-KeywordsList: __;_e\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #: comments-paged.php:3
 #: comments.php:4
-#: legacy.comments.php:3
 msgid "Please do not load this page directly. Thanks!"
 msgstr ""
 
 #: comments-paged.php:7
 #: comments.php:7
-#: legacy.comments.php:6
 msgid "This post is password protected. Enter the password to view comments."
 msgstr ""
 
 #: comments-paged.php:25
 #: comments.php:26
-#: legacy.comments.php:23
 msgid "No comments yet to "
 msgstr ""
 
 #: comments-paged.php:25
 #: comments.php:27
-#: legacy.comments.php:23
 msgid "1 comment to "
 msgstr ""
 
 #: comments-paged.php:26
 #: comments.php:27
-#: legacy.comments.php:24
+#, php-format
 msgid "% comments to "
 msgstr ""
 
 #: comments-paged.php:30
-#: comments-paged.php:136
+#: comments-paged.php:125
 #: index.php:32
 #: template_multi_column_custom_query.php:218
 msgid "Pages:"
 msgstr ""
 
-#: comments-paged.php:58
-#: legacy.comments.php:62
-msgid "Gravatar"
-msgstr ""
-
-#: comments-paged.php:72
-#: legacy.comments.php:72
+#: comments-paged.php:61
 msgid "Your comment is awaiting moderation."
 msgstr ""
 
-#: comments-paged.php:79
-#: comments-paged.php:113
-#: legacy.comments.php:75
-#: legacy.comments.php:106
+#: comments-paged.php:68
+#: comments-paged.php:102
+#, php-format
 msgid "%1$s at %2$s"
 msgstr ""
 
-#: comments-paged.php:79
-#: comments-paged.php:113
-#: legacy.comments.php:75
-#: legacy.comments.php:106
+#: comments-paged.php:68
+#: comments-paged.php:102
 msgid "F jS, Y"
 msgstr ""
 
-#: comments-paged.php:86
-#: comments-paged.php:116
-#: legacy.comments.php:79
-#: legacy.comments.php:108
+#: comments-paged.php:75
+#: comments-paged.php:105
 msgid "Edit"
 msgstr ""
 
-#: comments-paged.php:151
-#: legacy.comments.php:137
+#: comments-paged.php:140
 msgid "Comments are closed."
 msgstr ""
 
-#: comments-paged.php:164
+#: comments-paged.php:153
 #: comments.php:124
-#: legacy.comments.php:149
 msgid "Leave a Reply"
 msgstr ""
 
-#: comments-paged.php:168
-#: legacy.comments.php:153
+#: comments-paged.php:157
+#, php-format
 msgid "You must be %slogged in</a> to post a comment."
 msgstr ""
 
-#: comments-paged.php:180
-#: legacy.comments.php:164
+#: comments-paged.php:169
+#, php-format
 msgid "Logged in as %s."
 msgstr ""
 
-#: comments-paged.php:183
-#: legacy.comments.php:167
+#: comments-paged.php:172
 msgid "Log out of this account"
 msgstr ""
 
-#: comments-paged.php:183
-#: legacy.comments.php:167
+#: comments-paged.php:172
 msgid "Logout &raquo;"
 msgstr ""
 
-#: comments-paged.php:190
-#: legacy.comments.php:173
+#: comments-paged.php:179
 msgid "author"
 msgstr ""
 
-#: comments-paged.php:190
+#: comments-paged.php:179
 #: comments.php:96
-#: legacy.comments.php:173
 msgid "Name "
 msgstr ""
 
-#: comments-paged.php:191
-#: comments-paged.php:196
+#: comments-paged.php:180
+#: comments-paged.php:185
 #: comments.php:96
-#: legacy.comments.php:173
-#: legacy.comments.php:179
 msgid "(required)"
 msgstr ""
 
-#: comments-paged.php:195
-#: legacy.comments.php:178
+#: comments-paged.php:184
 msgid "email"
 msgstr ""
 
-#: comments-paged.php:195
-#: legacy.comments.php:178
+#: comments-paged.php:184
 msgid "Mail (will not be published) "
 msgstr ""
 
-#: comments-paged.php:200
-#: legacy.comments.php:183
+#: comments-paged.php:189
 msgid "url"
 msgstr ""
 
-#: comments-paged.php:200
+#: comments-paged.php:189
 #: comments.php:100
-#: legacy.comments.php:183
 msgid "Website"
 msgstr ""
 
-#: comments-paged.php:207
+#: comments-paged.php:196
 #: comments.php:106
-#: legacy.comments.php:193
+#, php-format
 msgid "You can use %1$sthese HTML tags</a>"
 msgstr ""
 
-#: comments-paged.php:216
-#: legacy.comments.php:204
+#: comments-paged.php:205
 msgid "Submit Comment"
 msgstr ""
 
@@ -184,14 +156,17 @@ msgid "(will not be published) (required)"
 msgstr ""
 
 #: comments.php:118
+#, php-format
 msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
 msgstr ""
 
 #: comments.php:119
+#, php-format
 msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out?</a>"
 msgstr ""
 
 #: comments.php:125
+#, php-format
 msgid "Leave a Reply to %s"
 msgstr ""
 
@@ -235,43 +210,43 @@ msgstr ""
 msgid " seconds."
 msgstr ""
 
-#: functions.php:574
+#: functions.php:561
 msgid "Atahualpa Post Options"
 msgstr ""
 
-#: functions.php:576
+#: functions.php:563
 msgid "Atahualpa Page Options"
 msgstr ""
 
-#: functions.php:616
+#: functions.php:603
 msgid "Body Title Single Pages"
 msgstr ""
 
-#: functions.php:618
+#: functions.php:605
 msgid "Body Title Multi Post Pages"
 msgstr ""
 
-#: functions.php:622
+#: functions.php:609
 msgid "Meta Title"
 msgstr ""
 
-#: functions.php:626
+#: functions.php:613
 msgid "Meta Keywords"
 msgstr ""
 
-#: functions.php:630
+#: functions.php:617
 msgid "Meta Description"
 msgstr ""
 
-#: functions.php:643
+#: functions.php:630
 msgid "Body copy title"
 msgstr ""
 
-#: functions.php:755
+#: functions.php:716
 msgid "Menu 1"
 msgstr ""
 
-#: functions.php:756
+#: functions.php:717
 msgid "Menu 2"
 msgstr ""
 
@@ -283,10 +258,6 @@ msgstr ""
 #: index.php:54
 #: template_multi_column_custom_query.php:254
 msgid "Sorry, but you are looking for something that isn't here."
-msgstr ""
-
-#: legacy.comments.php:133
-msgid "There are no comments yet."
 msgstr ""
 
 #: functions/bfa_calendar_widget.php:12
@@ -302,15 +273,15 @@ msgstr ""
 msgid "View all posts filed under"
 msgstr ""
 
-#: functions/bfa_meta_tags.php:95
+#: functions/bfa_meta_tags.php:98
 msgid "l, F jS, Y"
 msgstr ""
 
-#: functions/bfa_meta_tags.php:98
+#: functions/bfa_meta_tags.php:101
 msgid "F Y"
 msgstr ""
 
-#: functions/bfa_meta_tags.php:107
+#: functions/bfa_meta_tags.php:110
 msgid "404 - Page not found"
 msgstr ""
 
@@ -432,6 +403,7 @@ msgstr ""
 
 #: functions/bfa_theme_options.php:2185
 #: functions/bfa_theme_options.php:2199
+#, php-format
 msgid "% comments"
 msgstr ""
 
@@ -446,27 +418,27 @@ msgstr ""
 msgid "Edit this post"
 msgstr ""
 
-#: functions/bfa_theme_options.php:2517
+#: functions/bfa_theme_options.php:2516
 msgid "Continue reading %post-title%"
 msgstr ""
 
-#: functions/bfa_theme_options.php:2611
+#: functions/bfa_theme_options.php:2610
 msgid " &middot; Edit"
 msgstr ""
 
-#: functions/bfa_theme_options.php:2629
+#: functions/bfa_theme_options.php:2628
 msgid "<p>Comments are closed.</p>"
 msgstr ""
 
-#: functions/bfa_theme_options.php:2731
+#: functions/bfa_theme_options.php:2730
 msgid "Copyright &copy; %current-year% %home% - All Rights Reserved"
 msgstr ""
 
-#: functions/bfa_theme_options.php:3049
+#: functions/bfa_theme_options.php:3048
 msgid "Archives by Month"
 msgstr ""
 
-#: functions/bfa_theme_options.php:3088
+#: functions/bfa_theme_options.php:3087
 msgid "Archives by Category"
 msgstr ""
 

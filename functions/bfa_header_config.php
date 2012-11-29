@@ -130,7 +130,6 @@ function bfa_header_config() {
 		}
 	}
 
-
 	// Logo Area 
 	if ( strpos($header_items,'%logo') !== FALSE ) {
 
@@ -178,7 +177,7 @@ function bfa_header_config() {
 					// otherwise: print the one in the theme folder
 					else 
 					{ 
-						echo bfa_get_template_uri('/images/' . $bfa_ata['logo']) . 
+						echo $templateURI . '/images/' . $bfa_ata['logo'] . 
 						'" alt="'; bloginfo('name'); 
 					}
 				} 
@@ -186,7 +185,7 @@ function bfa_header_config() {
 				// if this is Wordpress and not WPMU, print the logosymbol.gif in the theme folder right away				
 				else 
 				{ 
-					echo bfa_get_template_uri( '/images/' . $bfa_ata['logo']) . '" alt="';
+					echo $templateURI . '/images/' . $bfa_ata['logo'] . '" alt="';
 					bloginfo('name'); 
 				} 
 

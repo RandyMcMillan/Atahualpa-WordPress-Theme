@@ -252,8 +252,8 @@ $options1 = array(
             "id" => "add_blogtitle",
             "type" => "select",
             "std" => "Page Title - Blog Title",
-            "options" => array("Page Title - Blog Title", "Blog Title -
-            Page Title", "Page Title"),
+            "options" => array("Page Title - Blog Title", 
+            "Blog Title - Page Title", "Page Title"),
             "info" => "Show the blog title in front of or after the page title,
             in the meta title tag of every page? Or, show only the page title?"),
 
@@ -2237,8 +2237,7 @@ __('Category:','atahualpa') . " %categories-linked(', ')% %edit(' | ', '" . __('
     array(    "name" => "POST Container: STICKY",
     	    "category" => "posts",
             "id" => "post_container_sticky_style",
-            "std" => "background: #eee url(" . $templateURI .
-            "/images/sticky.gif) 99% 5% no-repeat;\nborder: dashed 1px #cccccc;\npadding: 10px;",
+            "std" => "background: #eee url(" . $templateURI . "/images/sticky.gif) 99% 5% no-repeat;\nborder: dashed 1px #cccccc;\npadding: 10px;",
             "type" => "textarea-large",
             "info" => "<img src=\"" . $templateURI . "/options/images/post-container.gif\"
 			style=\"float: right; margin: 0 0 10px 10px;\">" . "Additional styles for <strong>the container

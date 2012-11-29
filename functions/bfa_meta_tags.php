@@ -11,6 +11,9 @@ function bfa_meta_tags() {
 	// if "SEO Ultimate" Plugin (http://www.seodesignsolutions.com/wordpress-seo/) is installed
 	if(class_exists('seo_ultimate') OR
 
+	// if "WP SEO" Plugin  is installed
+	defined('WPSEO_PATH') OR
+	 
 	// if "All-In-One_SEO" Plugin (http://semperfiwebdesign.com) is installed
 	class_exists('All_in_One_SEO_Pack'))
 	{	?> <title><?php wp_title(''); ?></title> <?php }
