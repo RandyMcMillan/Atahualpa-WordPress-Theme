@@ -91,7 +91,7 @@ list($bfa_ata, $cols, $left_col, $left_col2, $right_col, $right_col2, $bfa_ata['
 <tr>
 
 <!-- Footer -->
-<td id="footer" colspan="<?php echo $cols; ?>">
+<td id="footer" style="visibility:hidden;" colspan="<?php echo $cols; ?>">
     <?php echo bfa_footer(); ?>
     <?php if ($bfa_ata['footer_show_queries'] == "Yes - visible") { ?>
     <p>
