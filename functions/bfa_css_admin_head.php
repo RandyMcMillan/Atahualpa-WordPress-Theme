@@ -14,8 +14,8 @@ function bfa_ata_admin_enqueue($hook) {
 
 
 function bfa_add_stuff_admin_head() {
-	global $templateURI, $homeURL;
-	
+	$templateURI = get_template_directory_uri(); 
+	$homeURL = get_home_url();  	
 	if ( isset($_GET['page'])) {
 		if ( strpos( $_GET['page'], "atahualpa-" ) === 0 ) {
 			// Create a WP nonce for the Ajax action later on

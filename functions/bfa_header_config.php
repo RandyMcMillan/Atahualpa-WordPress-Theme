@@ -1,7 +1,9 @@
 <?php
 function bfa_header_config() {
 
-	global $bfa_ata, $post, $templateURI, $homeURL;
+	global $bfa_ata, $post;
+	$templateURI = get_template_directory_uri(); 
+    $homeURL = get_home_url();  
 
 	// Since 3.6: bfa_header_config() instead of bfa_header_config($header_items)
 	$header_items = $bfa_ata['configure_header'];

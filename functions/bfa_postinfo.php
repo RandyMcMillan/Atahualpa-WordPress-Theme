@@ -1,7 +1,8 @@
 <?php
 // Callback function for image replacement
 function bfa_image_files($matches) {
-	global $templateURI;
+	$templateURI = get_template_directory_uri(); 
+
 	return '<img src="' . $templateURI . 
 	'/images/icons/' . $matches[1] . '" alt="" />';
 }

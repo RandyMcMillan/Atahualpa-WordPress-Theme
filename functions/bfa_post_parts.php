@@ -176,7 +176,9 @@ function bfa_post_pagination($before = '<p class="post-pagination"><strong>Pages
 
 function bfa_archives_page($before = '<div class="archives-page">', $after = '</div>') 
 {
-	global $bfa_ata, $wp_query, $templateURI;
+	global $bfa_ata, $wp_query;
+	$templateURI = get_template_directory_uri(); 
+	
 	$current_page_id = $wp_query->get_queried_object_id();
 	
 	if ( is_page() AND $current_page_id == $bfa_ata['archives_page_id'] ) { 

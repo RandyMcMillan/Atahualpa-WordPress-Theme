@@ -11,8 +11,9 @@ function bfa_show_posts_nav() {
    Available parameters for $location: Top, Bottom. Default: Top */
 function bfa_next_previous_page_links($location = "Top") {
 
-	global $bfa_ata, $homeURL;
-
+	global $bfa_ata;
+    $homeURL = get_home_url();  
+	
 	if ( !is_single() AND !is_page() AND
     strpos($bfa_ata['location_multi_next_prev'],$location) !== FALSE AND
     
@@ -72,7 +73,8 @@ function bfa_next_previous_page_links($location = "Top") {
    Available parameters for $location: Top, Middle, Bottom. Default: Top  */
 function bfa_next_previous_post_links($location = "Top") {
 
-global $bfa_ata, $homeURL;
+    global $bfa_ata;
+    $homeURL = get_home_url();  
 
 	if ( is_single() AND strpos($bfa_ata['location_single_next_prev'],$location) !== FALSE AND
 	

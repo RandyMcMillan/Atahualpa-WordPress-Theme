@@ -11,7 +11,9 @@ function bfa_footer_page_links($matches) {
 
 function bfa_footer() {
 
-	global $bfa_ata, $post, $homeURL;
+	global $bfa_ata, $post;
+    $homeURL = get_home_url();  
+    
 	$footer_content = $bfa_ata['footer_style_content'];
 	
 	// page links

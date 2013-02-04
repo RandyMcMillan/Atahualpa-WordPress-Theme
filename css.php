@@ -1,5 +1,7 @@
 <?php # error_reporting(E_ALL & ~E_NOTICE);
-global $templateURI,  $homeURL; 
+$templateURI = get_template_directory_uri(); 
+$homeURL = get_home_url();  
+
 if ( isset($bfa_ata_preview) OR $bfa_ata['css_external'] == "Inline" OR 
 ( isset($bfa_ata_debug) AND $bfa_ata['allow_debug'] == "Yes" ) ) {
 	echo '<style type="text/css">'; 

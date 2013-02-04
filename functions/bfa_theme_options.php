@@ -2021,7 +2021,7 @@ $options3 = array(
 area, the center column or the footer area. This page here only explains how to use this feature. To actually add a new widget area 
 you'll have to go to one of the following menu tabs:
 <ul><li><a href=\"javascript: myflowers.expandit('header-tab')\">Style & edit HEADER AREA</a>: Put the code into the text area named \"Configure Header Area\".</li>
-<li><a href=\"javascript: myflowers.expandit('center-tab')\">Style & edit CENTER COLUMN</a>: Put the code into ANY of the text areas EXCEPT the first one, named \"Center column style\".</li>
+<li><a href=\"javascript: myflowers.expandit('center-tab')\">Style & edit CENTER COLUMN</a>: If you want to add a widget area to the Center Column, you must edit \"index.php\" in the theme folder and add the widget area code there.</li>
 <li><a href=\"javascript: myflowers.expandit('footer-style-tab')\">Style & edit FOOTER</a>: Put the code into the text area named \"Footer: Content\".</li>
 <li>Technically, you could also hard code widget areas into one of the Atahualpa files such as index.php, header.php or footer.php (by using the code as shown below). 
 You should avoid this though, because you'd have to re-do these file edits whenever you upgrade to a new version of Atahualpa. Most of the time it will be unnecessary anyway as there 

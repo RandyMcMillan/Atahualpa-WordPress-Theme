@@ -1,6 +1,7 @@
 <?php
 function bfa_ata_admin() {
-    global $bfa_ata, $bfa_ata_version, $options, $templateURI;
+    global $bfa_ata, $bfa_ata_version, $options;
+    $templateURI = get_template_directory_uri(); 
 
     if ( isset($_REQUEST['saved']) ) echo '<div id="message" class="updated fade"><p><strong>Atahualpa settings saved.</strong></p></div>';
     if ( isset($_REQUEST['reset']) ) echo '<div id="message" class="updated fade"><p><strong>Atahualpa settings reset.</strong></p></div>';
