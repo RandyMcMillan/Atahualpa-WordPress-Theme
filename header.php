@@ -43,6 +43,15 @@ switch ( $bfa_ata['IEDocType'] ) {
 <?php if ( $bfa_ata['css_external'] == "External" ) { ?><link rel="stylesheet" href="<?php echo $homeURL; ?>/?bfa_ata_file=css" type="text/css" media="all" /><?php } ?>
 <?php if ( function_exists('wp_list_comments') AND is_singular() AND (comments_open( $post_id ))) { 	wp_enqueue_script( 'comment-reply' ); } ?>
 <?php wp_head(); ?>
+
+<!--
+<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+-->
+<link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="<?php echo $templateURI; ?>/480.css" type="text/css" />
+<link rel="stylesheet" media="only screen and (max-device-width: 1024px)" href="<?php echo $templateURI; ?>/1024.css" type="text/css" />		
+<link rel="stylesheet" media="only screen and (max-device-width: 960px)" href="<?php echo $templateURI; ?>/960.css" type="text/css" />
+<link rel="stylesheet" media="only screen and (max-device-width: 2048px)" href="<?php echo $templateURI; ?>/2048.css" type="text/css" />		
+
 </head>
 <body <?php body_class(); ?><?php bfa_incl('html_inserts_body_tag'); ?>>
 <?php bfa_incl('html_inserts_body_top'); ?>
