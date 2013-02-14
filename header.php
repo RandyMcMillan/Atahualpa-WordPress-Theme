@@ -44,13 +44,15 @@ switch ( $bfa_ata['IEDocType'] ) {
 <?php if ( function_exists('wp_list_comments') AND is_singular() AND (comments_open( $post_id ))) { 	wp_enqueue_script( 'comment-reply' ); } ?>
 <?php wp_head(); ?>
 
-<!--
-<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
--->
-<link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="<?php echo $templateURI; ?>/480.css" type="text/css" />
-<link rel="stylesheet" media="only screen and (max-device-width: 1024px)" href="<?php echo $templateURI; ?>/1024.css" type="text/css" />		
-<link rel="stylesheet" media="only screen and (max-device-width: 960px)" href="<?php echo $templateURI; ?>/960.css" type="text/css" />
-<link rel="stylesheet" media="only screen and (max-device-width: 2048px)" href="<?php echo $templateURI; ?>/2048.css" type="text/css" />		
+<!-- <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" /> -->
+<link rel="stylesheet" media="only screen and (min-device-width : 320px) and (max-device-width: 480px)" href="<?php echo $templateURI; ?>/480.css" type="text/css" />
+<link rel="stylesheet" media="only screen and (min-device-width : 768px) and (max-device-width: 1024px)" href="<?php echo $templateURI; ?>/1024.css" type="text/css" />		
+<link rel="stylesheet" media="only screen and (min-device-width : 480px) and (max-device-width: 960px)" href="<?php echo $templateURI; ?>/960.css" type="text/css" />
+<link rel="stylesheet" media="only screen and (min-device-width : 1536px) and (max-device-width: 2048px)" href="<?php echo $templateURI; ?>/2048.css" type="text/css" />		
+<link rel="stylesheet" media="only screen and (min-device-width : 1224px)" href="<?php echo $templateURI; ?>/1224.css" type="text/css" />		
+<link rel="stylesheet" media="only screen and (min-device-width : 1824px)" href="<?php echo $templateURI; ?>/1824.css" type="text/css" />		
+<!-- iPhone 4 -->
+<link rel="stylesheet" media="only screen and (-webkit-min-device-pixel-ratio : 1.5),only screen and (min-device-pixel-ratio : 1.5)" href="<?php echo $templateURI; ?>/iphone4.css" type="text/css" />		
 
 </head>
 <body <?php body_class(); ?><?php bfa_incl('html_inserts_body_tag'); ?>>
