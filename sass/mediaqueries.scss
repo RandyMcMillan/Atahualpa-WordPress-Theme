@@ -211,7 +211,7 @@ h6 { font-size: 1.15em; margin: 1.67em 0; font-weight: bold; }
 .current_page_item{font-size:$h1FontSize - 22 !important;}
 
 
-.post{width:100% !important;background-color:aqua
+.post{width:100% !important;min-height:300px !important;background-color:aqua
 !important;z-index:1000 !important;margin-left:-237px
 !important;position:absolute !important;float:left !important;}
 
@@ -229,7 +229,7 @@ h6 { font-size: 1.15em; margin: 1.67em 0; font-weight: bold; }
 
 .blogtitle { font-size: $h1FontSize - 6 !important; line-height: 1.2; margin: 0.3em 0 10px !important; }
 .tagline {font-size: $h1FontSize - 18 !important;}
-.widget{width:100% !important;background-color:transparent !important;}
+.widget{width:100% !important;background-color:transparent !important;position:absolute !important;float:left !important;}
 .widget-title {font-size: $widgetTitleFontSize - 26 !important;}
 .post-headline {font-size: $widgetTitleFontSize - 26 !important;}
 #wrapper{width:95% !important;}
@@ -249,7 +249,8 @@ h6 { font-size: 1.15em; margin: 1.67em 0; font-weight: bold; }
 
 .current_page_item{font-size:$h1FontSize - 22 !important;}
 
-.post{width:100% !important;background-color:green
+.post{width:100% !important;min-height:300px !important;background-color:aqua
+
 !important;z-index:1000 !important;margin-left:-237px
 !important;position:absolute !important;float:left !important;}
 
@@ -267,7 +268,7 @@ h6 { font-size: 1.15em; margin: 1.67em 0; font-weight: bold; }
 
 .blogtitle { font-size: $h1FontSize - 8 !important; line-height: 1.2; margin: 0.3em 0 10px !important; }
 .tagline {font-size: $h1FontSize - 18 !important;}
-.widget{width:100% !important;background-color:transparent !important;}
+.widget{width:100% !important;background-color:transparent !important;position:absolute !important;float:left !important;}
 .widget-title {font-size: $widgetTitleFontSize - 28 !important;}
 .post-headline {font-size: $widgetTitleFontSize - 26 !important;}
 #wrapper{width:95% !important;}
@@ -287,7 +288,8 @@ h6 { font-size: 1.15em; margin: 1.67em 0; font-weight: bold; }
 
 .current_page_item{font-size:$h1FontSize - 22 !important;}
 
-.post{width:100% !important;background-color:yellow
+.post{width:100% !important;min-height:300px !important;background-color:aqua
+
 !important;z-index:1000 !important;margin-left:-237px
 !important;position:absolute !important;float:left !important;}
 
@@ -305,7 +307,7 @@ h6 { font-size: 1.15em; margin: 1.67em 0; font-weight: bold; }
 
 .blogtitle { font-size: $h1FontSize - 10 !important; line-height: 1.2; margin: 0.3em 0 10px !important; }
 .tagline {font-size: $h1FontSize - 20 !important;}
-.widget{width:100% !important;background-color:transparent !important;}
+.widget{width:100% !important;background-color:transparent !important; position:absolute !important;float:left !important;}
 .widget-title {font-size: $widgetTitleFontSize - 28 !important;}
 .post-headline {font-size: $widgetTitleFontSize - 26 !important;}
 #wrapper{width:95% !important;}
@@ -325,7 +327,8 @@ h6 { font-size: 1.15em; margin: 1.67em 0; font-weight: bold; }
 
 .current_page_item{font-size:$h1FontSize - 22 !important;}
 
-.post{width:100% !important;background-color:blue
+.post{width:100% !important;min-height:300px !important;background-color:aqua
+
 !important;z-index:1000 !important;margin-left:-237px
 !important;position:absolute !important;float:left !important;}
 
@@ -363,8 +366,9 @@ h6 { font-size: 1.15em; margin: 1.67em 0; font-weight: bold; }
 
 .current_page_item{font-size:$h1FontSize - 22 !important;}
 
-.widget{width:100% !important;background-color:transparent !important;}
-.post{width:100% !important;background-color:red
+.widget{width:100% !important;background-color:transparent !important; position:absolute !important;float:left !important;}
+.post{width:100% !important;min-height:300px !important;background-color:aqua
+
 !important;z-index:1000 !important;margin-left:-237px
 !important;position:absolute !important;float:left !important;}
 
