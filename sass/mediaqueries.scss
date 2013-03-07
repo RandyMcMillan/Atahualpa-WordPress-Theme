@@ -1,456 +1,218 @@
-$fontSize:100%;
-$rmenu2Width:316px;
-$menuLetterSpacing:1px;
-$image476Width:100%;
-$image476Margin:-8% 0 0 35%;
-$aboutTextFontSize:100%;
-$servicesTextFontSize:$aboutTextFontSize;
-$testmonialTextFontSize:$aboutTextFontSize;
-
-
+$h1FontSize:34px;
+$widgetTitleFontSize:34px;
+/*
+%pages *%page-center %page-right %cats %cat-center %cat-right %logo %image %bar1 %bar2
+*/
 @media screen and (max-width: 2048px) {
-	
-	#menu1{
-		border: none !important;
-	}
-	
-	#rmenu2{
-		
-		font-size:$fontSize+10% !important;
-		letter-spacing: $menuLetterSpacing+3 !important;
-		min-width: $rmenu2Width !important;
-		margin: 0 0 0 -30% !important;	
-	}
-	
-	.page_item {
-		padding:0% 1% 0% 0% !important;
-	}
 
-	.wp-image-476{
-		
-		margin: $image476Margin !important;
-		width: $image476Width !important;
+h1 { font-size: $h1FontSize + 8 !important; line-height: 1.2; margin: 0.3em 0 10px !important; }
+h2 { font-size: 28px; line-height: 1.3; margin: 1em 0 .2em; }
+h3 { font-size: 24px; line-height: 1.3; margin: 1em 0 .2em; }
+h4 { font-size: 19px; margin: 1.33em 0 .2em; }
+h5 { font-size: 1.3em; margin: 1.67em 0; font-weight: bold; }
+h6 { font-size: 1.15em; margin: 1.67em 0; font-weight: bold; }
 
-	}
-	.homeText1{
-		
-		font-size: 120% !important;
-	}
-	.homeText2{
-		
-		font-size: 90% !important;
-	}
-	
-	.aboutText {
-		
-		font-size: $aboutTextFontSize + 10% !important;
-	
-	}
-	
-	.wp-image-466{
-		
-		margin: 5% 0 0 0 !important;
-		
-	}
-	
-	.servicesText {
-		
-		font-size: $servicesTextFontSize + 20% !important;
-	
-	}
-	
-	.testimonialTable{
-		
-		width: 60% !important;
-		margin: 0 0 0 47% !important;
-		
-	}
+.blogtitle { font-size: $h1FontSize + 6 !important; line-height: 1.2; margin: 0.3em 0 10px !important; }
+.tagline {font-size: $h1FontSize - 10 !important;}
+.widget{width:100% !important;background-color:transparent !important;}
+.widget-title {font-size: $widgetTitleFontSize - 22 !important;}
+.post-headline {font-size: $widgetTitleFontSize - 26 !important;}
+#wrapper{width:95% !important;}
+#container{width:95% !important;}
 
-	.testimonialText {
-		
-		font-size: $testmonialTextFontSize + 0% !important;
-	
-	}
+
+
 }
-
 @media screen and (max-width: 1224px) {
-	
-	#menu1{
-		border: none !important;
-	}
-	
-	#rmenu2{
-		
-		font-size:$fontSize+0% !important;
-		letter-spacing: $menuLetterSpacing !important;
-		min-width: $rmenu2Width !important;
-		margin: 0 0 0 -30% !important;	
-	}
-		.page_item {
-		padding:0% 1% 0% 0% !important;
-	}
-	.wp-image-476{
-		
-		margin: $image476Margin !important;
-		width: $image476Width !important;
-		
-	}
-	.homeText1{
-		
-		font-size: 100% !important;
-	}
-	.homeText2{
-		
-		font-size: 70% !important;
-	}
-	
-	.aboutText {
-		
-		font-size: $aboutTextFontSize - 10% !important;
-	
-	}
-	.wp-image-466{
-		
-		margin: 5% 0 0 0 !important;
-		
-	}
 
-	.servicesText {
-		
-		font-size: $servicesTextFontSize - 10% !important;
-	
-	}
-	
-	.testimonialTable{
-		
-		width: 70% !important;
-		margin: 0 0 0 47% !important;
-		
-	}
-	.testimonialText {
-		
-		font-size: $testmonialTextFontSize - 15% !important;
-	
-	}
+h1 { font-size: $h1FontSize + 6 !important; line-height: 1.2; margin: 0.3em 0 10px !important; }
+h2 { font-size: 28px; line-height: 1.3; margin: 1em 0 .2em; }
+h3 { font-size: 24px; line-height: 1.3; margin: 1em 0 .2em; }
+h4 { font-size: 19px; margin: 1.33em 0 .2em; }
+h5 { font-size: 1.3em; margin: 1.67em 0; font-weight: bold; }
+h6 { font-size: 1.15em; margin: 1.67em 0; font-weight: bold; }
+
+
+.blogtitle { font-size: $h1FontSize + 4 !important; line-height: 1.2; margin: 0.3em 0 10px !important; }
+.tagline {font-size: $h1FontSize - 12 !important;}
+.widget{width:100% !important;background-color:transparent !important;}
+.widget-title {font-size: $widgetTitleFontSize - 22 !important;}
+.post-headline {font-size: $widgetTitleFontSize - 26 !important;}
+#wrapper{width:95% !important;}
+#container{width:95% !important;}
+
+
+
 }
-
-
 @media screen and (max-width: 1124px) {
-	
-	#menu1{
-		border: none !important;
-	}
-	
-	#rmenu2{
-		
-		font-size:$fontSize+0% !important;
-		letter-spacing: $menuLetterSpacing !important;
-		min-width: $rmenu2Width !important;
-		margin: 0 0 0 -30% !important;	
-	}
-		.page_item {
-		padding:0% 1% 0% 0% !important;
-	}
-	.wp-image-476{
-		
-		margin: $image476Margin !important;
-		width: $image476Width !important;
-		
-	}
-	.homeText1{
-		
-		font-size: 100% !important;
-	}
-	.homeText2{
-		
-		font-size: 70% !important;
-	}
-	
-	.aboutText {
-		
-		font-size: $aboutTextFontSize - 10% !important;
-	
-	}
-	.wp-image-466{
-		
-		margin: 5% 0 0 0 !important;
-		
-	}
 
-	.servicesText {
-		
-		font-size: $servicesTextFontSize - 10% !important;
-	
-	}
-	
-	.testimonialTable{
-		
-		width: 70% !important;
-		margin: 0 0 0 47% !important;
-		
-	}
-	.testimonialText {
-		
-		font-size: $testmonialTextFontSize - 15% !important;
-	
-	}
+h1 { font-size: $h1FontSize + 4 !important; line-height: 1.2; margin: 0.3em 0 10px !important; }
+h2 { font-size: 28px; line-height: 1.3; margin: 1em 0 .2em; }
+h3 { font-size: 24px; line-height: 1.3; margin: 1em 0 .2em; }
+h4 { font-size: 19px; margin: 1.33em 0 .2em; }
+h5 { font-size: 1.3em; margin: 1.67em 0; font-weight: bold; }
+h6 { font-size: 1.15em; margin: 1.67em 0; font-weight: bold; }
+
+.blogtitle { font-size: $h1FontSize + 2 !important; line-height: 1.2; margin: 0.3em 0 10px !important; }
+.tagline {font-size: $h1FontSize - 14 !important;}
+.widget{width:100% !important;background-color:transparent !important;}
+.widget-title {font-size: $widgetTitleFontSize - 22 !important;}
+.post-headline {font-size: $widgetTitleFontSize - 26 !important;}
+#wrapper{width:95% !important;}
+#container{width:95% !important;}
+
+
+
 }
-
-
-
-
-
 @media screen and (max-width: 1024px) {
-	
-	#menu1{
-		border: none !important;
-	}
-	
-	#rmenu2{
-		
-		font-size:$fontSize+0% !important;
-		letter-spacing: $menuLetterSpacing !important;
-		min-width: $rmenu2Width !important;
-		margin: 0 0 0 -30% !important;	
-	}
-		.page_item {
-		padding:0% 1% 0% 0% !important;
-	}
-	.wp-image-476{
-		
-		margin: $image476Margin !important;
-		width: $image476Width !important;
-		
-	}
-	.homeText1{
-		
-		font-size: 100% !important;
-	}
-	.homeText2{
-		
-		font-size: 70% !important;
-	}
-	
-	.aboutText {
-		
-		font-size: $aboutTextFontSize - 10% !important;
-	
-	}
-	.wp-image-466{
-		
-		margin: 5% 0 0 0 !important;
-		
-	}
 
-	.servicesText {
-		
-		font-size: $servicesTextFontSize - 10% !important;
-	
-	}
-	
-	.testimonialTable{
-		
-		width: 70% !important;
-		margin: 0 0 0 47% !important;
-		
-	}
-	.testimonialText {
-		
-		font-size: $testmonialTextFontSize - 15% !important;
-	
-	}
+h1 { font-size: $h1FontSize + 2 !important; line-height: 1.2; margin: 0.3em 0 10px !important; }
+h2 { font-size: 28px; line-height: 1.3; margin: 1em 0 .2em; }
+h3 { font-size: 24px; line-height: 1.3; margin: 1em 0 .2em; }
+h4 { font-size: 19px; margin: 1.33em 0 .2em; }
+h5 { font-size: 1.3em; margin: 1.67em 0; font-weight: bold; }
+h6 { font-size: 1.15em; margin: 1.67em 0; font-weight: bold; }
+
+.blogtitle { font-size: $h1FontSize - 0 !important; line-height: 1.2; margin: 0.3em 0 10px !important; }
+.tagline {font-size: $h1FontSize - 16 !important;}
+.widget{width:100% !important;background-color:transparent !important;}
+.widget-title {font-size: $widgetTitleFontSize - 22 !important;}
+.post-headline {font-size: $widgetTitleFontSize - 26 !important;}
+#wrapper{width:95% !important;}
+
+#container{width:95% !important;}
+
+
+
+
 }
-
-
 @media screen and (max-width: 968px) {
-	
-	#menu1{
-		border: none !important;
-	}
-	
-	#rmenu2{
-		
-		font-size:$fontSize+0% !important;
-		letter-spacing: $menuLetterSpacing -1px !important;
-		min-width: $rmenu2Width !important;
-		margin: 0 0 0 -30% !important;	
-	}
-		.page_item {
-		padding:0% 1% 0% 0% !important;
-	}
-	.wp-image-476{
-		
-		margin: $image476Margin !important;
-		width: $image476Width !important;
-		
-	}
-	.homeText1{
-		
-		font-size: 90% !important;
-	}
-	.homeText2{
-		
-		font-size: 60% !important;
-	}
-	
-	.aboutText {
-		
-		font-size: $aboutTextFontSize - 20% !important;
-	
-	}
-	
-	.wp-image-466{
-		
-		margin: 5% 0 0 0 !important;
-		
-	}
 
-.servicesText {
-		
-		font-size: $servicesTextFontSize - 20% !important;
-	
-	}
-	
-	.testimonialTable{
-		
-		width: 80% !important;
-		margin: 0 0 0 47% !important;
-		
-	}
+h1 { font-size: $h1FontSize - 2px !important; line-height: 1.2; margin: 0.3em 0 10px !important; }
+h2 { font-size: 28px; line-height: 1.3; margin: 1em 0 .2em; }
+h3 { font-size: 24px; line-height: 1.3; margin: 1em 0 .2em; }
+h4 { font-size: 19px; margin: 1.33em 0 .2em; }
+h5 { font-size: 1.3em; margin: 1.67em 0; font-weight: bold; }
+h6 { font-size: 1.15em; margin: 1.67em 0; font-weight: bold; }
 
-	.testimonialText {
-		
-		font-size: $testmonialTextFontSize - 30% !important;
-		width: 70% !important;
-		margin: 0 0 0 -0% !important;
-		float: none !important;
-	}
-	
-	.wp-image-640{
-		
-		width: 70% !important;
-		margin: 0 0 0 0% !important;
-	}
-	
-	.wp-image-854{
-		
-		width: 70% !important;
-		margin: 0 0 0 0% !important;
-	}
-	
-	.wp-image-856{
-		
-		width: 70% !important;
-		margin: 0 0 0 0% !important;
-	}
-	
-	.wp-caption-text{
-		
-		font-size: $testmonialTextFontSize - 60% !important;
-		
-	}
+.blogtitle { font-size: $h1FontSize - 2 !important; line-height: 1.2; margin: 0.3em 0 10px !important; }
+.tagline {font-size: $h1FontSize - 18 !important;}
+.widget{width:100% !important;background-color:transparent !important;}
+.widget-title {font-size: $widgetTitleFontSize - 22 !important;}
+.post-headline {font-size: $widgetTitleFontSize - 26 !important;}
+#wrapper{width:95% !important;}
+
+#container{width:95% !important;}
 
 
-	
+
 }
-
 @media screen and (max-width: 768px) {
-	
-	#menu1{
-		border: none !important;
-	}
-	
-	#rmenu2{
-		
-		font-size:$fontSize+0% !important;
-		letter-spacing: $menuLetterSpacing -1px !important;
-		min-width: $rmenu2Width !important;
-		margin: 0 0 0 -30% !important;	
-	}
-		.page_item {
-		padding:0% 1% 0% 0% !important;
-	}
-	.wp-image-476{
-		
-		margin: $image476Margin !important;
-		width: $image476Width !important;
-		
-	}
-	.homeText1{
-		
-		font-size: 90% !important;
-	}
-	.homeText2{
-		
-		font-size: 60% !important;
-	}
-	
-	.aboutText {
-		
-		font-size: $aboutTextFontSize - 20% !important;
-	
-	}
-	
-	.wp-image-466{
-		
-		margin: 5% 0 0 0 !important;
-		
-	}
 
-.servicesText {
-		
-		font-size: $servicesTextFontSize - 20% !important;
-	
-	}
-	
-	.testimonialTable{
-		
-		width: 90% !important;
-		margin: 0 0 0 37% !important;
-		
-	}
+h1 { font-size: $h1FontSize - 4px !important; line-height: 1.2; margin: 0.3em 0 10px !important; }
 
-	.testimonialText {
-		
-		font-size: $testmonialTextFontSize - 50% !important;
-		width: 70% !important;
-		margin: 0 0 0 -0% !important;
-		float: none !important;
-	}
-	
-	.wp-image-640{
-		
-		width: 60% !important;
-		margin: 0 0 0 0% !important;
-	}
-	
-	.wp-image-854{
-		
-		width: 60% !important;
-		margin: 0 0 0 0% !important;
-	}
-	
-	.wp-image-856{
-		
-		width: 60% !important;
-		margin: 0 0 0 0% !important;
-	}
-	
-	.wp-caption-text{
-		
-		font-size: $testmonialTextFontSize - 60% !important;
-		
-	}
+h2 { font-size: 28px; line-height: 1.3; margin: 1em 0 .2em; }
+h3 { font-size: 24px; line-height: 1.3; margin: 1em 0 .2em; }
+h4 { font-size: 19px; margin: 1.33em 0 .2em; }
+h5 { font-size: 1.3em; margin: 1.67em 0; font-weight: bold; }
+h6 { font-size: 1.15em; margin: 1.67em 0; font-weight: bold; }
 
-	#footer {
-	
-		background-image: none !important;
-	
-	}
-	
+.blogtitle { font-size: $h1FontSize - 4 !important; line-height: 1.2; margin: 0.3em 0 10px !important; }
+.tagline {font-size: $h1FontSize - 18 !important;}
+.widget{width:100% !important;background-color:transparent !important;}
+.widget-title {font-size: $widgetTitleFontSize - 24 !important;}
+.post-headline {font-size: $widgetTitleFontSize - 26 !important;}
+#wrapper{width:95% !important;}
+
+#container{width:95% !important;}
+
+
+
 }
+@media screen and (max-width: 640px)  {
 
-@media screen and (max-width: 640px)  {}
-@media screen and (max-width: 524px)  {}
-@media screen and (max-width: 480px)  {}
-@media screen and (max-width: 320px)  {}
+h1 { font-size: $h1FontSize - 6px !important; line-height: 1.2; margin: 0.3em 0 10px !important; }
+
+h2 { font-size: 28px; line-height: 1.3; margin: 1em 0 .2em; }
+h3 { font-size: 24px; line-height: 1.3; margin: 1em 0 .2em; }
+h4 { font-size: 19px; margin: 1.33em 0 .2em; }
+h5 { font-size: 1.3em; margin: 1.67em 0; font-weight: bold; }
+h6 { font-size: 1.15em; margin: 1.67em 0; font-weight: bold; }
+
+.blogtitle { font-size: $h1FontSize - 6 !important; line-height: 1.2; margin: 0.3em 0 10px !important; }
+.tagline {font-size: $h1FontSize - 18 !important;}
+.widget{width:100% !important;background-color:transparent !important;}
+.widget-title {font-size: $widgetTitleFontSize - 26 !important;}
+.post-headline {font-size: $widgetTitleFontSize - 26 !important;}
+#wrapper{width:95% !important;}
+
+#container{width:95% !important;}
+
+
+
+}
+@media screen and (max-width: 524px)  {
+
+h1 { font-size: $h1FontSize - 8px !important; line-height: 1.2; margin: 0.3em 0 10px !important; }
+
+h2 { font-size: 28px; line-height: 1.3; margin: 1em 0 .2em; }
+h3 { font-size: 24px; line-height: 1.3; margin: 1em 0 .2em; }
+h4 { font-size: 19px; margin: 1.33em 0 .2em; }
+h5 { font-size: 1.3em; margin: 1.67em 0; font-weight: bold; }
+h6 { font-size: 1.15em; margin: 1.67em 0; font-weight: bold; }
+
+.blogtitle { font-size: $h1FontSize - 8 !important; line-height: 1.2; margin: 0.3em 0 10px !important; }
+.tagline {font-size: $h1FontSize - 18 !important;}
+.widget{width:100% !important;background-color:transparent !important;}
+.widget-title {font-size: $widgetTitleFontSize - 28 !important;}
+.post-headline {font-size: $widgetTitleFontSize - 26 !important;}
+#wrapper{width:95% !important;}
+
+#container{width:95% !important;}
+
+
+
+}
+@media screen and (max-width: 480px)  {
+
+h1 { font-size: $h1FontSize - 10px !important; line-height: 1.2; margin: 0.3em 0 10px !important; }
+
+h2 { font-size: 28px; line-height: 1.3; margin: 1em 0 .2em; }
+h3 { font-size: 24px; line-height: 1.3; margin: 1em 0 .2em; }
+h4 { font-size: 19px; margin: 1.33em 0 .2em; }
+h5 { font-size: 1.3em; margin: 1.67em 0; font-weight: bold; }
+h6 { font-size: 1.15em; margin: 1.67em 0; font-weight: bold; }
+
+.blogtitle { font-size: $h1FontSize - 10 !important; line-height: 1.2; margin: 0.3em 0 10px !important; }
+.tagline {font-size: $h1FontSize - 20 !important;}
+.widget{width:100% !important;background-color:transparent !important;}
+.widget-title {font-size: $widgetTitleFontSize - 28 !important;}
+.post-headline {font-size: $widgetTitleFontSize - 26 !important;}
+#wrapper{width:95% !important;}
+
+#container{width:95% !important;}
+.post{width:300px !important;margin-left:0 !important;}
+
+
+}
+@media screen and (max-width: 320px)  {
+
+h1 { font-size: $h1FontSize - 12px !important; line-height: 1.2; margin: 0.3em 0 10px !important; }
+
+h2 { font-size: 28px; line-height: 1.3; margin: 1em 0 .2em; }
+h3 { font-size: 24px; line-height: 1.3; margin: 1em 0 .2em; }
+h4 { font-size: 19px; margin: 1.33em 0 .2em; }
+h5 { font-size: 1.3em; margin: 1.67em 0; font-weight: bold; }
+h6 { font-size: 1.15em; margin: 1.67em 0; font-weight: bold; }
+
+.blogtitle { font-size: $h1FontSize - 12 !important; line-height: 1.2; margin: 0.3em 0 10px !important; }
+.tagline {font-size: $h1FontSize - 22 !important;}
+.widget{width:100% !important;background-color:transparent !important;}
+.widget-title {font-size: $widgetTitleFontSize - 28 !important;}
+.post-headline {font-size: $widgetTitleFontSize - 26 !important;}
+#wrapper{width:95% !important;}
+#container{width:95% !important;}
+.widget{width:0% !important;background-color:black !important;}
+.post{min-width:300px !important;}
+#right{width:0px !important;}
+}

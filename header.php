@@ -45,9 +45,9 @@ switch ( $bfa_ata['IEDocType'] ) {
 <?php wp_head(); ?>
 
 <!-- <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" /> -->
-<link rel="stylesheet" href="<?php echo $templateURI; ?>/css/mediaqueries.css" type="text/css" />
+<link rel="stylesheet" href="<?php echo $templateURI; ?>/styles/mediaqueries.css" type="text/css" />
 <!-- iPhone 4 -->
-<link rel="stylesheet" media="only screen and (-webkit-min-device-pixel-ratio : 1.5),only screen and (min-device-pixel-ratio : 1.5)" href="<?php echo $templateURI; ?>/css/iphone4.css" type="text/css" />		
+<link rel="stylesheet" media="only screen and (-webkit-min-device-pixel-ratio : 1.5),only screen and (min-device-pixel-ratio : 1.5)" href="<?php echo $templateURI; ?>/styles/iphone4.css" type="text/css" />		
 
 
 </head>
