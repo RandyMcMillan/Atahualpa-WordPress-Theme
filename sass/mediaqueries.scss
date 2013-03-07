@@ -1,4 +1,7 @@
+$menuLetterSpacing:1px;
 $h1FontSize:34px;
+$rmenu2Width:316px;
+$fontSize:$h1FontSize - 36px;
 $widgetTitleFontSize:34px;
 /*
 %pages *%page-center %page-right %cats %cat-center %cat-right %logo %image %bar1 %bar2
@@ -20,6 +23,20 @@ h6 { font-size: 1.15em; margin: 1.67em 0; font-weight: bold; }
 #wrapper{width:95% !important;}
 #container{width:95% !important;}
 
+#menu1{
+    border: none !important;
+}
+
+#rmenu2 span{
+    
+    font-size:$fontSize+32px !important;
+    letter-spacing: $menuLetterSpacing+3 !important;
+    min-width: $rmenu2Width !important;
+    margin: 0 0 0 0% !important;	
+}
+
+.current_page_item{font-size:$h1FontSize - 22 !important;}
+
 
 
 }
@@ -40,6 +57,20 @@ h6 { font-size: 1.15em; margin: 1.67em 0; font-weight: bold; }
 .post-headline {font-size: $widgetTitleFontSize - 26 !important;}
 #wrapper{width:95% !important;}
 #container{width:95% !important;}
+#menu1{
+    border: none !important;
+}
+
+#rmenu2 span{
+
+
+    font-size:$fontSize+30px !important;
+    letter-spacing: $menuLetterSpacing+3 !important;
+    min-width: $rmenu2Width !important;
+    margin: 0 0 0 0% !important;	
+}
+
+.current_page_item{font-size:$h1FontSize - 22 !important;}
 
 
 
@@ -60,6 +91,20 @@ h6 { font-size: 1.15em; margin: 1.67em 0; font-weight: bold; }
 .post-headline {font-size: $widgetTitleFontSize - 26 !important;}
 #wrapper{width:95% !important;}
 #container{width:95% !important;}
+#menu1{
+    border: none !important;
+}
+
+#rmenu2 span{
+
+    font-size:$fontSize+28px !important;
+    letter-spacing: $menuLetterSpacing+3 !important;
+    min-width: $rmenu2Width !important;
+    margin: 0 0 0 0% !important;	
+}
+
+.current_page_item{font-size:$h1FontSize - 22 !important;}
+
 
 
 
@@ -81,6 +126,19 @@ h6 { font-size: 1.15em; margin: 1.67em 0; font-weight: bold; }
 #wrapper{width:95% !important;}
 
 #container{width:95% !important;}
+#menu1{
+    border: none !important;
+}
+
+#rmenu2 span{
+
+    font-size:$fontSize+22px !important;
+    letter-spacing: $menuLetterSpacing+3 !important;
+    min-width: $rmenu2Width !important;
+    margin: 0 0 0 0% !important;	
+}
+
+.current_page_item{font-size:$h1FontSize - 22 !important;}
 
 
 
@@ -103,6 +161,19 @@ h6 { font-size: 1.15em; margin: 1.67em 0; font-weight: bold; }
 #wrapper{width:95% !important;}
 
 #container{width:95% !important;}
+#menu1{
+    border: none !important;
+}
+
+#rmenu2 span{
+
+    font-size:$fontSize+20px !important;
+    letter-spacing: $menuLetterSpacing+3 !important;
+    min-width: $rmenu2Width !important;
+    margin: 0 0 0 0% !important;	
+}
+
+.current_page_item{font-size:$h1FontSize - 22 !important;}
 
 
 
@@ -125,6 +196,20 @@ h6 { font-size: 1.15em; margin: 1.67em 0; font-weight: bold; }
 #wrapper{width:95% !important;}
 
 #container{width:95% !important;}
+#menu1{
+    border: none !important;
+}
+
+#rmenu2 span{
+
+    font-size:$fontSize+18px !important;
+    letter-spacing: $menuLetterSpacing+3 !important;
+    min-width: $rmenu2Width !important;
+    margin: 0 0 0 0% !important;	
+}
+
+.current_page_item{font-size:$h1FontSize - 22 !important;}
+
 
 
 
@@ -147,6 +232,19 @@ h6 { font-size: 1.15em; margin: 1.67em 0; font-weight: bold; }
 #wrapper{width:95% !important;}
 
 #container{width:95% !important;}
+#menu1{
+    border: none !important;
+}
+
+#rmenu2 span{
+
+    font-size:$fontSize+16px !important;
+    letter-spacing: $menuLetterSpacing+3 !important;
+    min-width: $rmenu2Width !important;
+    margin: 0 0 0 0% !important;	
+}
+
+.current_page_item{font-size:$h1FontSize - 22 !important;}
 
 
 
@@ -169,6 +267,19 @@ h6 { font-size: 1.15em; margin: 1.67em 0; font-weight: bold; }
 #wrapper{width:95% !important;}
 
 #container{width:95% !important;}
+#menu1{
+    border: none !important;
+}
+
+#rmenu2 span{
+
+    font-size:$fontSize+14px !important;
+    letter-spacing: $menuLetterSpacing+3 !important;
+    min-width: $rmenu2Width !important;
+    margin: 0 0 0 0% !important;	
+}
+
+.current_page_item{font-size:$h1FontSize - 22 !important;}
 
 
 
@@ -191,6 +302,20 @@ h6 { font-size: 1.15em; margin: 1.67em 0; font-weight: bold; }
 #wrapper{width:95% !important;}
 
 #container{width:95% !important;}
+#menu1{
+    border: none !important;
+}
+
+#rmenu2 span{
+
+    font-size:$fontSize+12px !important;
+    letter-spacing: $menuLetterSpacing+3 !important;
+    min-width: $rmenu2Width !important;
+    margin: 0 0 0 0% !important;	
+}
+
+.current_page_item{font-size:$h1FontSize - 22 !important;}
+
 .post{width:300px !important;margin-left:0 !important;}
 
 
@@ -212,7 +337,22 @@ h6 { font-size: 1.15em; margin: 1.67em 0; font-weight: bold; }
 .post-headline {font-size: $widgetTitleFontSize - 26 !important;}
 #wrapper{width:95% !important;}
 #container{width:95% !important;}
+#menu1{
+    border: none !important;
+}
+
+#rmenu2 span{
+
+    font-size:$fontSize+10px !important;
+    letter-spacing: $menuLetterSpacing+3 !important;
+    min-width: $rmenu2Width !important;
+    margin: 0 0 0 0% !important;	
+}
+
+.current_page_item{font-size:$h1FontSize - 22 !important;}
+
 .widget{width:0% !important;background-color:black !important;}
 .post{min-width:300px !important;}
 #right{width:0px !important;}
+
 }
