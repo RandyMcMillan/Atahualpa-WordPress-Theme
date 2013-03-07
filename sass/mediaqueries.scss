@@ -1,0 +1,456 @@
+$fontSize:100%;
+$rmenu2Width:316px;
+$menuLetterSpacing:1px;
+$image476Width:100%;
+$image476Margin:-8% 0 0 35%;
+$aboutTextFontSize:100%;
+$servicesTextFontSize:$aboutTextFontSize;
+$testmonialTextFontSize:$aboutTextFontSize;
+
+
+@media screen and (max-width: 2048px) {
+	
+	#menu1{
+		border: none !important;
+	}
+	
+	#rmenu2{
+		
+		font-size:$fontSize+10% !important;
+		letter-spacing: $menuLetterSpacing+3 !important;
+		min-width: $rmenu2Width !important;
+		margin: 0 0 0 -30% !important;	
+	}
+	
+	.page_item {
+		padding:0% 1% 0% 0% !important;
+	}
+
+	.wp-image-476{
+		
+		margin: $image476Margin !important;
+		width: $image476Width !important;
+
+	}
+	.homeText1{
+		
+		font-size: 120% !important;
+	}
+	.homeText2{
+		
+		font-size: 90% !important;
+	}
+	
+	.aboutText {
+		
+		font-size: $aboutTextFontSize + 10% !important;
+	
+	}
+	
+	.wp-image-466{
+		
+		margin: 5% 0 0 0 !important;
+		
+	}
+	
+	.servicesText {
+		
+		font-size: $servicesTextFontSize + 20% !important;
+	
+	}
+	
+	.testimonialTable{
+		
+		width: 60% !important;
+		margin: 0 0 0 47% !important;
+		
+	}
+
+	.testimonialText {
+		
+		font-size: $testmonialTextFontSize + 0% !important;
+	
+	}
+}
+
+@media screen and (max-width: 1224px) {
+	
+	#menu1{
+		border: none !important;
+	}
+	
+	#rmenu2{
+		
+		font-size:$fontSize+0% !important;
+		letter-spacing: $menuLetterSpacing !important;
+		min-width: $rmenu2Width !important;
+		margin: 0 0 0 -30% !important;	
+	}
+		.page_item {
+		padding:0% 1% 0% 0% !important;
+	}
+	.wp-image-476{
+		
+		margin: $image476Margin !important;
+		width: $image476Width !important;
+		
+	}
+	.homeText1{
+		
+		font-size: 100% !important;
+	}
+	.homeText2{
+		
+		font-size: 70% !important;
+	}
+	
+	.aboutText {
+		
+		font-size: $aboutTextFontSize - 10% !important;
+	
+	}
+	.wp-image-466{
+		
+		margin: 5% 0 0 0 !important;
+		
+	}
+
+	.servicesText {
+		
+		font-size: $servicesTextFontSize - 10% !important;
+	
+	}
+	
+	.testimonialTable{
+		
+		width: 70% !important;
+		margin: 0 0 0 47% !important;
+		
+	}
+	.testimonialText {
+		
+		font-size: $testmonialTextFontSize - 15% !important;
+	
+	}
+}
+
+
+@media screen and (max-width: 1124px) {
+	
+	#menu1{
+		border: none !important;
+	}
+	
+	#rmenu2{
+		
+		font-size:$fontSize+0% !important;
+		letter-spacing: $menuLetterSpacing !important;
+		min-width: $rmenu2Width !important;
+		margin: 0 0 0 -30% !important;	
+	}
+		.page_item {
+		padding:0% 1% 0% 0% !important;
+	}
+	.wp-image-476{
+		
+		margin: $image476Margin !important;
+		width: $image476Width !important;
+		
+	}
+	.homeText1{
+		
+		font-size: 100% !important;
+	}
+	.homeText2{
+		
+		font-size: 70% !important;
+	}
+	
+	.aboutText {
+		
+		font-size: $aboutTextFontSize - 10% !important;
+	
+	}
+	.wp-image-466{
+		
+		margin: 5% 0 0 0 !important;
+		
+	}
+
+	.servicesText {
+		
+		font-size: $servicesTextFontSize - 10% !important;
+	
+	}
+	
+	.testimonialTable{
+		
+		width: 70% !important;
+		margin: 0 0 0 47% !important;
+		
+	}
+	.testimonialText {
+		
+		font-size: $testmonialTextFontSize - 15% !important;
+	
+	}
+}
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+	
+	#menu1{
+		border: none !important;
+	}
+	
+	#rmenu2{
+		
+		font-size:$fontSize+0% !important;
+		letter-spacing: $menuLetterSpacing !important;
+		min-width: $rmenu2Width !important;
+		margin: 0 0 0 -30% !important;	
+	}
+		.page_item {
+		padding:0% 1% 0% 0% !important;
+	}
+	.wp-image-476{
+		
+		margin: $image476Margin !important;
+		width: $image476Width !important;
+		
+	}
+	.homeText1{
+		
+		font-size: 100% !important;
+	}
+	.homeText2{
+		
+		font-size: 70% !important;
+	}
+	
+	.aboutText {
+		
+		font-size: $aboutTextFontSize - 10% !important;
+	
+	}
+	.wp-image-466{
+		
+		margin: 5% 0 0 0 !important;
+		
+	}
+
+	.servicesText {
+		
+		font-size: $servicesTextFontSize - 10% !important;
+	
+	}
+	
+	.testimonialTable{
+		
+		width: 70% !important;
+		margin: 0 0 0 47% !important;
+		
+	}
+	.testimonialText {
+		
+		font-size: $testmonialTextFontSize - 15% !important;
+	
+	}
+}
+
+
+@media screen and (max-width: 968px) {
+	
+	#menu1{
+		border: none !important;
+	}
+	
+	#rmenu2{
+		
+		font-size:$fontSize+0% !important;
+		letter-spacing: $menuLetterSpacing -1px !important;
+		min-width: $rmenu2Width !important;
+		margin: 0 0 0 -30% !important;	
+	}
+		.page_item {
+		padding:0% 1% 0% 0% !important;
+	}
+	.wp-image-476{
+		
+		margin: $image476Margin !important;
+		width: $image476Width !important;
+		
+	}
+	.homeText1{
+		
+		font-size: 90% !important;
+	}
+	.homeText2{
+		
+		font-size: 60% !important;
+	}
+	
+	.aboutText {
+		
+		font-size: $aboutTextFontSize - 20% !important;
+	
+	}
+	
+	.wp-image-466{
+		
+		margin: 5% 0 0 0 !important;
+		
+	}
+
+.servicesText {
+		
+		font-size: $servicesTextFontSize - 20% !important;
+	
+	}
+	
+	.testimonialTable{
+		
+		width: 80% !important;
+		margin: 0 0 0 47% !important;
+		
+	}
+
+	.testimonialText {
+		
+		font-size: $testmonialTextFontSize - 30% !important;
+		width: 70% !important;
+		margin: 0 0 0 -0% !important;
+		float: none !important;
+	}
+	
+	.wp-image-640{
+		
+		width: 70% !important;
+		margin: 0 0 0 0% !important;
+	}
+	
+	.wp-image-854{
+		
+		width: 70% !important;
+		margin: 0 0 0 0% !important;
+	}
+	
+	.wp-image-856{
+		
+		width: 70% !important;
+		margin: 0 0 0 0% !important;
+	}
+	
+	.wp-caption-text{
+		
+		font-size: $testmonialTextFontSize - 60% !important;
+		
+	}
+
+
+	
+}
+
+@media screen and (max-width: 768px) {
+	
+	#menu1{
+		border: none !important;
+	}
+	
+	#rmenu2{
+		
+		font-size:$fontSize+0% !important;
+		letter-spacing: $menuLetterSpacing -1px !important;
+		min-width: $rmenu2Width !important;
+		margin: 0 0 0 -30% !important;	
+	}
+		.page_item {
+		padding:0% 1% 0% 0% !important;
+	}
+	.wp-image-476{
+		
+		margin: $image476Margin !important;
+		width: $image476Width !important;
+		
+	}
+	.homeText1{
+		
+		font-size: 90% !important;
+	}
+	.homeText2{
+		
+		font-size: 60% !important;
+	}
+	
+	.aboutText {
+		
+		font-size: $aboutTextFontSize - 20% !important;
+	
+	}
+	
+	.wp-image-466{
+		
+		margin: 5% 0 0 0 !important;
+		
+	}
+
+.servicesText {
+		
+		font-size: $servicesTextFontSize - 20% !important;
+	
+	}
+	
+	.testimonialTable{
+		
+		width: 90% !important;
+		margin: 0 0 0 37% !important;
+		
+	}
+
+	.testimonialText {
+		
+		font-size: $testmonialTextFontSize - 50% !important;
+		width: 70% !important;
+		margin: 0 0 0 -0% !important;
+		float: none !important;
+	}
+	
+	.wp-image-640{
+		
+		width: 60% !important;
+		margin: 0 0 0 0% !important;
+	}
+	
+	.wp-image-854{
+		
+		width: 60% !important;
+		margin: 0 0 0 0% !important;
+	}
+	
+	.wp-image-856{
+		
+		width: 60% !important;
+		margin: 0 0 0 0% !important;
+	}
+	
+	.wp-caption-text{
+		
+		font-size: $testmonialTextFontSize - 60% !important;
+		
+	}
+
+	#footer {
+	
+		background-image: none !important;
+	
+	}
+	
+}
+
+@media screen and (max-width: 640px)  {}
+@media screen and (max-width: 524px)  {}
+@media screen and (max-width: 480px)  {}
+@media screen and (max-width: 320px)  {}
