@@ -189,7 +189,7 @@ h5 { font-size: 1.3em; margin: 1.67em 0; font-weight: bold; }
 h6 { font-size: 1.15em; margin: 1.67em 0; font-weight: bold; }
 
 .blogtitle { font-size: $h1FontSize - 4 !important; line-height: 1.2; margin: 0.3em 0 10px !important; }
-.tagline {font-size: $h1FontSize - 18 !important;}
+.tagline {font-size: $h1FontSize - 20 !important;}
 .widget{width:100% !important;background-color:transparent !important;}
 .widget-title {font-size: $widgetTitleFontSize - 24 !important;}
 .post-headline {font-size: $widgetTitleFontSize - 26 !important;}
@@ -212,6 +212,8 @@ h6 { font-size: 1.15em; margin: 1.67em 0; font-weight: bold; }
 .post{}
 
 }
+
+
 @media screen and (max-width: 640px)  {
 
 h1 { font-size: $h1FontSize - 6px !important; line-height: 1.2; margin: 0.3em 0 10px !important; }
@@ -222,8 +224,8 @@ h4 { font-size: 19px; margin: 1.33em 0 .2em; }
 h5 { font-size: 1.3em; margin: 1.67em 0; font-weight: bold; }
 h6 { font-size: 1.15em; margin: 1.67em 0; font-weight: bold; }
 
-.blogtitle { font-size: $h1FontSize - 6 !important; line-height: 1.2; margin: 0.3em 0 10px !important; }
-.tagline {font-size: $h1FontSize - 18 !important;}
+.blogtitle { font-size: $h1FontSize - 8 !important; line-height: 1.2; margin: 0.3em 0 10px !important; }
+.tagline {font-size: $h1FontSize - 26 !important;}
 .header-image-container {
 
     height:0px !important;
@@ -280,8 +282,25 @@ h4 { font-size: 19px; margin: 1.33em 0 .2em; }
 h5 { font-size: 1.3em; margin: 1.67em 0; font-weight: bold; }
 h6 { font-size: 1.15em; margin: 1.67em 0; font-weight: bold; }
 
-.blogtitle { font-size: $h1FontSize - 8 !important; line-height: 1.2; margin: 0.3em 0 10px !important; }
-.tagline {font-size: $h1FontSize - 18 !important;}
+.blogtitle { font-size: $h1FontSize -8 !important; line-height: 1.2; margin: 0.3em 0 10px !important; }
+.tagline {font-size: $h1FontSize - 26 !important;}
+.search-box {
+    visibility:hidden !important;
+    width:0px !important;
+
+}
+
+#logoarea {
+
+    width:90% !important;
+
+}
+
+.feed-icons {
+    visibility:hidden !important;
+    width:0px !important;
+
+}
 .widget{width:100% !important;background-color:transparent !important;position:absolute !important;float:left !important;}
 .widget-title {font-size: $widgetTitleFontSize - 28 !important;}
 .post-headline {font-size: $widgetTitleFontSize - 26 !important;}
@@ -302,10 +321,18 @@ h6 { font-size: 1.15em; margin: 1.67em 0; font-weight: bold; }
 
 .current_page_item{font-size:$h1FontSize - 22 !important;}
 
-.post{width:100% !important;min-height:300px !important;background-color:aqua
+.post{
 
-!important;z-index:1000 !important;margin-left:-237px
-!important;position:absolute !important;float:left !important;}
+    width:90% !important;
+    min-height:300px !important;
+    background-color:aqua !important;
+    z-index:1000 !important;
+    margin-left:-237px !important;
+    padding:0px 0 0 30px !important;
+    position:absolute !important;
+    float:left !important;
+
+}
 
 
 }
@@ -320,8 +347,25 @@ h5 { font-size: 1.3em; margin: 1.67em 0; font-weight: bold; }
 h6 { font-size: 1.15em; margin: 1.67em 0; font-weight: bold; }
 
 .blogtitle { font-size: $h1FontSize - 10 !important; line-height: 1.2; margin: 0.3em 0 10px !important; }
-.tagline {font-size: $h1FontSize - 20 !important;}
+.tagline {font-size: $h1FontSize - 26 !important;}
 .widget{width:100% !important;background-color:transparent !important; position:absolute !important;float:left !important;}
+.search-box {
+    visibility:hidden !important;
+    width:0px !important;
+
+}
+
+#logoarea {
+
+    width:90% !important;
+
+}
+
+.feed-icons {
+    visibility:hidden !important;
+    width:0px !important;
+
+}
 .widget-title {font-size: $widgetTitleFontSize - 28 !important;}
 .post-headline {font-size: $widgetTitleFontSize - 26 !important;}
 #wrapper{width:95% !important;}
@@ -362,6 +406,23 @@ h6 { font-size: 1.15em; margin: 1.67em 0; font-weight: bold; }
 .blogtitle { font-size: $h1FontSize - 12 !important; line-height: 1.2; margin: 0.3em 0 10px !important; }
 .tagline {font-size: $h1FontSize - 22 !important;}
 .widget{width:100% !important;background-color:transparent !important;}
+.search-box {
+    visibility:hidden !important;
+    width:0px !important;
+
+}
+
+#logoarea {
+
+    width:90% !important;
+
+}
+
+.feed-icons {
+    visibility:hidden !important;
+    width:0px !important;
+
+}
 .widget-title {font-size: $widgetTitleFontSize - 28 !important;}
 .post-headline {font-size: $widgetTitleFontSize - 26 !important;}
 #wrapper{width:95% !important;}

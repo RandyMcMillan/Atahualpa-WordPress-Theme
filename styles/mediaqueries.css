@@ -450,7 +450,7 @@
 
   /* line 192, ../sass/mediaqueries.scss */
   .tagline {
-    font-size: 16px !important; }
+    font-size: 14px !important; }
 
   /* line 193, ../sass/mediaqueries.scss */
   .widget {
@@ -488,94 +488,94 @@
   .current_page_item {
     font-size: 12px !important; } }
 @media screen and (max-width: 640px) {
-  /* line 217, ../sass/mediaqueries.scss */
+  /* line 219, ../sass/mediaqueries.scss */
   h1 {
     font-size: 28px !important;
     line-height: 1.2;
     margin: 0.3em 0 10px !important; }
 
-  /* line 219, ../sass/mediaqueries.scss */
+  /* line 221, ../sass/mediaqueries.scss */
   h2 {
     font-size: 28px;
     line-height: 1.3;
     margin: 1em 0 0.2em; }
 
-  /* line 220, ../sass/mediaqueries.scss */
+  /* line 222, ../sass/mediaqueries.scss */
   h3 {
     font-size: 24px;
     line-height: 1.3;
     margin: 1em 0 0.2em; }
 
-  /* line 221, ../sass/mediaqueries.scss */
+  /* line 223, ../sass/mediaqueries.scss */
   h4 {
     font-size: 19px;
     margin: 1.33em 0 0.2em; }
 
-  /* line 222, ../sass/mediaqueries.scss */
+  /* line 224, ../sass/mediaqueries.scss */
   h5 {
     font-size: 1.3em;
     margin: 1.67em 0;
     font-weight: bold; }
 
-  /* line 223, ../sass/mediaqueries.scss */
+  /* line 225, ../sass/mediaqueries.scss */
   h6 {
     font-size: 1.15em;
     margin: 1.67em 0;
     font-weight: bold; }
 
-  /* line 225, ../sass/mediaqueries.scss */
+  /* line 227, ../sass/mediaqueries.scss */
   .blogtitle {
-    font-size: 28px !important;
+    font-size: 26px !important;
     line-height: 1.2;
     margin: 0.3em 0 10px !important; }
 
-  /* line 226, ../sass/mediaqueries.scss */
+  /* line 228, ../sass/mediaqueries.scss */
   .tagline {
-    font-size: 16px !important; }
+    font-size: 8px !important; }
 
-  /* line 227, ../sass/mediaqueries.scss */
+  /* line 229, ../sass/mediaqueries.scss */
   .header-image-container {
     height: 0px !important; }
 
-  /* line 232, ../sass/mediaqueries.scss */
+  /* line 234, ../sass/mediaqueries.scss */
   .widget {
     width: 0% !important;
     background-color: transparent !important;
     position: absolute !important;
     float: left !important; }
 
-  /* line 240, ../sass/mediaqueries.scss */
+  /* line 242, ../sass/mediaqueries.scss */
   .widget-title {
     font-size: 8px !important; }
 
-  /* line 241, ../sass/mediaqueries.scss */
+  /* line 243, ../sass/mediaqueries.scss */
   .post-headline {
     font-size: 8px !important; }
 
-  /* line 242, ../sass/mediaqueries.scss */
+  /* line 244, ../sass/mediaqueries.scss */
   #wrapper {
     width: 95% !important; }
 
-  /* line 244, ../sass/mediaqueries.scss */
+  /* line 246, ../sass/mediaqueries.scss */
   #container {
     width: 95% !important; }
 
-  /* line 245, ../sass/mediaqueries.scss */
+  /* line 247, ../sass/mediaqueries.scss */
   #menu1 {
     border: none !important; }
 
-  /* line 249, ../sass/mediaqueries.scss */
+  /* line 251, ../sass/mediaqueries.scss */
   #rmenu2 span {
     font-size: 14px !important;
     letter-spacing: 4px !important;
     min-width: 316px !important;
     margin: 0 0 0 0% !important; }
 
-  /* line 257, ../sass/mediaqueries.scss */
+  /* line 259, ../sass/mediaqueries.scss */
   .current_page_item {
     font-size: 12px !important; }
 
-  /* line 259, ../sass/mediaqueries.scss */
+  /* line 261, ../sass/mediaqueries.scss */
   .post {
     min-width: 95% !important;
     min-height: 300px !important;
@@ -586,183 +586,212 @@
     position: absolute !important;
     float: left !important; } }
 @media screen and (max-width: 524px) {
-  /* line 275, ../sass/mediaqueries.scss */
+  /* line 277, ../sass/mediaqueries.scss */
   h1 {
     font-size: 26px !important;
     line-height: 1.2;
     margin: 0.3em 0 10px !important; }
 
-  /* line 277, ../sass/mediaqueries.scss */
+  /* line 279, ../sass/mediaqueries.scss */
   h2 {
     font-size: 28px;
     line-height: 1.3;
     margin: 1em 0 0.2em; }
 
-  /* line 278, ../sass/mediaqueries.scss */
+  /* line 280, ../sass/mediaqueries.scss */
   h3 {
     font-size: 24px;
     line-height: 1.3;
     margin: 1em 0 0.2em; }
 
-  /* line 279, ../sass/mediaqueries.scss */
+  /* line 281, ../sass/mediaqueries.scss */
   h4 {
     font-size: 19px;
     margin: 1.33em 0 0.2em; }
 
-  /* line 280, ../sass/mediaqueries.scss */
+  /* line 282, ../sass/mediaqueries.scss */
   h5 {
     font-size: 1.3em;
     margin: 1.67em 0;
     font-weight: bold; }
 
-  /* line 281, ../sass/mediaqueries.scss */
+  /* line 283, ../sass/mediaqueries.scss */
   h6 {
     font-size: 1.15em;
     margin: 1.67em 0;
     font-weight: bold; }
 
-  /* line 283, ../sass/mediaqueries.scss */
+  /* line 285, ../sass/mediaqueries.scss */
   .blogtitle {
-    font-size: 26px !important;
+    font-size: 34px -8 !important;
     line-height: 1.2;
     margin: 0.3em 0 10px !important; }
 
-  /* line 284, ../sass/mediaqueries.scss */
+  /* line 286, ../sass/mediaqueries.scss */
   .tagline {
-    font-size: 16px !important; }
+    font-size: 8px !important; }
 
-  /* line 285, ../sass/mediaqueries.scss */
+  /* line 287, ../sass/mediaqueries.scss */
+  .search-box {
+    visibility: hidden !important;
+    width: 0px !important; }
+
+  /* line 293, ../sass/mediaqueries.scss */
+  #logoarea {
+    width: 90% !important; }
+
+  /* line 299, ../sass/mediaqueries.scss */
+  .feed-icons {
+    visibility: hidden !important;
+    width: 0px !important; }
+
+  /* line 304, ../sass/mediaqueries.scss */
   .widget {
     width: 100% !important;
     background-color: transparent !important;
     position: absolute !important;
     float: left !important; }
 
-  /* line 286, ../sass/mediaqueries.scss */
+  /* line 305, ../sass/mediaqueries.scss */
   .widget-title {
     font-size: 6px !important; }
 
-  /* line 287, ../sass/mediaqueries.scss */
+  /* line 306, ../sass/mediaqueries.scss */
   .post-headline {
     font-size: 8px !important; }
 
-  /* line 288, ../sass/mediaqueries.scss */
+  /* line 307, ../sass/mediaqueries.scss */
   #wrapper {
     width: 95% !important; }
 
-  /* line 290, ../sass/mediaqueries.scss */
+  /* line 309, ../sass/mediaqueries.scss */
   #container {
     width: 95% !important; }
 
-  /* line 291, ../sass/mediaqueries.scss */
+  /* line 310, ../sass/mediaqueries.scss */
   #menu1 {
     border: none !important; }
 
-  /* line 295, ../sass/mediaqueries.scss */
+  /* line 314, ../sass/mediaqueries.scss */
   #rmenu2 span {
     font-size: 12px !important;
     letter-spacing: 4px !important;
     min-width: 316px !important;
     margin: 0 0 0 0% !important; }
 
-  /* line 303, ../sass/mediaqueries.scss */
+  /* line 322, ../sass/mediaqueries.scss */
   .current_page_item {
     font-size: 12px !important; }
 
-  /* line 305, ../sass/mediaqueries.scss */
+  /* line 324, ../sass/mediaqueries.scss */
   .post {
-    width: 100% !important;
+    width: 90% !important;
     min-height: 300px !important;
     background-color: cyan !important;
     z-index: 1000 !important;
     margin-left: -237px !important;
+    padding: 0px 0 0 30px !important;
     position: absolute !important;
     float: left !important; } }
 @media screen and (max-width: 480px) {
-  /* line 314, ../sass/mediaqueries.scss */
+  /* line 341, ../sass/mediaqueries.scss */
   h1 {
     font-size: 24px !important;
     line-height: 1.2;
     margin: 0.3em 0 10px !important; }
 
-  /* line 316, ../sass/mediaqueries.scss */
+  /* line 343, ../sass/mediaqueries.scss */
   h2 {
     font-size: 28px;
     line-height: 1.3;
     margin: 1em 0 0.2em; }
 
-  /* line 317, ../sass/mediaqueries.scss */
+  /* line 344, ../sass/mediaqueries.scss */
   h3 {
     font-size: 24px;
     line-height: 1.3;
     margin: 1em 0 0.2em; }
 
-  /* line 318, ../sass/mediaqueries.scss */
+  /* line 345, ../sass/mediaqueries.scss */
   h4 {
     font-size: 19px;
     margin: 1.33em 0 0.2em; }
 
-  /* line 319, ../sass/mediaqueries.scss */
+  /* line 346, ../sass/mediaqueries.scss */
   h5 {
     font-size: 1.3em;
     margin: 1.67em 0;
     font-weight: bold; }
 
-  /* line 320, ../sass/mediaqueries.scss */
+  /* line 347, ../sass/mediaqueries.scss */
   h6 {
     font-size: 1.15em;
     margin: 1.67em 0;
     font-weight: bold; }
 
-  /* line 322, ../sass/mediaqueries.scss */
+  /* line 349, ../sass/mediaqueries.scss */
   .blogtitle {
     font-size: 24px !important;
     line-height: 1.2;
     margin: 0.3em 0 10px !important; }
 
-  /* line 323, ../sass/mediaqueries.scss */
+  /* line 350, ../sass/mediaqueries.scss */
   .tagline {
-    font-size: 14px !important; }
+    font-size: 8px !important; }
 
-  /* line 324, ../sass/mediaqueries.scss */
+  /* line 351, ../sass/mediaqueries.scss */
   .widget {
     width: 100% !important;
     background-color: transparent !important;
     position: absolute !important;
     float: left !important; }
 
-  /* line 325, ../sass/mediaqueries.scss */
+  /* line 352, ../sass/mediaqueries.scss */
+  .search-box {
+    visibility: hidden !important;
+    width: 0px !important; }
+
+  /* line 358, ../sass/mediaqueries.scss */
+  #logoarea {
+    width: 90% !important; }
+
+  /* line 364, ../sass/mediaqueries.scss */
+  .feed-icons {
+    visibility: hidden !important;
+    width: 0px !important; }
+
+  /* line 369, ../sass/mediaqueries.scss */
   .widget-title {
     font-size: 6px !important; }
 
-  /* line 326, ../sass/mediaqueries.scss */
+  /* line 370, ../sass/mediaqueries.scss */
   .post-headline {
     font-size: 8px !important; }
 
-  /* line 327, ../sass/mediaqueries.scss */
+  /* line 371, ../sass/mediaqueries.scss */
   #wrapper {
     width: 95% !important; }
 
-  /* line 329, ../sass/mediaqueries.scss */
+  /* line 373, ../sass/mediaqueries.scss */
   #container {
     width: 95% !important; }
 
-  /* line 330, ../sass/mediaqueries.scss */
+  /* line 374, ../sass/mediaqueries.scss */
   #menu1 {
     border: none !important; }
 
-  /* line 334, ../sass/mediaqueries.scss */
+  /* line 378, ../sass/mediaqueries.scss */
   #rmenu2 span {
     font-size: 10px !important;
     letter-spacing: 4px !important;
     min-width: 316px !important;
     margin: 0 0 0 0% !important; }
 
-  /* line 342, ../sass/mediaqueries.scss */
+  /* line 386, ../sass/mediaqueries.scss */
   .current_page_item {
     font-size: 12px !important; }
 
-  /* line 344, ../sass/mediaqueries.scss */
+  /* line 388, ../sass/mediaqueries.scss */
   .post {
     width: 100% !important;
     min-height: 300px !important;
@@ -772,95 +801,109 @@
     position: absolute !important;
     float: left !important; } }
 @media screen and (max-width: 320px) {
-  /* line 354, ../sass/mediaqueries.scss */
+  /* line 398, ../sass/mediaqueries.scss */
   h1 {
     font-size: 22px !important;
     line-height: 1.2;
     margin: 0.3em 0 10px !important; }
 
-  /* line 356, ../sass/mediaqueries.scss */
+  /* line 400, ../sass/mediaqueries.scss */
   h2 {
     font-size: 28px;
     line-height: 1.3;
     margin: 1em 0 0.2em; }
 
-  /* line 357, ../sass/mediaqueries.scss */
+  /* line 401, ../sass/mediaqueries.scss */
   h3 {
     font-size: 24px;
     line-height: 1.3;
     margin: 1em 0 0.2em; }
 
-  /* line 358, ../sass/mediaqueries.scss */
+  /* line 402, ../sass/mediaqueries.scss */
   h4 {
     font-size: 19px;
     margin: 1.33em 0 0.2em; }
 
-  /* line 359, ../sass/mediaqueries.scss */
+  /* line 403, ../sass/mediaqueries.scss */
   h5 {
     font-size: 1.3em;
     margin: 1.67em 0;
     font-weight: bold; }
 
-  /* line 360, ../sass/mediaqueries.scss */
+  /* line 404, ../sass/mediaqueries.scss */
   h6 {
     font-size: 1.15em;
     margin: 1.67em 0;
     font-weight: bold; }
 
-  /* line 362, ../sass/mediaqueries.scss */
+  /* line 406, ../sass/mediaqueries.scss */
   .blogtitle {
     font-size: 22px !important;
     line-height: 1.2;
     margin: 0.3em 0 10px !important; }
 
-  /* line 363, ../sass/mediaqueries.scss */
+  /* line 407, ../sass/mediaqueries.scss */
   .tagline {
     font-size: 12px !important; }
 
-  /* line 364, ../sass/mediaqueries.scss */
+  /* line 408, ../sass/mediaqueries.scss */
   .widget {
     width: 100% !important;
     background-color: transparent !important; }
 
-  /* line 365, ../sass/mediaqueries.scss */
+  /* line 409, ../sass/mediaqueries.scss */
+  .search-box {
+    visibility: hidden !important;
+    width: 0px !important; }
+
+  /* line 415, ../sass/mediaqueries.scss */
+  #logoarea {
+    width: 90% !important; }
+
+  /* line 421, ../sass/mediaqueries.scss */
+  .feed-icons {
+    visibility: hidden !important;
+    width: 0px !important; }
+
+  /* line 426, ../sass/mediaqueries.scss */
   .widget-title {
     font-size: 6px !important; }
 
-  /* line 366, ../sass/mediaqueries.scss */
+  /* line 427, ../sass/mediaqueries.scss */
   .post-headline {
     font-size: 8px !important; }
 
-  /* line 367, ../sass/mediaqueries.scss */
+  /* line 428, ../sass/mediaqueries.scss */
   #wrapper {
     width: 95% !important; }
 
-  /* line 368, ../sass/mediaqueries.scss */
+  /* line 429, ../sass/mediaqueries.scss */
   #container {
     width: 95% !important; }
 
-  /* line 369, ../sass/mediaqueries.scss */
+  /* line 430, ../sass/mediaqueries.scss */
   #menu1 {
     border: none !important; }
 
-  /* line 373, ../sass/mediaqueries.scss */
+  /* line 434, ../sass/mediaqueries.scss */
   #rmenu2 span {
     font-size: 8px !important;
     letter-spacing: 4px !important;
     min-width: 316px !important;
     margin: 0 0 0 0% !important; }
 
-  /* line 381, ../sass/mediaqueries.scss */
+  /* line 442, ../sass/mediaqueries.scss */
   .current_page_item {
     font-size: 12px !important; }
 
-  /* line 383, ../sass/mediaqueries.scss */
+  /* line 444, ../sass/mediaqueries.scss */
   .widget {
     width: 100% !important;
     background-color: transparent !important;
     position: absolute !important;
     float: left !important; }
 
-  /* line 384, ../sass/mediaqueries.scss */
+  /* line 445, ../sass/mediaqueries.scss */
   .post {
     width: 100% !important;
     min-height: 300px !important;
