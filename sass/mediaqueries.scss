@@ -144,7 +144,7 @@ h6 { font-size: 1.15em; margin: 1.67em 0; font-weight: bold; }
 
 
 }
-@media screen and (max-width: 968px) {
+@media screen and (max-width: 960px) {
 
 h1 { font-size: $h1FontSize - 2px !important; line-height: 1.2; margin: 0.3em 0 10px !important; }
 h2 { font-size: 28px; line-height: 1.3; margin: 1em 0 .2em; }
@@ -209,12 +209,7 @@ h6 { font-size: 1.15em; margin: 1.67em 0; font-weight: bold; }
 }
 
 .current_page_item{font-size:$h1FontSize - 22 !important;}
-
-
-.post{width:100% !important;min-height:300px !important;background-color:aqua
-!important;z-index:1000 !important;margin-left:-237px
-!important;position:absolute !important;float:left !important;}
-
+.post{}
 
 }
 @media screen and (max-width: 640px)  {
@@ -229,7 +224,19 @@ h6 { font-size: 1.15em; margin: 1.67em 0; font-weight: bold; }
 
 .blogtitle { font-size: $h1FontSize - 6 !important; line-height: 1.2; margin: 0.3em 0 10px !important; }
 .tagline {font-size: $h1FontSize - 18 !important;}
-.widget{width:100% !important;background-color:transparent !important;position:absolute !important;float:left !important;}
+.header-image-container {
+
+    height:0px !important;
+
+}
+.widget{
+
+    width:0% !important;
+    background-color:transparent !important;
+    position:absolute !important;
+    float:left !important;
+
+}
 .widget-title {font-size: $widgetTitleFontSize - 26 !important;}
 .post-headline {font-size: $widgetTitleFontSize - 26 !important;}
 #wrapper{width:95% !important;}
@@ -249,10 +256,17 @@ h6 { font-size: 1.15em; margin: 1.67em 0; font-weight: bold; }
 
 .current_page_item{font-size:$h1FontSize - 22 !important;}
 
-.post{width:100% !important;min-height:300px !important;background-color:aqua
+.post{
 
-!important;z-index:1000 !important;margin-left:-237px
-!important;position:absolute !important;float:left !important;}
+    min-width:95% !important;
+    min-height:300px !important;
+    background-color:aqua !important;
+    z-index:1000 !important;
+    margin:0 0 0 -246px !important;
+    padding:5px 0px 5px 25px !important;
+    position:absolute !important;
+    float:left !important;
+}
 
 
 }
@@ -329,7 +343,7 @@ h6 { font-size: 1.15em; margin: 1.67em 0; font-weight: bold; }
 
 .post{width:100% !important;min-height:300px !important;background-color:aqua
 
-!important;z-index:1000 !important;margin-left:-237px
+!important;z-index:1000 !important;margin-left:-257px
 !important;position:absolute !important;float:left !important;}
 
 

@@ -325,7 +325,7 @@
   /* line 141, ../sass/mediaqueries.scss */
   .current_page_item {
     font-size: 12px !important; } }
-@media screen and (max-width: 968px) {
+@media screen and (max-width: 960px) {
   /* line 149, ../sass/mediaqueries.scss */
   h1 {
     font-size: 32px !important;
@@ -486,195 +486,190 @@
 
   /* line 211, ../sass/mediaqueries.scss */
   .current_page_item {
-    font-size: 12px !important; }
-
-  /* line 214, ../sass/mediaqueries.scss */
-  .post {
-    width: 100% !important;
-    min-height: 300px !important;
-    background-color: cyan !important;
-    z-index: 1000 !important;
-    margin-left: -237px !important;
-    position: absolute !important;
-    float: left !important; } }
+    font-size: 12px !important; } }
 @media screen and (max-width: 640px) {
-  /* line 222, ../sass/mediaqueries.scss */
+  /* line 217, ../sass/mediaqueries.scss */
   h1 {
     font-size: 28px !important;
     line-height: 1.2;
     margin: 0.3em 0 10px !important; }
 
-  /* line 224, ../sass/mediaqueries.scss */
+  /* line 219, ../sass/mediaqueries.scss */
   h2 {
     font-size: 28px;
     line-height: 1.3;
     margin: 1em 0 0.2em; }
 
-  /* line 225, ../sass/mediaqueries.scss */
+  /* line 220, ../sass/mediaqueries.scss */
   h3 {
     font-size: 24px;
     line-height: 1.3;
     margin: 1em 0 0.2em; }
 
-  /* line 226, ../sass/mediaqueries.scss */
+  /* line 221, ../sass/mediaqueries.scss */
   h4 {
     font-size: 19px;
     margin: 1.33em 0 0.2em; }
 
-  /* line 227, ../sass/mediaqueries.scss */
+  /* line 222, ../sass/mediaqueries.scss */
   h5 {
     font-size: 1.3em;
     margin: 1.67em 0;
     font-weight: bold; }
 
-  /* line 228, ../sass/mediaqueries.scss */
+  /* line 223, ../sass/mediaqueries.scss */
   h6 {
     font-size: 1.15em;
     margin: 1.67em 0;
     font-weight: bold; }
 
-  /* line 230, ../sass/mediaqueries.scss */
+  /* line 225, ../sass/mediaqueries.scss */
   .blogtitle {
     font-size: 28px !important;
     line-height: 1.2;
     margin: 0.3em 0 10px !important; }
 
-  /* line 231, ../sass/mediaqueries.scss */
+  /* line 226, ../sass/mediaqueries.scss */
   .tagline {
     font-size: 16px !important; }
 
+  /* line 227, ../sass/mediaqueries.scss */
+  .header-image-container {
+    height: 0px !important; }
+
   /* line 232, ../sass/mediaqueries.scss */
   .widget {
-    width: 100% !important;
+    width: 0% !important;
     background-color: transparent !important;
     position: absolute !important;
     float: left !important; }
 
-  /* line 233, ../sass/mediaqueries.scss */
+  /* line 240, ../sass/mediaqueries.scss */
   .widget-title {
     font-size: 8px !important; }
 
-  /* line 234, ../sass/mediaqueries.scss */
+  /* line 241, ../sass/mediaqueries.scss */
   .post-headline {
     font-size: 8px !important; }
 
-  /* line 235, ../sass/mediaqueries.scss */
+  /* line 242, ../sass/mediaqueries.scss */
   #wrapper {
     width: 95% !important; }
 
-  /* line 237, ../sass/mediaqueries.scss */
+  /* line 244, ../sass/mediaqueries.scss */
   #container {
     width: 95% !important; }
 
-  /* line 238, ../sass/mediaqueries.scss */
+  /* line 245, ../sass/mediaqueries.scss */
   #menu1 {
     border: none !important; }
 
-  /* line 242, ../sass/mediaqueries.scss */
+  /* line 249, ../sass/mediaqueries.scss */
   #rmenu2 span {
     font-size: 14px !important;
     letter-spacing: 4px !important;
     min-width: 316px !important;
     margin: 0 0 0 0% !important; }
 
-  /* line 250, ../sass/mediaqueries.scss */
+  /* line 257, ../sass/mediaqueries.scss */
   .current_page_item {
     font-size: 12px !important; }
 
-  /* line 252, ../sass/mediaqueries.scss */
+  /* line 259, ../sass/mediaqueries.scss */
   .post {
-    width: 100% !important;
+    min-width: 95% !important;
     min-height: 300px !important;
     background-color: cyan !important;
     z-index: 1000 !important;
-    margin-left: -237px !important;
+    margin: 0 0 0 -246px !important;
+    padding: 5px 0px 5px 25px !important;
     position: absolute !important;
     float: left !important; } }
 @media screen and (max-width: 524px) {
-  /* line 261, ../sass/mediaqueries.scss */
+  /* line 275, ../sass/mediaqueries.scss */
   h1 {
     font-size: 26px !important;
     line-height: 1.2;
     margin: 0.3em 0 10px !important; }
 
-  /* line 263, ../sass/mediaqueries.scss */
+  /* line 277, ../sass/mediaqueries.scss */
   h2 {
     font-size: 28px;
     line-height: 1.3;
     margin: 1em 0 0.2em; }
 
-  /* line 264, ../sass/mediaqueries.scss */
+  /* line 278, ../sass/mediaqueries.scss */
   h3 {
     font-size: 24px;
     line-height: 1.3;
     margin: 1em 0 0.2em; }
 
-  /* line 265, ../sass/mediaqueries.scss */
+  /* line 279, ../sass/mediaqueries.scss */
   h4 {
     font-size: 19px;
     margin: 1.33em 0 0.2em; }
 
-  /* line 266, ../sass/mediaqueries.scss */
+  /* line 280, ../sass/mediaqueries.scss */
   h5 {
     font-size: 1.3em;
     margin: 1.67em 0;
     font-weight: bold; }
 
-  /* line 267, ../sass/mediaqueries.scss */
+  /* line 281, ../sass/mediaqueries.scss */
   h6 {
     font-size: 1.15em;
     margin: 1.67em 0;
     font-weight: bold; }
 
-  /* line 269, ../sass/mediaqueries.scss */
+  /* line 283, ../sass/mediaqueries.scss */
   .blogtitle {
     font-size: 26px !important;
     line-height: 1.2;
     margin: 0.3em 0 10px !important; }
 
-  /* line 270, ../sass/mediaqueries.scss */
+  /* line 284, ../sass/mediaqueries.scss */
   .tagline {
     font-size: 16px !important; }
 
-  /* line 271, ../sass/mediaqueries.scss */
+  /* line 285, ../sass/mediaqueries.scss */
   .widget {
     width: 100% !important;
     background-color: transparent !important;
     position: absolute !important;
     float: left !important; }
 
-  /* line 272, ../sass/mediaqueries.scss */
+  /* line 286, ../sass/mediaqueries.scss */
   .widget-title {
     font-size: 6px !important; }
 
-  /* line 273, ../sass/mediaqueries.scss */
+  /* line 287, ../sass/mediaqueries.scss */
   .post-headline {
     font-size: 8px !important; }
 
-  /* line 274, ../sass/mediaqueries.scss */
+  /* line 288, ../sass/mediaqueries.scss */
   #wrapper {
     width: 95% !important; }
 
-  /* line 276, ../sass/mediaqueries.scss */
+  /* line 290, ../sass/mediaqueries.scss */
   #container {
     width: 95% !important; }
 
-  /* line 277, ../sass/mediaqueries.scss */
+  /* line 291, ../sass/mediaqueries.scss */
   #menu1 {
     border: none !important; }
 
-  /* line 281, ../sass/mediaqueries.scss */
+  /* line 295, ../sass/mediaqueries.scss */
   #rmenu2 span {
     font-size: 12px !important;
     letter-spacing: 4px !important;
     min-width: 316px !important;
     margin: 0 0 0 0% !important; }
 
-  /* line 289, ../sass/mediaqueries.scss */
+  /* line 303, ../sass/mediaqueries.scss */
   .current_page_item {
     font-size: 12px !important; }
 
-  /* line 291, ../sass/mediaqueries.scss */
+  /* line 305, ../sass/mediaqueries.scss */
   .post {
     width: 100% !important;
     min-height: 300px !important;
@@ -684,188 +679,188 @@
     position: absolute !important;
     float: left !important; } }
 @media screen and (max-width: 480px) {
-  /* line 300, ../sass/mediaqueries.scss */
+  /* line 314, ../sass/mediaqueries.scss */
   h1 {
     font-size: 24px !important;
     line-height: 1.2;
     margin: 0.3em 0 10px !important; }
 
-  /* line 302, ../sass/mediaqueries.scss */
+  /* line 316, ../sass/mediaqueries.scss */
   h2 {
     font-size: 28px;
     line-height: 1.3;
     margin: 1em 0 0.2em; }
 
-  /* line 303, ../sass/mediaqueries.scss */
+  /* line 317, ../sass/mediaqueries.scss */
   h3 {
     font-size: 24px;
     line-height: 1.3;
     margin: 1em 0 0.2em; }
 
-  /* line 304, ../sass/mediaqueries.scss */
+  /* line 318, ../sass/mediaqueries.scss */
   h4 {
     font-size: 19px;
     margin: 1.33em 0 0.2em; }
 
-  /* line 305, ../sass/mediaqueries.scss */
+  /* line 319, ../sass/mediaqueries.scss */
   h5 {
     font-size: 1.3em;
     margin: 1.67em 0;
     font-weight: bold; }
 
-  /* line 306, ../sass/mediaqueries.scss */
+  /* line 320, ../sass/mediaqueries.scss */
   h6 {
     font-size: 1.15em;
     margin: 1.67em 0;
     font-weight: bold; }
 
-  /* line 308, ../sass/mediaqueries.scss */
+  /* line 322, ../sass/mediaqueries.scss */
   .blogtitle {
     font-size: 24px !important;
     line-height: 1.2;
     margin: 0.3em 0 10px !important; }
 
-  /* line 309, ../sass/mediaqueries.scss */
+  /* line 323, ../sass/mediaqueries.scss */
   .tagline {
     font-size: 14px !important; }
 
-  /* line 310, ../sass/mediaqueries.scss */
+  /* line 324, ../sass/mediaqueries.scss */
   .widget {
     width: 100% !important;
     background-color: transparent !important;
     position: absolute !important;
     float: left !important; }
 
-  /* line 311, ../sass/mediaqueries.scss */
+  /* line 325, ../sass/mediaqueries.scss */
   .widget-title {
     font-size: 6px !important; }
 
-  /* line 312, ../sass/mediaqueries.scss */
+  /* line 326, ../sass/mediaqueries.scss */
   .post-headline {
     font-size: 8px !important; }
 
-  /* line 313, ../sass/mediaqueries.scss */
+  /* line 327, ../sass/mediaqueries.scss */
   #wrapper {
     width: 95% !important; }
 
-  /* line 315, ../sass/mediaqueries.scss */
+  /* line 329, ../sass/mediaqueries.scss */
   #container {
     width: 95% !important; }
 
-  /* line 316, ../sass/mediaqueries.scss */
+  /* line 330, ../sass/mediaqueries.scss */
   #menu1 {
     border: none !important; }
 
-  /* line 320, ../sass/mediaqueries.scss */
+  /* line 334, ../sass/mediaqueries.scss */
   #rmenu2 span {
     font-size: 10px !important;
     letter-spacing: 4px !important;
     min-width: 316px !important;
     margin: 0 0 0 0% !important; }
 
-  /* line 328, ../sass/mediaqueries.scss */
+  /* line 342, ../sass/mediaqueries.scss */
   .current_page_item {
     font-size: 12px !important; }
 
-  /* line 330, ../sass/mediaqueries.scss */
+  /* line 344, ../sass/mediaqueries.scss */
   .post {
     width: 100% !important;
     min-height: 300px !important;
     background-color: cyan !important;
     z-index: 1000 !important;
-    margin-left: -237px !important;
+    margin-left: -257px !important;
     position: absolute !important;
     float: left !important; } }
 @media screen and (max-width: 320px) {
-  /* line 340, ../sass/mediaqueries.scss */
+  /* line 354, ../sass/mediaqueries.scss */
   h1 {
     font-size: 22px !important;
     line-height: 1.2;
     margin: 0.3em 0 10px !important; }
 
-  /* line 342, ../sass/mediaqueries.scss */
+  /* line 356, ../sass/mediaqueries.scss */
   h2 {
     font-size: 28px;
     line-height: 1.3;
     margin: 1em 0 0.2em; }
 
-  /* line 343, ../sass/mediaqueries.scss */
+  /* line 357, ../sass/mediaqueries.scss */
   h3 {
     font-size: 24px;
     line-height: 1.3;
     margin: 1em 0 0.2em; }
 
-  /* line 344, ../sass/mediaqueries.scss */
+  /* line 358, ../sass/mediaqueries.scss */
   h4 {
     font-size: 19px;
     margin: 1.33em 0 0.2em; }
 
-  /* line 345, ../sass/mediaqueries.scss */
+  /* line 359, ../sass/mediaqueries.scss */
   h5 {
     font-size: 1.3em;
     margin: 1.67em 0;
     font-weight: bold; }
 
-  /* line 346, ../sass/mediaqueries.scss */
+  /* line 360, ../sass/mediaqueries.scss */
   h6 {
     font-size: 1.15em;
     margin: 1.67em 0;
     font-weight: bold; }
 
-  /* line 348, ../sass/mediaqueries.scss */
+  /* line 362, ../sass/mediaqueries.scss */
   .blogtitle {
     font-size: 22px !important;
     line-height: 1.2;
     margin: 0.3em 0 10px !important; }
 
-  /* line 349, ../sass/mediaqueries.scss */
+  /* line 363, ../sass/mediaqueries.scss */
   .tagline {
     font-size: 12px !important; }
 
-  /* line 350, ../sass/mediaqueries.scss */
+  /* line 364, ../sass/mediaqueries.scss */
   .widget {
     width: 100% !important;
     background-color: transparent !important; }
 
-  /* line 351, ../sass/mediaqueries.scss */
+  /* line 365, ../sass/mediaqueries.scss */
   .widget-title {
     font-size: 6px !important; }
 
-  /* line 352, ../sass/mediaqueries.scss */
+  /* line 366, ../sass/mediaqueries.scss */
   .post-headline {
     font-size: 8px !important; }
 
-  /* line 353, ../sass/mediaqueries.scss */
+  /* line 367, ../sass/mediaqueries.scss */
   #wrapper {
     width: 95% !important; }
 
-  /* line 354, ../sass/mediaqueries.scss */
+  /* line 368, ../sass/mediaqueries.scss */
   #container {
     width: 95% !important; }
 
-  /* line 355, ../sass/mediaqueries.scss */
+  /* line 369, ../sass/mediaqueries.scss */
   #menu1 {
     border: none !important; }
 
-  /* line 359, ../sass/mediaqueries.scss */
+  /* line 373, ../sass/mediaqueries.scss */
   #rmenu2 span {
     font-size: 8px !important;
     letter-spacing: 4px !important;
     min-width: 316px !important;
     margin: 0 0 0 0% !important; }
 
-  /* line 367, ../sass/mediaqueries.scss */
+  /* line 381, ../sass/mediaqueries.scss */
   .current_page_item {
     font-size: 12px !important; }
 
-  /* line 369, ../sass/mediaqueries.scss */
+  /* line 383, ../sass/mediaqueries.scss */
   .widget {
     width: 100% !important;
     background-color: transparent !important;
     position: absolute !important;
     float: left !important; }
 
-  /* line 370, ../sass/mediaqueries.scss */
+  /* line 384, ../sass/mediaqueries.scss */
   .post {
     width: 100% !important;
     min-height: 300px !important;
