@@ -1,4 +1,4 @@
-Wordpress Theme "Atahualpa" version 3.7.8
+Wordpress Theme "Atahualpa" 
 
 VISIT THE SUPPORT FORUMS AT http://forum.bytesforall.com/
 
@@ -8,13 +8,14 @@ UPGRADE:
 
 #####################################################################
 
-To Upgrade the theme
+To manually upgrade the theme
 -------------------------
 1) download the new version of the theme
-2) unzip the file)
-3) copy any images you have added in a prior release to the 'images/header' folder
-4) if you have added any other files (templates, icons) copy them to the same folder in the new version
-5) Make sure the Atahualpa folder is named with the version number i.e atahualpa344
+2) unzip the file
+3) copy any images you have added in a prior release to the 'images/header' folder. If using a different folder this step is not needed. 
+See the forums for directions.
+4) if you have added any other files (templates, icons) copy them to the same folder in the new version - unless you are using the method to store them elsewhere. See the forums for directions.
+5) Make sure the Atahualpa folder is named with the version number i.e atahualpa3712
 6) upload the folder to the 'wordpress/wp-contents/themes' folder at your host
 7) get on the backend of your site and go to Dashboard->Appearances->Themes and activate the new version
 8) all done
@@ -35,7 +36,7 @@ This will create a directory named atahualpa (or atahualpaXX) with many
 files and subdirectories. 
 
 From now on we'll call this directory "atahualpa" although it might be 
-"atahualpa34" or whatever for you. 
+"atahualpa3712" or whatever for you. 
 
 #####################################################################
 

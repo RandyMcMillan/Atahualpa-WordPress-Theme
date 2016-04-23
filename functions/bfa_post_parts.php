@@ -132,6 +132,7 @@ function bfa_post_bodycopy($before = '<div class="post-bodycopy clearfix">', $af
 	OR  (is_author()   AND $bfa_ata['excerpts_author'] == "Full Posts") 
 	OR   is_single() 
 	OR   is_page() 
+	OR   function_exists('is_bbpress')
 	) { $do_full_post = 1; }
 	
 	if (bfa_is_pagetemplate_active($bfa_pagetemplate_name)) {

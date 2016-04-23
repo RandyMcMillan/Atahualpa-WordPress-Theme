@@ -122,7 +122,7 @@ $options1 = array(
 
     array(    "name" => "Thank you for using Atahualpa",
     	    "category" => "start-here",
-            "id" => "start_here",
+             "id" => "start_here",
             "type" => "info",
 			"lastoption" => "yes", 
             "info" => "<br />Since 3.6.6: <ul><li>Import settings by copying &amp; pasting the content of the settings file into the textarea in the theme options -  instead of uploading the settings file directly.</li>
@@ -173,7 +173,7 @@ $options1 = array(
 	"category" 	=> "export-import",
     "id" => "import_settings",
 	"type" 		=> "info",
-	"info" 		=> "<br /><span style='text-decoration:line-through'>Upload a Atahualpa settings file from your desktop computer and import it:</span><br />SINCE 3.6.5: <strong>Paste the content of a settings file here</strong> 
+	"info" 		=> "<br /><strong>Paste the content of a settings file here</strong> 
 	into this textarea and click 'Import'<br /><br />
 	PHP file functions cannot be used anymore in themes listed on wordpress.org, so we 
 			had to remove file operations from Atahualpa (Upload isn't enough, Atahualpa needs to read the file, too). Instead of uploading a settings file you now need to copy the content of the settings file instead, and paste it into the textarea below, finally click 'Import Settings'.   
@@ -202,7 +202,7 @@ $options1 = array(
     array(    "name" => "Use Post / Page Options?",
     	    "category" => "seo",
 			"switch" => "yes",
-            "id" => "page_post_options",
+             "id" => "page_post_options",
             "type" => "select",
             "std" => "No",
             "options" => array("No", "Yes"),
@@ -213,7 +213,7 @@ $options1 = array(
 			
     array(    "name" => "Use Bytes For All SEO options?",
     	    "category" => "seo",
-            "id" => "use_bfa_seo",
+             "id" => "use_bfa_seo",
             "type" => "select",
             "std" => "No",
             "options" => array("No", "Yes"),
@@ -227,7 +227,7 @@ $options1 = array(
 
     array(    "name" => "Homepage Meta Description",
     	    "category" => "seo",
-            "id" => "homepage_meta_description",
+             "id" => "homepage_meta_description",
             "std" => "",
             "type" => "textarea-large",
 			"escape" => "yes", 
@@ -238,7 +238,7 @@ $options1 = array(
 
     array(    "name" => "Homepage Meta Keywords",
     	    "category" => "seo",
-            "id" => "homepage_meta_keywords",
+             "id" => "homepage_meta_keywords",
             "std" => "",
             "type" => "textarea-large",
 			"escape" => "yes", 
@@ -249,7 +249,7 @@ $options1 = array(
 
     array(    "name" => "Meta Title Tag format",
     	    "category" => "seo",
-            "id" => "add_blogtitle",
+             "id" => "add_blogtitle",
             "type" => "select",
             "std" => "Page Title - Blog Title",
             "options" => array("Page Title - Blog Title", 
@@ -259,7 +259,7 @@ $options1 = array(
 
     array(    "name" => "Meta Title Tag Separator",
     	    "category" => "seo",
-            "id" => "title_separator_code",
+             "id" => "title_separator_code",
             "type" => "select",
             "std" => "1",
             "options" => array("1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
@@ -278,7 +278,7 @@ $options1 = array(
  
     array(    "name" => "Noindex Date Archive Pages?",
     	    "category" => "seo",
-            "id" => "archive_noindex",
+             "id" => "archive_noindex",
             "type" => "select",
             "std" => "No",
             "options" => array("No", "Yes"),
@@ -288,7 +288,7 @@ $options1 = array(
 
     array(    "name" => "Noindex Category pages?",
     	    "category" => "seo",
-            "id" => "cat_noindex",
+             "id" => "cat_noindex",
             "type" => "select",
             "std" => "No",
             "options" => array("No", "Yes"),
@@ -297,7 +297,7 @@ $options1 = array(
 
     array(    "name" => "Noindex Tag pages?",
     	    "category" => "seo",
-            "id" => "tag_noindex",
+             "id" => "tag_noindex",
             "type" => "select",
             "std" => "No",
             "options" => array("No", "Yes"),
@@ -306,7 +306,7 @@ $options1 = array(
 
     array(    "name" => "Make Post/Page Titles H1?",
     	    "category" => "seo",
-            "id" => "h1_on_single_pages",
+             "id" => "h1_on_single_pages",
             "type" => "select",
             "std" => "Yes",
             "options" => array("Yes", "No"),
@@ -319,7 +319,7 @@ $options1 = array(
 			
     array(    "name" => "Nofollow RSS, trackback & admin links?",
     	    "category" => "seo",
-            "id" => "nofollow",
+             "id" => "nofollow",
             "type" => "select",
             "std" => "No",
             "options" => array("No", "Yes"),
@@ -332,7 +332,7 @@ $options1 = array(
     array(    "name" => "Body Style",
     	    "category" => "body-font-links",
 			"switch" => "yes",
-            "id" => "body_style",
+             "id" => "body_style",
             "std" => "font-family: tahoma, arial, sans-serif;\nfont-size: 0.8em;\ncolor: #000000;\nbackground: #ffffff;",
             "type" => "textarea-large",
             "info" => "The styles you set here will apply to everything that doesn't get its own style. <br /><br />
@@ -344,14 +344,14 @@ $options1 = array(
 			
     array(    "name" => "Link Default Color",
     	    "category" => "body-font-links",
-            "id" => "link_color",
+             "id" => "link_color",
             "std" => "666666",
             "type" => "text",
             "info" => "All hex color codes."),
 
     array(    "name" => "Link Hover Color",
     	    "category" => "body-font-links",
-            "id" => "link_hover_color",
+             "id" => "link_hover_color",
             "std" => "cc0000",
             "type" => "text",
             "info" => "Color of links when \"hovering\" over them with the mouse
@@ -359,7 +359,7 @@ $options1 = array(
 
     array(    "name" => "Link Default Decoration",
     	    "category" => "body-font-links",
-            "id" => "link_default_decoration",
+             "id" => "link_default_decoration",
             "type" => "select",
             "std" => "none",
             "options" => array("none", "underline"),
@@ -367,7 +367,7 @@ $options1 = array(
 
     array(    "name" => "Link Hover Decoration",
     	    "category" => "body-font-links",
-            "id" => "link_hover_decoration",
+             "id" => "link_hover_decoration",
             "type" => "select",
             "std" => "underline",
             "options" => array("underline", "none"),
@@ -375,7 +375,7 @@ $options1 = array(
 
     array(    "name" => "Link Text Bold or Not",
     	    "category" => "body-font-links",
-            "id" => "link_weight",
+             "id" => "link_weight",
             "type" => "select",
             "std" => "bold",
             "options" => array("bold", "normal"),
@@ -387,7 +387,7 @@ $options1 = array(
     array(    "name" => "Layout WIDTH and type (FLUID or FIXED)",
     	    "category" => "layout",
 			"switch" => "yes",
-            "id" => "layout_width",
+             "id" => "layout_width",
             "std" => "99%",
             "type" => "text",
 			"size" => "7",
@@ -399,7 +399,7 @@ $options1 = array(
 
     array(    "name" => "Layout MIN width",
     	    "category" => "layout",
-            "id" => "layout_min_width",
+             "id" => "layout_min_width",
             "std" => "",
             "type" => "text",
 			"size" => "5",
@@ -409,7 +409,7 @@ $options1 = array(
 
     array(    "name" => "Layout MAX width",
     	    "category" => "layout",
-            "id" => "layout_max_width",
+             "id" => "layout_max_width",
             "std" => "",
             "type" => "text",
 			"size" => "5",
@@ -419,7 +419,7 @@ $options1 = array(
 
 	array(    "name" => "Layout Container Style",
     	    "category" => "layout",
-            "id" => "layout_style",
+             "id" => "layout_style",
             "std" => "padding: 0;",
             "type" => "textarea-large",
             "info" => "Style the layout container here. The layout container
@@ -441,7 +441,7 @@ $options1 = array(
 
 	array(    "name" => "Layout Container Padding Left/Right",
     	    "category" => "layout",
-            "id" => "layout_style_leftright_padding",
+             "id" => "layout_style_leftright_padding",
             "std" => "0",
             "type" => "text",
 			"size" => "4",
@@ -452,22 +452,50 @@ $options1 = array(
 
 	array(    "name" => "IE Document Type",
     	    "category" => "layout",
-            "id" => "IEDocType",
+             "id" => "IEDocType",
             "type" => "select",
             "std" => "None",
             "options" => array("None", "EmulateIE7", "EmulateIE8", "IE8", "IE9", "Edge"),
             "lastoption" => "yes", 
             "info" => "Set this option to force Internet Explorer to use a particular rendering mode (supported by Internet Explorer 8 and newer)"),
             
+// New category: Images location
+
+    array(    "name" => "Image Locations",
+    	    "category" => "image-location",
+			"switch" => "yes",
+             "id" => "image_location_info",
+            "type" => "info",
+            "info" => "By default, the <ul><li><strong>logo</strong> is stored in the <code>atahualpa/images</code> folder</li><li><strong>favicon</strong> is stored in the <code>atahualpa/images/favicon</code> folder</li><li><strong>header images</strong> are stored in the <code>atahualpa/images/header</code> folder</li></ul>If you do an automatic WordPress upgrade of the theme, these folders (and any images you put in them) are erased and replaced with the default images provided with the theme. This option allows you to put those images in a new location that will not be effected by theme upgrades. 
+<br /><br />By creating a folder in the 'wp-content' folder with a name like 'ata-images' and adding a second folder in it called 'header', you would put your <ul><li><strong>logo</strong> in the <code>wp-content/ata-images</code> folder</li><li><strong>favicon</strong> in the <code>wp-content/ata-images</code> folder</li><li><strong>header images</strong> in the <code>wp-content/ata-images/header</code> folder</li></ul> then setting the <code>Relative location of images</code> to 'wp-content', your images will still exist when you do the next theme upgrade.
+              "),
+
+    array(    "name" => "Relative location of images?",
+    	    "category" => "image-location",
+             "id" => "images_root",
+            "type" => "select",
+            "std" => "atahualpa",
+            "options" => array("atahualpa", "wp-content"),
+            "info" => "This is the relative location of the logo, favicon and header images. (see above)"),
+
+     array(    "name" => "Images Directory",
+    	    "category" => "image-location",
+             "id" => "ata_images_dir",
+            "std" => "ata-images",
+            "type" => "text",
+			"lastoption" => "yes", 
+            "info" => "Base directory for images. No leading or trailing slashes. If the 'Relative location of header images?' is set to 'atahualpa' this option is ignored and the default Ataualpa folders will be used.<br /><br />
+For <strong>MULTI SITES</strong>, you should choose the 'wp-content' option and give each multisite a unique folder name like <code>multi-01</code> and <code>multi-02</code>"),
+
 // New category: favicon
 
 	array(    "name" => "Favicon",
     	    "category" => "favicon",
-			"switch" => "yes",
-            "id" => "favicon_file",
+             "id" => "favicon_file",
             "std" => "new-favicon.ico",
             "type" => "text",
 			"size" => "30",
+			"switch" => "yes",
 			"lastoption" => "yes", 
             "info" =>  "<img src=\"" . $templateURI .
             "/options/images/favicon-locations.gif\" style=\"float: right;
@@ -491,12 +519,14 @@ $options1 = array(
             <img src=\"" . $templateURI . "/options/images/favicons.gif\"
             style=\"display: block; margin: 10px;\">"),
 
-// New category: header
 
+
+// New category: header
+		
     array(    "name" => "Configure Header Area",
     	    "category" => "header",
 			"switch" => "yes",
-            "id" => "configure_header",
+             "id" => "configure_header",
             "type" => "textarea-large",
             "editable" => "yes",
 			"size" => "30",
@@ -530,9 +560,18 @@ $options1 = array(
             </li><li><code>%pages %image %cats</code></li>
 			<li><code>%bar1 %logo %cats %bar2 %pages %bar1</code></li></ul>"),
 		
+    array(    "name" => "Full Width Header",
+    	    "category" => "header",
+             "id" => "full_width_header",
+            "type" => "select",
+            "std" => "No",
+            "options" => array("Yes", "No"),
+            "info" => "When this option is set to<code>Yes</code>the header will extend across the full width of the browser window.
+            When set to<code>No</code>it will only span the width of the LAYOUT."),
+		
 	array(    "name" => "Logo Area: Styling",
     	    "category" => "header",
-            "id" => "logoarea_style",
+             "id" => "logoarea_style",
             "std" => "",
             "type" => "textarea-large",
             "info" => "<img src=\"" . $templateURI . "/options/images/logo-area.jpg\" style=\"float: right; 
@@ -545,16 +584,16 @@ $options1 = array(
 
     array(    "name" => "Show Logo Image?",
     	    "category" => "header",
-            "id" => "logo",
+             "id" => "logo",
             "type" => "text",
             "std" => "logo.png",
-            "info" => "Show a logo in the logo area? Leave blank to show no logo. To test this, put <code>huge-logo.gif</code> 
-			here and set both \"Show Blog Title\" and \"Show Blog Tagline\" to \"No\" below. <br /><br />" . $logo_icon_text . 
-			" Upload custom logo images to /atahualpa/images/."),
+            "info" => "Show a logo in the logo area? Leave blank to show no logo image. To test this, put <code>huge-logo.gif</code> 
+			here and set both \"Show Blog Title\" and \"Show Blog Tagline\" to \"No\" below. <br /><br />
+			To show your own graphic, upload an image to the directory you defined in the <code>Images Location</code>."),
 
 	array(    "name" => "Logo Image: Styling",
     	    "category" => "header",
-            "id" => "logo_style",
+             "id" => "logo_style",
             "std" => "margin: 0 10px 0 0;",
             "type" => "textarea-large",
             "info" => "<img src=\"" . $templateURI . "/options/images/logo-style.gif\" style=\"float: right; 
@@ -563,7 +602,7 @@ $options1 = array(
 
     array(    "name" => "Show Blog Title?",
     	    "category" => "header",
-            "id" => "blog_title_show",
+             "id" => "blog_title_show",
             "type" => "select",
             "std" => "Yes",
             "options" => array("Yes", "No"),
@@ -573,14 +612,14 @@ $options1 = array(
 			
     array(    "name" => "Blog Title",
     	    "category" => "header",
-            "id" => "blog_title_style",
+             "id" => "blog_title_style",
             "std" => "margin: 0;\npadding: 0;\nletter-spacing: -1px;\nline-height: 1.0em;\nfont-family: tahoma, arial, sans-serif;\nfont-size: 240%;",
             "type" => "textarea-large",
             "info" => "Style the blog title font except the color and font-weight (= next options)."),
 
     array(    "name" => "Blog Title: Font Weight",
     	    "category" => "header",
-            "id" => "blog_title_weight",
+             "id" => "blog_title_weight",
             "type" => "select",
             "std" => "bold",
             "options" => array("bold", "normal"),
@@ -588,21 +627,21 @@ $options1 = array(
 			
     array(    "name" => "Blog Title Color",
     	    "category" => "header",
-            "id" => "blog_title_color",
+             "id" => "blog_title_color",
             "std" => "666666",
             "type" => "text",
             "info" => "The blog title default color."),
 			
     array(    "name" => "Blog Title Color: Hover",
     	    "category" => "header",
-            "id" => "blog_title_color_hover",
+             "id" => "blog_title_color_hover",
             "std" => "000000",
             "type" => "text",
             "info" => "The blog title hover color."),
 
     array(    "name" => "Show Blog Tagline?",
     	    "category" => "header",
-            "id" => "blog_tagline_show",
+             "id" => "blog_tagline_show",
             "type" => "select",
             "std" => "Yes",
             "options" => array("Yes", "No"),
@@ -612,14 +651,14 @@ $options1 = array(
 			
     array(    "name" => "Blog Tagline",
     	    "category" => "header",
-            "id" => "blog_tagline_style",
+             "id" => "blog_tagline_style",
             "std" => "margin: 0;\npadding: 0;\nfont-size: 1.2em;\nfont-weight: bold;\ncolor: #666666;",
             "type" => "textarea-large",
             "info" => "Style the blog tagline."),
 			
     array(    "name" => "Show search box?",
     	    "category" => "header",
-            "id" => "show_search_box",
+             "id" => "show_search_box",
             "type" => "select",
             "std" => "Yes",
             "options" => array("Yes", "No"),
@@ -630,14 +669,14 @@ $options1 = array(
 
 	array(    "name" => "Search box",
     	    "category" => "header",
-            "id" => "searchbox_style",
+             "id" => "searchbox_style",
             "std" => "border: 1px dashed #cccccc;\nborder-bottom: 0;\nwidth: 200px;\nmargin: 0;\npadding: 0;",
             "type" => "textarea-large",
             "info" => "Style the searchbox in the header."),
 
 	array(    "name" => "Text in header search box",
     	    "category" => "header",
-            "id" => "searchbox_text",
+             "id" => "searchbox_text",
             "std" => "",
             "type" => "text",
 			"size" => "30", 
@@ -646,7 +685,7 @@ $options1 = array(
 
     array(    "name" => "Horizontal Bar 1: Styling",
     	    "category" => "header",
-            "id" => "horbar1",
+             "id" => "horbar1",
             "std" => "height: 5px;\nbackground: #ffffff;\nborder-top: dashed 1px #cccccc;",
             "type" => "textarea-large",
             "info" => "2 (empty) horizontal bars are available, both of which you can style differently and use once or
@@ -655,7 +694,7 @@ $options1 = array(
 
     array(    "name" => "Horizontal Bar 2: Styling",
     	    "category" => "header",
-            "id" => "horbar2",
+             "id" => "horbar2",
             "std" => "height: 5px;\nbackground: #ffffff;\nborder-bottom: dashed 1px #cccccc;",
             "type" => "textarea-large",
 			"lastoption" => "yes", 
@@ -666,9 +705,9 @@ $options1 = array(
     array(    "name" => "Header Images",
     	    "category" => "header-image",
 			"switch" => "yes",
-            "id" => "header_image_info",
+             "id" => "header_image_info",
             "type" => "info",
-            "info" => "<br />All header images are located in <code>". $css_img_path ."images/header/</code>. All images in that directory will
+            "info" => "<br />All header images are located in the <code>Header Images Directory</code>. All images in that directory will
 			be rotated. If you don't want rotating header images, leave only one image in that directory. <ul><li>If you 
 			chose a fixed width layout, the image(s) should be as wide as your <a href=\"javascript: myflowers.expandit('layout-tab')\">layout width</a>.</li><li>If you chose a fluid layout, 
 			the images should be as wide as your \"max width\" setting.</li><li>If you chose no \"max-width\" setting, your 
@@ -678,16 +717,16 @@ $options1 = array(
 
     array(    "name" => "Rotate header images with Javascript?",
     	    "category" => "header-image",
-            "id" => "header_image_javascript",
+             "id" => "header_image_javascript",
             "type" => "select",
             "std" => "0",
             "options" => array(0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30),
             "info" => "Select amount of seconds between rotation. Set to 0 to not use Javascript for rotation. In this case  
-			a new random image from <code>". $css_img_path ."images/header/</code> will be used on each page view, but the images won't rotate while the page is being viewed."),
+			a new random image from the <code>Header Images Directory</code> will be used on each page view, but the images won't rotate while the page is being viewed."),
 
     array(    "name" => "Sort or Shuffle header images?",
     	    "category" => "header-image",
-            "id" => "header_image_sort_or_shuffle",
+             "id" => "header_image_sort_or_shuffle",
             "type" => "select",
             "std" => "Sort",
             "options" => array("Sort", "Shuffle"),
@@ -695,7 +734,7 @@ $options1 = array(
 
     array(    "name" => "Fade in/out header images with Javascript?",
     	    "category" => "header-image",
-            "id" => "crossslide_fade",
+             "id" => "crossslide_fade",
             "type" => "select",
             "std" => "0",
             "options" => array(0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30),
@@ -704,7 +743,7 @@ $options1 = array(
 
     array(    "name" => "Preload header images for Javascript rotation?",
     	    "category" => "header-image",
-            "id" => "header_image_javascript_preload",
+             "id" => "header_image_javascript_preload",
             "type" => "select",
             "std" => "Yes",
             "options" => array("Yes", "No"),
@@ -713,7 +752,7 @@ $options1 = array(
 			
     array(    "name" => "Make header image clickable?",
     	    "category" => "header-image",
-            "id" => "header_image_clickable",
+             "id" => "header_image_clickable",
             "type" => "select",
             "std" => "No",
             "options" => array("No", "Yes"),
@@ -721,7 +760,7 @@ $options1 = array(
 
     array(    "name" => "Header Image: Height",
     	    "category" => "header-image",
-            "id" => "headerimage_height",
+             "id" => "headerimage_height",
             "std" => "150",
             "type" => "text",
 			"size" => "5",
@@ -734,7 +773,7 @@ $options1 = array(
 
     array(    "name" => "Header Image: Alignment",
     	    "category" => "header-image",
-            "id" => "headerimage_alignment",
+             "id" => "headerimage_alignment",
             "type" => "select",
             "std" => "top center",
             "options" => array("top center", "top left", "top right", "center left", "center center", "center right", 
@@ -742,11 +781,12 @@ $options1 = array(
             "info" => "The aligned edge or end of the image will be the fixed part, and the image will be cut off from 
 			the opposite edge or end if it doesn't fit into the visitor's browser viewport. <br /><br />
 			<strong>Example:</strong> If you choose \"Top Left\" as the alignment, then the image(s) will be cut off 
-			from the opposite edge, which would be \"Bottom Right\" in this case."),
+			from the opposite edge, which would be \"Bottom Right\" in this case.<br /><br />
+			<strong>NOTE: If you choose to rotate and fade the header image, this option will automatically use \"Top Left\" as the alignment to prevent the image(s) from jumping when they are displayed.</strong>"),
 
     array(    "name" => "Opacity LEFT: Value",
     	    "category" => "header-image",
-            "id" => "header_opacity_left",
+             "id" => "header_opacity_left",
             "std" => "40",
             "type" => "select",
 			"options" => array("0", "5", "10", "15", "20", "25", "30", "35", "40", "45", "50", "55", "60", "65", 
@@ -757,7 +797,7 @@ $options1 = array(
 
     array(    "name" => "Opacity LEFT: Width",
     	    "category" => "header-image",
-            "id" => "header_opacity_left_width",
+             "id" => "header_opacity_left_width",
             "std" => "200",
             "type" => "text",
 			"size" => "5",
@@ -768,14 +808,14 @@ $options1 = array(
 
     array(    "name" => "Opacity LEFT: Color",
     	    "category" => "header-image",
-            "id" => "header_opacity_left_color",
+             "id" => "header_opacity_left_color",
             "std" => "ffffff",
             "type" => "text",
             "info" => "Color of the Opacity overlay for the LEFT hand side of the header image."),
 			
     array(    "name" => "Opacity RIGHT: Value",
     	    "category" => "header-image",
-            "id" => "header_opacity_right",
+             "id" => "header_opacity_right",
             "std" => "40",
             "type" => "select",
 			"options" => array("0", "5", "10", "15", "20", "25", "30", "35", "40", "45", "50", "55", "60", "65", 
@@ -786,7 +826,7 @@ $options1 = array(
 
     array(    "name" => "Opacity RIGHT: Width",
     	    "category" => "header-image",
-            "id" => "header_opacity_right_width",
+             "id" => "header_opacity_right_width",
             "std" => "200",
             "type" => "text",
 			"size" => "5",
@@ -797,14 +837,14 @@ $options1 = array(
 
     array(    "name" => "Opacity RIGHT: Color",
     	    "category" => "header-image",
-            "id" => "header_opacity_right_color",
+             "id" => "header_opacity_right_color",
             "std" => "ffffff",
             "type" => "text",
             "info" => "Color of the Opacity overlay for the RIGHT hand side of the header image."),
 
     array(    "name" => "Overlay Blog TITLE over Header Image(s)?",
     	    "category" => "header-image",
-            "id" => "overlay_blog_title",
+             "id" => "overlay_blog_title",
             "type" => "select",
             "std" => "No",
             "options" => array("No", "Yes"),
@@ -812,7 +852,7 @@ $options1 = array(
 
     array(    "name" => "Overlay Blog TAGLINE over Header Image(s)?",
     	    "category" => "header-image",
-            "id" => "overlay_blog_tagline",
+             "id" => "overlay_blog_tagline",
             "type" => "select",
             "std" => "No",
             "options" => array("No", "Yes"),
@@ -820,7 +860,7 @@ $options1 = array(
 
     array(    "name" => "Overlayed Blog Title/Tagline Style",
     	    "category" => "header-image",
-            "id" => "overlay_box_style",
+             "id" => "overlay_box_style",
             "std" => "margin-top: 30px;\nmargin-left: 30px;",
             "type" => "textarea-large",
             "info" => "<img src=\"" . $templateURI . "/options/images/header-overlay.jpg\" style=\"float: right; 
@@ -840,20 +880,20 @@ $options1 = array(
 			Leave <code>width: ...;</code> out to let the box adjust to the width of the blog title or tagline, whichever is longer.<br />
 			<br />To change the styles of the blog title or the blog tagline individually, see the menu tab \"Header\"."),        
 
-    array(    "name" => "<span style='background:white;color:red'>NEW</span> Overlay Header Image",
+    array(    "name" => "Overlay Header Image",
     	    "category" => "header-image",
-            "id" => "overlay_header_image",
+             "id" => "overlay_header_image",
             "std" => "",
             "type" => "textarea-large",
 			"lastoption" => "yes", 
             "info" => "The Overlay Header Image area allows you to put in HTML which will overlay the header image. You could use this code to put buttons for links on top of the header image. 
-			<span style='text-decoration:line-through'>You can also mix in PHP code in this area. This would allow you to point to an image in the wp-content folder and not have to worry about it's location during theme upgrades.</span><br /><br />
+			<br /><br />
 			For example, suppose you want to put buttons to link to your Twitter and FaceBook sites. You put the images (facebook.jpg and twitter.jpg) in a folder in wp-contents ('wp-content/my-images'). 
 			You could add the following to this option<br /><br />
 			<code>&lt;div id=\"header_image_sociable\"&gt;<br />&nbsp;&nbsp;&lt;ul&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a href=\"http://www.facebook.com/myid\"&gt;<br />
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;img src=\"<span style='text-decoration:line-through'>&lt;?php echo site_url(); ?&gt;</span>/wp-content/images/facebook.jpg\" alt=\"Facebook\" /&gt;&lt;/a&gt;&lt;/li&gt;<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;img src=\"/wp-content/images/facebook.jpg\" alt=\"Facebook\" /&gt;&lt;/a&gt;&lt;/li&gt;<br />
 			&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a href=\"http://www.twitter.com/myid\"&gt;<br />
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;img src=\"<span style='text-decoration:line-through'>&lt;?php echo site_url(); ?&gt;</span>/wp-content/images/twitter.jpg\" alt=\"Twitter\" /&gt;&lt;/a&gt;&lt;/li&gt;<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;img src=\"/wp-content/images/twitter.jpg\" alt=\"Twitter\" /&gt;&lt;/a&gt;&lt;/li&gt;<br />
 			&nbsp;&nbsp;&lt;/ul&gt;<br />&nbsp;&lt;/div&gt;</code>
 			<br /><br />Since 3.6.5 <span style='color:red'>PHP code cannot be used</span> anymore. The sample code above should still work, with the striked-through PHP code removed, if your WP installation is in the root of your domain. If it's in a subdirectory such as blog, 
 			the image paths would begin with <code>/blog/wp-content/...</code> instead of <code>/wp-content/</code>
@@ -864,7 +904,7 @@ $options1 = array(
     array(    "name" => "RSS settings",
     	    "category" => "feed-links",
 			"switch" => "yes",
-            "id" => "rss_settings_info",
+             "id" => "rss_settings_info",
             "type" => "info",
             "info" => "<br />Choose from 4 types of RSS links:<ul><li>Subscribe to the Posts feed</li><li>Subscribe to 
 			the Comments feed</li><li>Subscribe by Email, via Feedburner</li><li>Subscribe to the comments of a single
@@ -872,7 +912,7 @@ $options1 = array(
 			the logo area: Small buttons and/or text links.<br />Configuration: Menu tab \"RSS Settings\" (the page you're 
 			looking at right now)</li><li>In a sidebar, via the widget \"BFA Subscribe\". Bigger buttons and text, plus
 			a Email form field.<br />Configuration: WP Admin -> Appearance (\"Design\" or \"Presentation\" in older WP versions) -> <a href='widgets.php'>Widgets</a>
-			-> BFA Subscribe.</li><li>In the footer area: Text links.<br />Configuration: Menu tab 
+			-> BFA Subscribe.</li><li>In the   area: Text links.<br />Configuration: Menu tab 
 			<a href=\"javascript: myflowers.expandit('footer-style-tab')\">Style & edit FOOTER</a> -> Footer: Content.</li><li>
 			Above or below a post: Buttons and/or Text links<br />Configuration: Menu tab 
 			'Edit POST/PAGE INFO ITEMS' -> any of the 12 text areas.</li></ul>
@@ -892,7 +932,7 @@ $options1 = array(
 
 	array(    "name" => "RSS Box Width",
     	    "category" => "feed-links",
-            "id" => "rss_box_width",
+             "id" => "rss_box_width",
             "std" => "280",
             "type" => "text",
             "info" => "<img src=\"" . $templateURI . "/options/images/rss-box.gif\" style=\"float: right; margin: 0 0 10px 10px;\">" . 
@@ -901,7 +941,7 @@ $options1 = array(
 			
     array(    "name" => "Show Post Feed icon?",
     	    "category" => "feed-links",
-            "id" => "show_posts_icon",
+             "id" => "show_posts_icon",
             "type" => "select",
             "std" => "Yes",
             "options" => array("Yes", "No"),
@@ -910,7 +950,7 @@ $options1 = array(
 
 	array(    "name" => "Post Feed Link Text",
     	    "category" => "feed-links",
-            "id" => "post_feed_link",
+             "id" => "post_feed_link",
             "std" => __("Posts","atahualpa"),
             "type" => "text",
             "info" => "<img src=\"" . $templateURI . "/options/images/post_feed_link.gif\" style=\"float: right; margin: 0 0 10px 10px;\">" . 
@@ -918,7 +958,7 @@ $options1 = array(
 
 	array(    "name" => "Post Feed Link \"Title\"",
     	    "category" => "feed-links",
-            "id" => "post_feed_link_title",
+             "id" => "post_feed_link_title",
             "std" => __("Subscribe to the POSTS feed","atahualpa"),
             "type" => "text",
 			"size" => "30", 
@@ -927,7 +967,7 @@ $options1 = array(
 
     array(    "name" => "Show Comment Feed icon?",
     	    "category" => "feed-links",
-            "id" => "show_comments_icon",
+             "id" => "show_comments_icon",
             "type" => "select",
             "std" => "Yes",
             "options" => array("Yes", "No"),
@@ -936,7 +976,7 @@ $options1 = array(
 
 	array(    "name" => "Comment Feed Link Text",
     	    "category" => "feed-links",
-            "id" => "comment_feed_link",
+             "id" => "comment_feed_link",
             "std" => __("Comments","atahualpa"),
             "type" => "text",
             "info" => "<img src=\"" . $templateURI . "/options/images/comment_feed_link.gif\" style=\"float: right; margin: 0 0 10px 10px;\">" .
@@ -944,7 +984,7 @@ $options1 = array(
 
 	array(    "name" => "Comment Feed Link \"Title\"",
     	    "category" => "feed-links",
-            "id" => "comment_feed_link_title",
+             "id" => "comment_feed_link_title",
             "std" => __("Subscribe to the COMMENTS feed","atahualpa"),
             "type" => "text",
 			"size" => "30", 
@@ -953,7 +993,7 @@ $options1 = array(
 
     array(    "name" => "Show Feedburner Email icon?",
     	    "category" => "feed-links",
-            "id" => "show_email_icon",
+             "id" => "show_email_icon",
             "type" => "select",
             "std" => "No",
             "options" => array("No", "Yes"),
@@ -962,7 +1002,7 @@ $options1 = array(
 
 	array(    "name" => "Feedburner Email Link Text",
     	    "category" => "feed-links",
-            "id" => "email_subscribe_link",
+             "id" => "email_subscribe_link",
             "std" => __("By Email","atahualpa"),
             "type" => "text",
             "info" => "<img src=\"" . $templateURI . "/options/images/email_subscribe_link.gif\" style=\"float: right; margin: 0 0 10px 10px;\">" . 
@@ -970,7 +1010,7 @@ $options1 = array(
 
 	array(    "name" => "Feedburner Email Link \"Title\"",
     	    "category" => "feed-links",
-            "id" => "email_subscribe_link_title",
+             "id" => "email_subscribe_link_title",
             "std" => __("Subscribe by EMAIL","atahualpa"),
             "type" => "text",
 			"size" => "30", 
@@ -979,7 +1019,7 @@ $options1 = array(
 			
     array(    "name" => "Feedburner ID for this site?",
     	    "category" => "feed-links",
-            "id" => "feedburner_email_id",
+             "id" => "feedburner_email_id",
             "type" => "text",
             "std" => "",
 			"size" => "25", 
@@ -1002,7 +1042,7 @@ $options1 = array(
 
     array(    "name" => "OLD or NEW Feedburner account?",
     	    "category" => "feed-links",
-            "id" => "feedburner_old_new",
+             "id" => "feedburner_old_new",
             "type" => "select",
             "std" => "New - at feedburner.google.com",
 			"lastoption" => "yes", 
@@ -1015,7 +1055,7 @@ $options1 = array(
     array(    "name" => "Animate Page Menu Bar",
     	    "category" => "page-menu-bar",
 			"switch" => "yes",
-            "id" => "animate_page_menu_bar",
+             "id" => "animate_page_menu_bar",
             "std" => "No",
             "type" => "select",
             "options" => array("No", "Yes"),
@@ -1023,7 +1063,7 @@ $options1 = array(
 			
     array(    "name" => "Home link in Page Menu Bar",
     	    "category" => "page-menu-bar",
-            "id" => "home_page_menu_bar",
+             "id" => "home_page_menu_bar",
             "std" => __("Home","atahualpa"),
             "type" => "text",
             "info" => "<ul><li>Leave this blank to have no \"Home\" link in the page menu bar</li><li>Or, put text here 
@@ -1032,7 +1072,7 @@ $options1 = array(
 
     array(    "name" => "Exclude pages from Page Menu Bar?",
     	    "category" => "page-menu-bar",
-            "id" => "exclude_page_menu_bar",
+             "id" => "exclude_page_menu_bar",
             "std" => "",
             "type" => "text",
 			"size" => "30", 
@@ -1044,7 +1084,7 @@ $options1 = array(
 
     array(    "name" => "Depth of Page Menu Bar",
     	    "category" => "page-menu-bar",
-            "id" => "levels_page_menu_bar",
+             "id" => "levels_page_menu_bar",
             "std" => "0",
             "type" => "select",
             "options" => array(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10),
@@ -1053,7 +1093,7 @@ $options1 = array(
 
     array(    "name" => "Sorting order of Page Menu Bar",
     	    "category" => "page-menu-bar",
-            "id" => "sorting_page_menu_bar",
+             "id" => "sorting_page_menu_bar",
             "type" => "select",
             "std" => "menu_order",
             "options" => array("menu_order", "post_title"),
@@ -1062,7 +1102,7 @@ $options1 = array(
 
     array(    "name" => "Title tags in Page Menu Bar",
     	    "category" => "page-menu-bar",
-            "id" => "titles_page_menu_bar",
+             "id" => "titles_page_menu_bar",
             "type" => "select",
             "std" => "No",
             "options" => array("No", "Yes"),
@@ -1070,7 +1110,7 @@ $options1 = array(
 
     array(    "name" => "Don't link first level parent items in Page Menu Bar?",
     	    "category" => "page-menu-bar",
-            "id" => "page_menu_1st_level_not_linked",
+             "id" => "page_menu_1st_level_not_linked",
             "type" => "select",
             "std" => "No",
             "options" => array("No", "Yes"),
@@ -1081,7 +1121,7 @@ $options1 = array(
 			
     array(    "name" => "Border around all menu items",
     	    "category" => "page-menu-bar",
-            "id" => "anchor_border_page_menu_bar",
+             "id" => "anchor_border_page_menu_bar",
             "std" => "dashed 1px #cccccc",
             "type" => "text",
             "info" => "Every item of the menu bar, plus the menu bar itself, will be wrapped into this border. 
@@ -1091,7 +1131,7 @@ $options1 = array(
 
     array(    "name" => "Background color",
     	    "category" => "page-menu-bar",
-            "id" => "page_menu_bar_background_color",
+             "id" => "page_menu_bar_background_color",
             "std" => "ffffff",
             "type" => "text",
             "info" => "Background color for menu items in their default state and the menu bar itself."),
@@ -1099,21 +1139,21 @@ $options1 = array(
 
     array(    "name" => "Background color: Hover",
     	    "category" => "page-menu-bar",
-            "id" => "page_menu_bar_background_color_hover",
+             "id" => "page_menu_bar_background_color_hover",
             "std" => "eeeeee",
             "type" => "text",
             "info" => "Background color for menu items in hover and current state. <strong>Use fffffe instead of ffffff</strong> due to a \"White Background Hover Bug\" in IE7/IE8. http://haslayout.net/css/Hover-White-Background-Ignore-Bug. "),
 
     array(    "name" => "Background color: Parent",
     	    "category" => "page-menu-bar",
-            "id" => "page_menu_bar_background_color_parent",
+             "id" => "page_menu_bar_background_color_parent",
             "std" => "dddddd",
             "type" => "text",
             "info" => "Background color for parent menu item while hovering over its sub menu. <strong>Use fffffe instead of ffffff</strong> due to a \"White Background Hover Bug\" in IE7/IE8. http://haslayout.net/css/Hover-White-Background-Ignore-Bug."),
 
     array(    "name" => "Font Size &amp; Face",
     	    "category" => "page-menu-bar",
-            "id" => "page_menu_font",
+             "id" => "page_menu_font",
             "std" => "11px Arial, Verdana, sans-serif",
             "type" => "text",
 			"size" => "30", 
@@ -1124,21 +1164,21 @@ $options1 = array(
 
     array(    "name" => "Link Color",
     	    "category" => "page-menu-bar",
-            "id" => "page_menu_bar_link_color",
+             "id" => "page_menu_bar_link_color",
             "std" => "777777",
             "type" => "text",
             "info" => "Color of the link text."),
 
     array(    "name" => "Link Color: Hover",
     	    "category" => "page-menu-bar",
-            "id" => "page_menu_bar_link_color_hover",
+             "id" => "page_menu_bar_link_color_hover",
             "std" => "000000",
             "type" => "text",
             "info" => "Color of the link text in hover state."),
 	
     array(    "name" => "Transform text in Page Menu Bar?",
     	    "category" => "page-menu-bar",
-            "id" => "page_menu_transform",
+             "id" => "page_menu_transform",
             "type" => "select",
             "std" => "uppercase",
             "options" => array("uppercase", "lowercase", "capitalize", "none"),
@@ -1146,7 +1186,7 @@ $options1 = array(
 
     array(    "name" => "White or Black Arrows as Sub Menu Indicator?",
     	    "category" => "page-menu-bar",
-            "id" => "page_menu_arrows",
+             "id" => "page_menu_arrows",
             "type" => "select",
             "std" => "black",
             "options" => array("black", "white"),
@@ -1154,7 +1194,7 @@ $options1 = array(
 
     array(    "name" => "Width of Sub Menus",
     	    "category" => "page-menu-bar",
-            "id" => "page_menu_submenu_width",
+             "id" => "page_menu_submenu_width",
             "type" => "select",
             "std" => "11",
 			"lastoption" => "yes", 
@@ -1169,7 +1209,7 @@ $options1 = array(
     array(    "name" => "Animate Category Menu Bar",
     	    "category" => "cat-menu-bar",
 			"switch" => "yes",
-            "id" => "animate_cat_menu_bar",
+             "id" => "animate_cat_menu_bar",
             "std" => "No",
             "type" => "select",
             "options" => array("Yes", "No"),
@@ -1177,7 +1217,7 @@ $options1 = array(
 			
     array(    "name" => "Home link in Category Menu Bar",
     	    "category" => "cat-menu-bar",
-            "id" => "home_cat_menu_bar",
+             "id" => "home_cat_menu_bar",
             "std" => "",
             "type" => "text",
             "info" => "<ul><li>Leave this blank to have no \"Home\" link in the category menu bar</li><li>Or, put text 
@@ -1186,7 +1226,7 @@ $options1 = array(
 
     array(    "name" => "Exclude categories from Category Menu Bar?",
     	    "category" => "cat-menu-bar",
-            "id" => "exclude_cat_menu_bar",
+             "id" => "exclude_cat_menu_bar",
             "std" => "",
             "type" => "text",
 			"size" => "30", 
@@ -1198,7 +1238,7 @@ $options1 = array(
 
     array(    "name" => "Depth of Category Menu Bar",
     	    "category" => "cat-menu-bar",
-            "id" => "levels_cat_menu_bar",
+             "id" => "levels_cat_menu_bar",
             "std" => "0",
             "type" => "select",
             "options" => array(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10),
@@ -1207,7 +1247,7 @@ $options1 = array(
 
     array(    "name" => "Sort Category Menu Bar by:",
     	    "category" => "cat-menu-bar",
-            "id" => "sorting_cat_menu_bar",
+             "id" => "sorting_cat_menu_bar",
             "type" => "select",
             "std" => "ID",
             "options" => array("ID", "name", "count", "order"),
@@ -1219,7 +1259,7 @@ $options1 = array(
 
     array(    "name" => "Sorting order Category Menu Bar",
     	    "category" => "cat-menu-bar",
-            "id" => "order_cat_menu_bar",
+             "id" => "order_cat_menu_bar",
             "type" => "select",
             "std" => "ASC",
             "options" => array("ASC", "DESC"),
@@ -1227,7 +1267,7 @@ $options1 = array(
 			
     array(    "name" => "Title tags in Category Menu Bar",
     	    "category" => "cat-menu-bar",
-            "id" => "titles_cat_menu_bar",
+             "id" => "titles_cat_menu_bar",
             "type" => "select",
             "std" => "No",
             "options" => array("No", "Yes"),
@@ -1238,7 +1278,7 @@ $options1 = array(
 
     array(    "name" => "Add category description to menu bar tabs",
     	    "category" => "cat-menu-bar",
-            "id" => "add_descr_cat_menu_links",
+             "id" => "add_descr_cat_menu_links",
             "type" => "select",
             "std" => "No",
             "options" => array("No", "Yes"),
@@ -1249,7 +1289,7 @@ $options1 = array(
 
     array(    "name" => "Default Category description text",
     	    "category" => "cat-menu-bar",
-            "id" => "default_cat_descr_text",
+             "id" => "default_cat_descr_text",
             "std" => "View all posts filed under<br />%category%",
             "type" => "text",
 			"size" => "30", 
@@ -1260,7 +1300,7 @@ $options1 = array(
 			
     array(    "name" => "Border around all menu items",
     	    "category" => "cat-menu-bar",
-            "id" => "anchor_border_cat_menu_bar",
+             "id" => "anchor_border_cat_menu_bar",
             "std" => "solid 1px #000000",
             "type" => "text",
             "info" => "Every item of the menu bar, plus the menu bar itself, will be wrapped into this border. 
@@ -1269,28 +1309,28 @@ $options1 = array(
 
     array(    "name" => "Background color",
     	    "category" => "cat-menu-bar",
-            "id" => "cat_menu_bar_background_color",
+             "id" => "cat_menu_bar_background_color",
             "std" => "777777",
             "type" => "text",
             "info" => "Background color for menu items in their default state and the menu bar itself."),
 
     array(    "name" => "Background color: Hover",
     	    "category" => "cat-menu-bar",
-            "id" => "cat_menu_bar_background_color_hover",
+             "id" => "cat_menu_bar_background_color_hover",
             "std" => "cc0000",
             "type" => "text",
             "info" => "Background color for menu items in hover and current state. <strong>Use fffffe instead of ffffff</strong> due to a \"White Background Hover Bug\" in IE7/IE8. http://haslayout.net/css/Hover-White-Background-Ignore-Bug."),
 
     array(    "name" => "Background color: Parent",
     	    "category" => "cat-menu-bar",
-            "id" => "cat_menu_bar_background_color_parent",
+             "id" => "cat_menu_bar_background_color_parent",
             "std" => "000000",
             "type" => "text",
             "info" => "Background color for parent menu item while hovering over its sub menu. <strong>Use fffffe instead of ffffff</strong> due to a \"White Background Hover Bug\" in IE7/IE8. http://haslayout.net/css/Hover-White-Background-Ignore-Bug."),
 			
     array(    "name" => "Font for Category Menu Bar",
     	    "category" => "cat-menu-bar",
-            "id" => "cat_menu_font",
+             "id" => "cat_menu_font",
             "std" => "11px Arial, Verdana, sans-serif",
             "type" => "text",
 			"size" => "30", 
@@ -1301,21 +1341,21 @@ $options1 = array(
 
     array(    "name" => "Link Color",
     	    "category" => "cat-menu-bar",
-            "id" => "cat_menu_bar_link_color",
+             "id" => "cat_menu_bar_link_color",
             "std" => "ffffff",
             "type" => "text",
             "info" => "Color of the link text in default state."),
 
     array(    "name" => "Link Color: Hover",
     	    "category" => "cat-menu-bar",
-            "id" => "cat_menu_bar_link_color_hover",
+             "id" => "cat_menu_bar_link_color_hover",
             "std" => "ffffff",
             "type" => "text",
             "info" => "Color of the link text in hover state."),
 			
     array(    "name" => "Transform text in Category Menu Bar?",
     	    "category" => "cat-menu-bar",
-            "id" => "cat_menu_transform",
+             "id" => "cat_menu_transform",
             "type" => "select",
             "std" => "uppercase",
             "options" => array("uppercase", "lowercase", "capitalize", "none"),
@@ -1323,7 +1363,7 @@ $options1 = array(
 			
     array(    "name" => "White or Black Arrows as Sub Menu Indicator?",
     	    "category" => "cat-menu-bar",
-            "id" => "cat_menu_arrows",
+             "id" => "cat_menu_arrows",
             "type" => "select",
             "std" => "white",
             "options" => array("white", "black"),
@@ -1332,7 +1372,7 @@ $options1 = array(
 
     array(    "name" => "Width of Sub Menus",
     	    "category" => "cat-menu-bar",
-            "id" => "cat_menu_submenu_width",
+             "id" => "cat_menu_submenu_width",
             "type" => "select",
             "std" => "11",
 			"lastoption" => "yes", 
@@ -1347,30 +1387,52 @@ $options1 = array(
 
 	array(    "name" => "Center column style",
     	    "category" => "center",
-			"switch" => "yes",
-            "id" => "center_column_style",
-            "std" => "padding: 10px 15px;",
+             "id" => "center_column_style",
             "type" => "textarea-large",
-
+			"switch" => "yes",
+            "std" => "padding: 10px 15px;",
             "info" => "Style the center column here. The center column is the container for everything in the middle: 
 			All posts (including \"page\" posts) and the next/prev navigation."),
 
+// ---------------------------------
+	array(    "name" => "Center Column Top - widget area",
+    	    "category" => "center",
+             "id" => "widget_center_top",
+            "type" => "textarea-large",
+			"switch" => "yes",
+            "std" => "",
+            "info" => "You can add a new Widget Area here that will appear at the top of the center area. This widget area will display in posts and pages. <br />To control when it displays, use a plugin like 'Widget Logic'. See the <span style='color:red'>Add Dynamic Widget Areas</span> for the available options.<br /><br />
+            example 1: <code>&lt;?php bfa_widget_area('name=Center Top widget area'); ?&gt;</code> - shortest and most basic way you can create a widget area<br />
+            example 2: <code>&lt;?php bfa_widget_area('name=Center top widget area&cells=3'); ?&gt;</code> - This will create three widget areas<br />
+            example 3: <code>&lt;?php bfa_widget_area('name=Center top widget area&cells=2&width_1=400'); ?&gt;</code> - This will create a two widget area and the first one will be 400 px wide
+            "),
+
+
+	array(    "name" => "Center Column Bottom - widget area",
+    	    "category" => "center",
+			"switch" => "yes",
+             "id" => "widget_center_bottom",
+            "std" => "",
+            "type" => "textarea-large",
+            "info" => "You can add a new Widget Area here that will appear at the bottom of the center area. See the <span style='color:red'>Add Dynamic Widget Areas</span> for the available options."),
+
+// ---------------------------------
+
     array(    "name" => "Where are the 'Content ABOVE Loop', 'The LOOP' etc. options?",
     	    	"category" => "center",
-            "id" => "widget_areas_reset",
+             "id" => "widget_areas_reset",
             "type" => "info",
 			"lastoption" => "yes",
             "info" => "<strong>They are now 'hardcoded' into Atahualpa's &lt;code&gt;index.php&lt;/code&gt;. To edit the loop or to add custom code before/after the loop, manually edit &lt;code&gt;index.php&lt;/code&gt;.</strong><br /><br />Since 3.6.5 custom PHP code isn't possible anymore in the Atahualpa Theme Options. Atahualpa was one of few themes, if not the only theme, to allow custom PHP code to be inserted through theme options. 
 			The philosophy as to what themes should or should not be able to do (i.e. which PHP functions they can use) has been tightened up quite a bit lately by WordPress, so in order to stay listed on wordpress.org we 
 			had to remove this 'custom PHP' feature. Check wordpress.bytesforall.com and forum.bytesforall.com for possible workarounds or even alternative theme versions, if you cannot live without custom PHP."),
-
 			
 // new category: center
 /*
 	array(    "name" => "Center column style",
     	    "category" => "center",
 			"switch" => "yes",
-            "id" => "center_column_style",
+             "id" => "center_column_style",
             "std" => "padding: 10px 15px;",
             "type" => "textarea-large",
             "info" => "Style the center column here. The center column is the container for everything in the middle: 
@@ -1378,7 +1440,7 @@ $options1 = array(
 
 	array(    "name" => "Content ABOVE the LOOP",
     	    "category" => "center",
-            "id" => "content_above_loop",
+             "id" => "content_above_loop",
             "std" => "<?php bfa_next_previous_page_links('Top'); ?>",
             "type" => "textarea-large",
             "info" => "Edit/add/remove content above THE LOOP. The Loop is the content that Wordpress outputs for a particular page. This 
@@ -1387,7 +1449,7 @@ post or a static page. You can use HTML and <strong>PHP</strong> here and in the
 
 	array(    "name" => "The LOOP",
     	    "category" => "center",
-            "id" => "content_inside_loop",
+             "id" => "content_inside_loop",
             "std" => "<?php bfa_next_previous_post_links('Top'); ?>
 
 <?php 
@@ -1424,7 +1486,7 @@ This here will be displayed after the 3rd post on (only) the homepage.<br /><br 
 						
 	array(    "name" => "Content BELOW the LOOP",
     	    "category" => "center",
-            "id" => "content_below_loop",
+             "id" => "content_below_loop",
             "std" => "<?php bfa_next_previous_post_links('Middle'); ?>
 
 <?php bfa_get_comments(); ?>
@@ -1439,7 +1501,7 @@ This here will be displayed after the 3rd post on (only) the homepage.<br /><br 
 
 	array(    "name" => "Content if NOT FOUND",
     	    "category" => "center",
-            "id" => "content_not_found",
+             "id" => "content_not_found",
             "std" => "<h2><?php _e('Not Found','atahualpa'); ?></h2>
 <p><?php _e(\"Sorry, but you are looking for something that isn't here.\",\"atahualpa\"); ?></p>",
             "type" => "textarea-large",
@@ -1452,7 +1514,7 @@ This here will be displayed after the 3rd post on (only) the homepage.<br /><br 
     array(    "name" => "NEWER / OLDER orientation",
     	    "category" => "next-prev-nav",
 			"switch" => "yes",
-            "id" => "next_prev_orientation",
+             "id" => "next_prev_orientation",
             "std" => "Newer Left, Older Right",
             "type" => "select", 
 			"options" => array("Newer Left, Older Right", "Older Left, Newer Right"), 
@@ -1460,7 +1522,7 @@ This here will be displayed after the 3rd post on (only) the homepage.<br /><br 
 			
     array(    "name" => "Home link in Nav. on MULTI post pages?",
     	    "category" => "next-prev-nav",
-            "id" => "home_multi_next_prev",
+             "id" => "home_multi_next_prev",
             "std" => "",
             "type" => "text",
             "info" => "On multi post pages, show a \"Home\" link between the 2 links pointing to the previous and 
@@ -1470,7 +1532,7 @@ This here will be displayed after the 3rd post on (only) the homepage.<br /><br 
 
     array(    "name" => "Home link in Nav. on SINGLE post pages?",
     	    "category" => "next-prev-nav",
-            "id" => "home_single_next_prev",
+             "id" => "home_single_next_prev",
             "std" => "",
             "type" => "text",
             "info" => "On single post pages, show a \"Home\" link between the 2 links pointing to the previous and 
@@ -1479,7 +1541,7 @@ This here will be displayed after the 3rd post on (only) the homepage.<br /><br 
 
     array(    "name" => "\"Newer Page\" link on MULTI post pages",
     	    "category" => "next-prev-nav",
-            "id" => "multi_next_prev_newer",
+             "id" => "multi_next_prev_newer",
             "std" => __("&laquo; Newer Entries","atahualpa"),
             "type" => "text",
 			"size" => "30", 
@@ -1498,7 +1560,7 @@ This here will be displayed after the 3rd post on (only) the homepage.<br /><br 
 
     array(    "name" => "\"Older Page\" link on MULTI post pages",
     	    "category" => "next-prev-nav",
-            "id" => "multi_next_prev_older",
+             "id" => "multi_next_prev_older",
             "std" => __("Older Entries &raquo;","atahualpa"),
             "type" => "text",
 			"size" => "30", 
@@ -1507,7 +1569,7 @@ This here will be displayed after the 3rd post on (only) the homepage.<br /><br 
 
     array(    "name" => "\"Newer Post\" link on SINGLE post pages",
     	    "category" => "next-prev-nav",
-            "id" => "single_next_prev_newer",
+             "id" => "single_next_prev_newer",
             "std" => "&laquo; %link",
             "type" => "text",
 			"size" => "30", 
@@ -1516,7 +1578,7 @@ This here will be displayed after the 3rd post on (only) the homepage.<br /><br 
 			
     array(    "name" => "\"Older Post\" link on SINGLE post pages",
     	    "category" => "next-prev-nav",
-            "id" => "single_next_prev_older",
+             "id" => "single_next_prev_older",
             "std" => "%link &raquo;",
             "type" => "text",
 			"size" => "30", 
@@ -1525,7 +1587,7 @@ This here will be displayed after the 3rd post on (only) the homepage.<br /><br 
 
     array(    "name" => "Keep next/prev. links on SINGLE post pages to same post category?",
     	    "category" => "next-prev-nav",
-            "id" => "single_next_prev_same_cat",
+             "id" => "single_next_prev_same_cat",
             "std" => "No",
             "type" => "select", 
 			"options" => array("No", "Yes"), 
@@ -1538,7 +1600,7 @@ $options2 = array(
 
     array(    "name" => "\"Newer Comments\" link for COMMENTS navigation",
     	    "category" => "next-prev-nav",
-            "id" => "comments_next_prev_newer",
+             "id" => "comments_next_prev_newer",
             "std" => __("Newer Comments &raquo;","atahualpa"),
             "type" => "text",
 			"size" => "30", 
@@ -1548,7 +1610,7 @@ $options2 = array(
 			
     array(    "name" => "\"Older Comments\" link for COMMENTS navigation",
     	    "category" => "next-prev-nav",
-            "id" => "comments_next_prev_older",
+             "id" => "comments_next_prev_older",
             "std" => __("&laquo; Older Comments","atahualpa"),
             "type" => "text",
 			"size" => "30", 
@@ -1558,7 +1620,7 @@ $options2 = array(
 
     array(    "name" => "Location of Paged COMMENTS Navigation",
     	    "category" => "next-prev-nav",
-            "id" => "location_comments_next_prev",
+             "id" => "location_comments_next_prev",
             "std" => "Above and Below Comments",
             "type" => "select", 
 			"options" => array("Above Comments", "Below Comments", "Above and Below Comments"),
@@ -1567,21 +1629,21 @@ $options2 = array(
 
     array(    "name" => "Style the COMMENTS ABOVE Box",
     	    "category" => "next-prev-nav",
-            "id" => "next_prev_style_comments_above",
+             "id" => "next_prev_style_comments_above",
             "std" => "margin: 0 0 10px 0;\npadding: 5px 0 5px 0;",
             "type" => "textarea-large",
             "info" => "Style the box that contains the next/previous navigation for comments, when it is above the comments."),
 
     array(    "name" => "Style the COMMENTS BELOW Box",
     	    "category" => "next-prev-nav",
-            "id" => "next_prev_style_comments_below",
+             "id" => "next_prev_style_comments_below",
             "std" => "margin: 0 0 10px 0;\npadding: 5px 0 5px 0;",
             "type" => "textarea-large",
             "info" => "Style the box that contains the next/previous navigation for comments, when it is below the comments."),
 
     array(    "name" => "Show Page Numbers (Pagination) for COMMENTS Navigation",
     	    "category" => "next-prev-nav",
-            "id" => "next_prev_comments_pagination",
+             "id" => "next_prev_comments_pagination",
             "std" => "Yes",
             "type" => "select", 
 			"options" => array("Yes", "No"), 
@@ -1595,7 +1657,7 @@ $options3 = array(
 			
     array(    "name" => "Location of Next/Previous Page Navigation on MULTI Post Pages",
     	    "category" => "next-prev-nav",
-            "id" => "location_multi_next_prev",
+             "id" => "location_multi_next_prev",
             "std" => "Bottom",
             "type" => "select", 
 			"options" => array("Top", "Bottom", "Top and Bottom", "None"), 
@@ -1604,7 +1666,7 @@ $options3 = array(
 			
     array(    "name" => "Location of Next/Previous Post Navigation on SINGLE Post Pages",
     	    "category" => "next-prev-nav",
-            "id" => "location_single_next_prev",
+             "id" => "location_single_next_prev",
             "std" => "Top",
             "type" => "select", 
 			"options" => array("Top", "Middle", "Bottom", "Top and Middle", "Top and Bottom", "Middle and Bottom", 
@@ -1614,21 +1676,21 @@ $options3 = array(
 
     array(    "name" => "Style the Navigation TOP Box",
     	    "category" => "next-prev-nav",
-            "id" => "next_prev_style_top",
+             "id" => "next_prev_style_top",
             "std" => "margin: 0 0 10px 0;\npadding: 0 0 10px 0;\nborder-bottom: dashed 1px #cccccc;",
             "type" => "textarea-large",
             "info" => "Style the box that contains the next/previous navigation, when it is at the top."),
 
 	array(    "name" => "Style the Navigation MIDDLE Box",
     	    "category" => "next-prev-nav",
-            "id" => "next_prev_style_middle",
+             "id" => "next_prev_style_middle",
             "std" => "margin: 10px 0 20px 0;\npadding: 10px 0 10px 0;\nborder-top: dashed 1px #cccccc;\nborder-bottom: dashed 1px #cccccc;",
             "type" => "textarea-large",
             "info" => "Style the box that contains the next/previous navigation, when it is in the middle."),
 			
     array(    "name" => "Style the Navigation BOTTOM Box",
     	    "category" => "next-prev-nav",
-            "id" => "next_prev_style_bottom",
+             "id" => "next_prev_style_bottom",
             "std" => "margin: 20px 0 0 0;\npadding: 10px 0 0 0;\nborder-top: dashed 1px #cccccc;",
             "type" => "textarea-large",
 			"lastoption" => "yes", 
@@ -1639,7 +1701,7 @@ $options3 = array(
     array(    "name" => "LEFT sidebar: Display on:",
     	    "category" => "sidebars",
 			"switch" => "yes",
-            "id" => "leftcol_on",
+             "id" => "leftcol_on",
             "std" => array ("homepage" => "on", 
 								"frontpage" => "on", 
 								"single" => "on", 
@@ -1663,7 +1725,7 @@ $options3 = array(
 
     array(    "name" => "LEFT sidebar: Don't display on Pages:",
     	    "category" => "sidebars",
-            "id" => "left_col_pages_exclude",
+             "id" => "left_col_pages_exclude",
             "std" => "",
             "type" => "text",
 			"size" => "30", 
@@ -1675,7 +1737,7 @@ $options3 = array(
 
     array(    "name" => "LEFT sidebar: Don't display on Categories:",
     	    "category" => "sidebars",
-            "id" => "left_col_cats_exclude",
+             "id" => "left_col_cats_exclude",
             "std" => "",
             "type" => "text",
 			"size" => "30", 
@@ -1688,7 +1750,7 @@ $options3 = array(
 
     array(    "name" => "LEFT INNER sidebar: Display on:",
     	    "category" => "sidebars",
-            "id" => "leftcol2_on",
+             "id" => "leftcol2_on",
             "std" => array ("check-if-saved-once" => FALSE),
             "type" => "displayon",
 			"stripslashes" => "no",
@@ -1700,7 +1762,7 @@ $options3 = array(
 
     array(    "name" => "LEFT INNER sidebar: Don't display on Pages:",
     	    "category" => "sidebars",
-            "id" => "left_col2_pages_exclude",
+             "id" => "left_col2_pages_exclude",
             "std" => "",
             "type" => "text",
 			"size" => "30", 
@@ -1712,7 +1774,7 @@ $options3 = array(
 
     array(    "name" => "LEFT INNER sidebar: Don't display on Categories:",
     	    "category" => "sidebars",
-            "id" => "left_col2_cats_exclude",
+             "id" => "left_col2_cats_exclude",
             "std" => "",
             "type" => "text",
 			"size" => "30", 
@@ -1725,7 +1787,7 @@ $options3 = array(
 						
 	array(    "name" => "RIGHT sidebar: Display on:",
     	    "category" => "sidebars",
-            "id" => "rightcol_on",
+             "id" => "rightcol_on",
             "std" => array ("homepage" => "on", 
 								"frontpage" => "on", 
 								"single" => "on", 
@@ -1749,7 +1811,7 @@ $options3 = array(
 
     array(    "name" => "RIGHT sidebar: Don't display on Pages:",
     	    "category" => "sidebars",
-            "id" => "right_col_pages_exclude",
+             "id" => "right_col_pages_exclude",
             "std" => "",
             "type" => "text",
 			"size" => "30", 
@@ -1761,7 +1823,7 @@ $options3 = array(
 
     array(    "name" => "RIGHT sidebar: Don't display on Categories:",
     	    "category" => "sidebars",
-            "id" => "right_col_cats_exclude",
+             "id" => "right_col_cats_exclude",
             "std" => "",
             "type" => "text",
 			"size" => "30", 
@@ -1774,7 +1836,7 @@ $options3 = array(
 
 	array(    "name" => "RIGHT INNER sidebar: Display on:",
     	    "category" => "sidebars",
-            "id" => "rightcol2_on",
+             "id" => "rightcol2_on",
             "std" => array ("check-if-saved-once" => FALSE),
             "type" => "displayon",
 			"stripslashes" => "no",
@@ -1786,7 +1848,7 @@ $options3 = array(
 
     array(    "name" => "RIGHT INNER sidebar: Don't display on Pages:",
     	    "category" => "sidebars",
-            "id" => "right_col2_pages_exclude",
+             "id" => "right_col2_pages_exclude",
             "std" => "",
             "type" => "text",
 			"size" => "30", 
@@ -1798,7 +1860,7 @@ $options3 = array(
 
     array(    "name" => "RIGHT INNER sidebar: Don't display on Categories:",
     	    "category" => "sidebars",
-            "id" => "right_col2_cats_exclude",
+             "id" => "right_col2_cats_exclude",
             "std" => "",
             "type" => "text",
 			"size" => "30", 
@@ -1811,7 +1873,7 @@ $options3 = array(
 			
     array(    "name" => "LEFT sidebar WIDTH",
     	    "category" => "sidebars",
-            "id" => "left_sidebar_width",
+             "id" => "left_sidebar_width",
             "std" => "200",
             "type" => "text", 
 			"size" => "6", 
@@ -1819,7 +1881,7 @@ $options3 = array(
 
     array(    "name" => "LEFT INNER sidebar WIDTH",
     	    "category" => "sidebars",
-            "id" => "left_sidebar2_width",
+             "id" => "left_sidebar2_width",
             "std" => "200",
             "type" => "text", 
 			"size" => "6", 
@@ -1827,7 +1889,7 @@ $options3 = array(
             
     array(    "name" => "RIGHT sidebar WIDTH",
     	    "category" => "sidebars",
-            "id" => "right_sidebar_width",
+             "id" => "right_sidebar_width",
             "std" => "200",
             "type" => "text", 
 			"size" => "6", 
@@ -1835,7 +1897,7 @@ $options3 = array(
 
     array(    "name" => "RIGHT INNER sidebar WIDTH",
     	    "category" => "sidebars",
-            "id" => "right_sidebar2_width",
+             "id" => "right_sidebar2_width",
             "std" => "200",
             "type" => "text", 
 			"size" => "6", 
@@ -1843,7 +1905,7 @@ $options3 = array(
             			
     array(    "name" => "LEFT sidebar style",
     	    "category" => "sidebars",
-            "id" => "left_sidebar_style",
+             "id" => "left_sidebar_style",
             "std" => "border-right: dashed 1px #CCCCCC;\npadding: 10px 10px 10px 10px;\nbackground: #ffffff;",
             "type" => "textarea-large",
             "info" => "Style the LEFT sidebar here. Usually all content in a sidebar would be inside of widgets,
@@ -1852,7 +1914,7 @@ $options3 = array(
 
     array(    "name" => "LEFT INNER sidebar style",
     	    "category" => "sidebars",
-            "id" => "left_sidebar2_style",
+             "id" => "left_sidebar2_style",
             "std" => "border-right: dashed 1px #CCCCCC;\npadding: 10px 10px 10px 10px;\nbackground: #ffffff;",
             "type" => "textarea-large",
             "info" => "Style the LEFT sidebar here. Usually all content in a sidebar would be inside of widgets,
@@ -1861,14 +1923,14 @@ $options3 = array(
 			
     array(    "name" => "RIGHT sidebar style",
     	    "category" => "sidebars",
-            "id" => "right_sidebar_style",
+             "id" => "right_sidebar_style",
             "std" => "border-left: dashed 1px #CCCCCC;\npadding: 10px 10px 10px 10px;\nbackground: #ffffff;",
             "type" => "textarea-large",
             "info" => "Style the RIGHT sidebar here."),
 
     array(    "name" => "RIGHT INNER sidebar style",
     	    "category" => "sidebars",
-            "id" => "right_sidebar2_style",
+             "id" => "right_sidebar2_style",
             "std" => "border-left: dashed 1px #CCCCCC;\npadding: 10px 10px 10px 10px;\nbackground: #ffffff;",
             "type" => "textarea-large",
 			"lastoption" => "yes", 
@@ -1879,7 +1941,7 @@ $options3 = array(
     array(    "name" => "Widget Container",
     	    "category" => "widgets",
 			"switch" => "yes",
-            "id" => "widget_container",
+             "id" => "widget_container",
             "std" => "margin: 0 0 15px 0;",
             "type" => "textarea-large",
             "info" => "<img src=\"" . $templateURI . "/options/images/widget.gif\" 
@@ -1889,7 +1951,7 @@ $options3 = array(
 
     array(    "name" => "Widget Title Box",
     	    "category" => "widgets",
-            "id" => "widget_title_box",
+             "id" => "widget_title_box",
             "std" => "",
             "type" => "textarea-large",
             "info" => "<img src=\"" . $templateURI . "/options/images/widget-title-box.gif\" 
@@ -1899,7 +1961,7 @@ $options3 = array(
 
     array(    "name" => "Widget Title",
     	    "category" => "widgets",
-            "id" => "widget_title",
+             "id" => "widget_title",
             "std" => "font-size: 1.6em;\nfont-weight: bold;",
             "type" => "textarea-large",
             "info" => "<img src=\"" . $templateURI . "/options/images/widget-title.gif\" 
@@ -1907,7 +1969,7 @@ $options3 = array(
 
     array(    "name" => "Widget Content Box",
     	    "category" => "widgets",
-            "id" => "widget_content",
+             "id" => "widget_content",
             "std" => "",
             "type" => "textarea-large",
             "info" => "<img src=\"" . $templateURI . "/options/images/widget-content.gif\" 
@@ -1922,7 +1984,7 @@ $options3 = array(
 
     array(    "name" => "Widget List Items",
     	    "category" => "widgets",
-            "id" => "widget_lists",
+             "id" => "widget_lists",
        			"std" => array  (
        								"li-margin-left" => 0, 
        								"link-weight" => "normal", 
@@ -1939,7 +2001,7 @@ $options3 = array(
 
     array(    "name" => "Widget List Items, 2nd level",
     	    "category" => "widgets",
-            "id" => "widget_lists2",
+             "id" => "widget_lists2",
        			"std" => array  (
        								"li-margin-left" => 5, 
        								"link-weight" => "normal",
@@ -1956,7 +2018,7 @@ $options3 = array(
 
     array(    "name" => "Widget List Items, 3rd and lower level",
     	    "category" => "widgets",
-            "id" => "widget_lists3",
+             "id" => "widget_lists3",
 				"std" => array  (
        								"li-margin-left" => 5, 
        								"link-weight" => "normal", 
@@ -1973,7 +2035,7 @@ $options3 = array(
 
     array(    "name" => "Category Widget Display Type",
     	    "category" => "widgets",
-            "id" => "category_widget_display_type",
+             "id" => "category_widget_display_type",
             "std" => "inline",
             "type" => "select", 
             "options" => array("inline", "block"),
@@ -1985,7 +2047,7 @@ $options3 = array(
 
     array(    "name" => "Adjust SELECT menu font size",
     	    "category" => "widgets",
-            "id" => "select_font_size",
+             "id" => "select_font_size",
             "std" => "Default",
             "type" => "select", 
             "options" => array("Default", "12px", "11px", "10px", "9px"),
@@ -2000,28 +2062,28 @@ $options3 = array(
 			
 // New category: widget-areas
 
-    array(    "name" => "Delete custom Widget Areas",
+    array(    "name" => "Delete Dynamic Widget Areas",
     	    	"category" => "widget-areas",
 				"switch" => "yes",
-            "id" => "widget_areas_reset",
+             "id" => "widget_areas_reset",
             "type" => "info",
             "info" => "1) Delete the <code>&lt;?php bfa_widget_area(...) ?&gt;</code> code from whichever text area here in the theme options you placed it in.
             <br />2) Select the widget areas that you want to delete and click the link below. <br />Note: The widget areas will be re-created until you deleted its associated code (see step 1). <br />
 <form action=\"\" method=\"\" id=\"widgetarea-form\">" . $widget_form_string . "</form>
 <a style='display:block; background:#C6D9E9;width:250px;margin-top:10px; padding:5px 10px;' id='reset_widget_areas' href='#'>Delete checked Widget Areas</a><span style='color:green;font-weight:bold;float:left;padding-left:30px' id='formstatus'></span><br />"),
 
-    array(    "name" => "Add new Widget Areas",
+    array(    "name" => "Add Dynamic Widget Areas",
     	    	"category" => "widget-areas",
-            "id" => "widget_areas_info",
+             "id" => "widget_areas_info",
             "type" => "info",
 				"lastoption" => "yes", 
-            "info" => "<strong>Note: After you've added new widget areas, you'll need to <span style='color:red'>reload a front end page</span> 
+            "info" => "<strong>Note: After you've added dynamic widget areas, you'll need to <span style='color:red'>reload a front end page</span> 
             1-2 times before they get created and start appearing on the front end. And you'll need to <span style='color:red'>reload WP->Presentation->Widgets</span> 
-            1-2 times before you can see the new widget areas there and start adding widgets.</strong><br /><br />In addition to the existing widget areas (the sidebars) you can add additional widget areas, i.e. in the header 
-area, the center column or the footer area. This page here only explains how to use this feature. To actually add a new widget area 
+            1-2 times before you can see the dynamic widget areas there and start adding widgets.</strong><br /><br />In addition to the existing widget areas (the sidebars) you can add additional widget areas, i.e. in the header 
+area, header image overlay, the center column or the footer area. This page here only explains how to use this feature. To actually add a dynamic widget area 
 you'll have to go to one of the following menu tabs:
 <ul><li><a href=\"javascript: myflowers.expandit('header-tab')\">Style & edit HEADER AREA</a>: Put the code into the text area named \"Configure Header Area\".</li>
-<li><a href=\"javascript: myflowers.expandit('center-tab')\">Style & edit CENTER COLUMN</a>: If you want to add a widget area to the Center Column, you must edit \"index.php\" in the theme folder and add the widget area code there.</li>
+<li><a href=\"javascript: myflowers.expandit('center-tab')\">Style & edit CENTER COLUMN</a>: If you want to add a widget area to the Center Column, see the options there.</li>
 <li><a href=\"javascript: myflowers.expandit('footer-style-tab')\">Style & edit FOOTER</a>: Put the code into the text area named \"Footer: Content\".</li>
 <li>Technically, you could also hard code widget areas into one of the Atahualpa files such as index.php, header.php or footer.php (by using the code as shown below). 
 You should avoid this though, because you'd have to re-do these file edits whenever you upgrade to a new version of Atahualpa. Most of the time it will be unnecessary anyway as there 
@@ -2029,20 +2091,20 @@ most likely is a text area here in the theme option pages where you can insert y
 database and automatically carried over to new Atahualpa versions when you upgrade.</li></ul>
 
 <h3>Usage</h3>
-The code to create new widget areas is a PHP function with parameters:<br />
+The code to create dynamic widget areas is a PHP function with parameters:<br />
 <code>&lt;?php bfa_widget_area('parameter=value&#38;paramater=value&#38;paramater=value'); ?&gt;</code>
 
 <h3>Min. required paramaters</h3>
-This is the shortest and most basic way you can create a widget area.<br />
-<code>&lt;?php bfa_widget_area('name=My new widget area'); ?&gt;</code><br /><br />
+This is the shortest and most basic way you can create a dynamic widget area.<br />
+<code>&lt;?php bfa_widget_area('name=My dynamic widget area'); ?&gt;</code><br /><br />
 In this case a simple DIV container will be created. In the source code of your site, it will look like this:<br />
-<code>&lt;div id=\"my_new_widget_area\" class=\"bfa_widget_area\"&gt; Widgets will go here &lt;/div&gt;</code><br />
+<code>&lt;div id=\"my_dynamic_widget_area\" class=\"bfa_widget_area\"&gt; Widgets will go here &lt;/div&gt;</code><br />
 (If you choose several cells, a table will be created instead, see below).
 
 <h3>Example:</h3>
 This example uses more parameters. It creates a widget area spanning the whole available width (like all widget areas), with 4 widget area cells (default: 1). Each widget area cell is a widget area in its own right. You can 
 specify an alignment and a width for all or particular widget area cells. Finally, you can specify opening and closing HTML tags for the widgets that will be placed in 
-these new widget area cells.<br />
+these dynamic widget area cells.<br />
 <code>&lt;?php bfa_widget_area('name=My widget area&cells=4&align=1&align_2=9&align_3=7&width_4=700&before_widget=&lt;div id=\"%1\$s\" class=\"header-widget %2\$s\"&gt;&after_widget=&lt;/div&gt;'); ?&gt;</code><br /><br />
 Because these are multiple cells side by side, it will create a table instead of a DIV. Doing this with floating DIV's would not only be very fragile, it would also require more code 
 than the table consists of. 
@@ -2067,7 +2129,7 @@ than the table consists of.
 </td>
 </tr><tr>
 <td class='bfa-td'><code>cells</code></td>
-<td class='bfa-td'>Amount of (table) cells. Each cell is a new widget area. Default: 1</td>
+<td class='bfa-td'>Amount of (table) cells. Each cell is a dynamic widget area. Default: 1</td>
 </tr><tr>
 <td class='bfa-td'><code>align</code></td>
 <td class='bfa-td'><img src=\"" . $templateURI . "/options/images/widget-area-alignment.gif\" 
@@ -2080,12 +2142,12 @@ than the table consists of.
 			style=\"float: left; margin: 0 10px 10px 0;\">Alignment for a particular widget area cell. If not defined, widget area cells get the default value of the global parameter <code>align</code>, which, if not defined, is <code>2</code> (= center top).</td>
 </tr><tr>
 <td class='bfa-td'><code>width_1</code>, <code>width_2</code>, <code>width_3</code> etc.</td>	
-<td class='bfa-td'>Width of a particular widget area cell. If not defined, widget area cells get an equal share of the remaining width of the whole widget area table.</td>
+<td class='bfa-td'>Width of a particular widget area cell. If not defined, widget area cells get an equal share of the remaining width of the whole widget area table. You can specify the value with 'px' or '%' - if you don't use eithor, it will default to 'px'.</td>
 </tr>
 <tr>
 <td class='bfa-td' colspan='2' style='border-top-style: solid'>		
 <strong>Very Optional:</strong><br />Use these only if you want to apply different opening and closing HTML tags to the widgets that you 
-put into the new widget areas. By default the widgets will get the same opening/closing tags as the widgets in the sidebars. The default tags 
+put into the dynamic widget areas. By default the widgets will get the same opening/closing tags as the widgets in the sidebars. The default tags 
 are shown below. <br /><br /><em>Note: These are the HTML tags that will be wrapped around each single widget in this particular widget area. 
 The purpose is to be able to wrap a widget into different HTML tags depending on the widget area it was placed in. If you just want different styling for 
 a widget based on the widget area it was placed in, then you could usually achieve this with CSS alone, by adressing the widget through the ID or class of its parent (= widget area it was placed in):<br />
@@ -2114,7 +2176,7 @@ if CSS alone is not enough, because you need different HTML tags before or after
     array(    "name" => "KICKER: Homepage",
     	    "category" => "postinfos",
 			"switch" => "yes",
-            "id" => "post_kicker_home",
+             "id" => "post_kicker_home",
             "type" => "postinfos",
             "std" => "",
             "info" => "Leave blank to display no kicker on posts on the homepage.<br /><strong>Example:
@@ -2122,7 +2184,7 @@ if CSS alone is not enough, because you need different HTML tags before or after
 
 	array(    "name" => "KICKER: Multi Post Pages",
     	    "category" => "postinfos",
-            "id" => "post_kicker_multi",
+             "id" => "post_kicker_multi",
             "type" => "postinfos",
             "std" => "",
             "info" => "Leave blank to display no kicker on posts on multi post pages.<br /><strong>Example:
@@ -2130,7 +2192,7 @@ if CSS alone is not enough, because you need different HTML tags before or after
 
 	array(    "name" => "KICKER: Single Post Pages",
     	    "category" => "postinfos",
-            "id" => "post_kicker_single",
+             "id" => "post_kicker_single",
             "type" => "postinfos",
             "std" => "",
             "info" => "Leave blank to display no kicker on posts on single post pages.<br /><strong>Example:
@@ -2138,7 +2200,7 @@ if CSS alone is not enough, because you need different HTML tags before or after
 
 	array(    "name" => "KICKER: \"Page\" Pages",
     	    "category" => "postinfos",
-            "id" => "post_kicker_page",
+             "id" => "post_kicker_page",
             "type" => "postinfos",
             "std" => "",
             "info" => "Leave blank to display no kicker on \"page\" pages.<br /><em>NOTE: \"Page\" 
@@ -2146,7 +2208,7 @@ if CSS alone is not enough, because you need different HTML tags before or after
 
 	array(    "name" => "BYLINE: Homepage",
     	    "category" => "postinfos",
-            "id" => "post_byline_home",
+             "id" => "post_byline_home",
             "type" => "postinfos",
             "std" => "",
             "info" => "Leave blank to display no byline on posts on the homepage.<br /><strong>Example:
@@ -2154,7 +2216,7 @@ if CSS alone is not enough, because you need different HTML tags before or after
 
 	array(    "name" => "BYLINE: Multi Post Pages",
     	    "category" => "postinfos",
-            "id" => "post_byline_multi",
+             "id" => "post_byline_multi",
             "type" => "postinfos",
             "std" => "",
             "info" => "Leave blank to display no byline on posts on multi post pages.<br /><strong>Example:
@@ -2162,7 +2224,7 @@ if CSS alone is not enough, because you need different HTML tags before or after
 
 	array(    "name" => "BYLINE: Single Post Pages",
     	    "category" => "postinfos",
-            "id" => "post_byline_single",
+             "id" => "post_byline_single",
             "type" => "postinfos",
             "std" => "",
             "info" => "Leave blank to display no byline on posts on single post pages.<br /><strong>Example:
@@ -2170,7 +2232,7 @@ if CSS alone is not enough, because you need different HTML tags before or after
 
 	array(    "name" => "BYLINE: \"Page\" Pages",
     	    "category" => "postinfos",
-            "id" => "post_byline_page",
+             "id" => "post_byline_page",
             "type" => "postinfos",
             "std" => "",
             "info" => "Leave blank to display no byline on \"page\" pages.<br /><em>NOTE: \"Page\" 
@@ -2178,7 +2240,7 @@ if CSS alone is not enough, because you need different HTML tags before or after
 
 	array(    "name" => "FOOTER: Homepage",
     	    "category" => "postinfos",
-            "id" => "post_footer_home",
+             "id" => "post_footer_home",
             "type" => "postinfos",
             "std" => "%date('F jS, Y')% | %tags-linked('" . __('Tags: ','atahualpa') . "', ', ', ' | ')% " . 
 __('Category:','atahualpa') . " %categories-linked(', ')% | %comments('" . __('Leave a comment','atahualpa') . 
@@ -2192,7 +2254,7 @@ __('Category:','atahualpa') . " %categories-linked(', ')% | %comments('" . __('L
 
 	array(    "name" => "FOOTER: Multi Post Pages",
     	    "category" => "postinfos",
-            "id" => "post_footer_multi",
+             "id" => "post_footer_multi",
             "type" => "postinfos",
             "std" => "%date('F jS, Y')% | %tags-linked('" . __('Tags: ','atahualpa') . "', ', ', ' | ')% " . 
 __('Category:','atahualpa') . " %categories-linked(', ')% | %comments('" . __('Leave a comment','atahualpa') . 
@@ -2205,7 +2267,7 @@ __('Category:','atahualpa') . " %categories-linked(', ')% | %comments('" . __('L
 
 	array(    "name" => "FOOTER: Single Post Pages",
     	    "category" => "postinfos",
-            "id" => "post_footer_single",
+             "id" => "post_footer_single",
             "type" => "postinfos",
             "std" => "%date('F jS, Y')% | %tags-linked('" . __('Tags: ','atahualpa') . "', ', ', ' | ')% " . 
 __('Category:','atahualpa') . " %categories-linked(', ')% %edit(' | ', '" . __('Edit this post','atahualpa') . "', '')%",
@@ -2215,7 +2277,7 @@ __('Category:','atahualpa') . " %categories-linked(', ')% %edit(' | ', '" . __('
 
 	array(    "name" => "FOOTER: \"Page\" Pages",
     	    "category" => "postinfos",
-            "id" => "post_footer_page",
+             "id" => "post_footer_page",
             "type" => "postinfos",
             "std" => "",
 			"lastoption" => "yes", 
@@ -2227,7 +2289,7 @@ __('Category:','atahualpa') . " %categories-linked(', ')% %edit(' | ', '" . __('
     array(    "name" => "POST Container",
     	    "category" => "posts",
 			"switch" => "yes",
-            "id" => "post_container_style",
+             "id" => "post_container_style",
             "std" => "margin: 0 0 30px 0;",
             "type" => "textarea-large",
             "info" => "<img src=\"" . $templateURI . "/options/images/post-container.gif\" 
@@ -2236,7 +2298,7 @@ __('Category:','atahualpa') . " %categories-linked(', ')% %edit(' | ', '" . __('
 
     array(    "name" => "POST Container: STICKY",
     	    "category" => "posts",
-            "id" => "post_container_sticky_style",
+             "id" => "post_container_sticky_style",
             "std" => "background: #eee url(" . $templateURI . "/images/sticky.gif) 99% 5% no-repeat;\nborder: dashed 1px #cccccc;\npadding: 10px;",
             "type" => "textarea-large",
             "info" => "<img src=\"" . $templateURI . "/options/images/post-container.gif\"
@@ -2246,7 +2308,7 @@ __('Category:','atahualpa') . " %categories-linked(', ')% %edit(' | ', '" . __('
 
     array(    "name" => "KICKER Box",
     	    "category" => "posts",
-            "id" => "post_kicker_style",
+             "id" => "post_kicker_style",
             "std" => "margin: 0 0 5px 0;",
             "type" => "textarea-large",
             "info" => "<img src=\"" . $templateURI . "/options/images/post-kicker.gif\"
@@ -2255,7 +2317,7 @@ __('Category:','atahualpa') . " %categories-linked(', ')% %edit(' | ', '" . __('
 
     array(    "name" => "KICKER Box: Links",
     	    "category" => "posts",
-            "id" => "post_kicker_style_links",
+             "id" => "post_kicker_style_links",
             "std" => "color: #000000;\ntext-decoration: none;\ntext-transform: uppercase;",
             "type" => "textarea-large",
             "info" => "<img src=\"" . $templateURI . "/options/images/post-kicker-links.gif\"
@@ -2263,7 +2325,7 @@ __('Category:','atahualpa') . " %categories-linked(', ')% %edit(' | ', '" . __('
 
 	array(    "name" => "KICKER Box: Links: Hover",
     	    "category" => "posts",
-            "id" => "post_kicker_style_links_hover",
+             "id" => "post_kicker_style_links_hover",
             "std" => "color: #cc0000;",
             "type" => "textarea-large",
             "info" => "<img src=\"" . $templateURI . "/options/images/post-kicker-links-hover.gif\"
@@ -2272,7 +2334,7 @@ __('Category:','atahualpa') . " %categories-linked(', ')% %edit(' | ', '" . __('
 			
     array(    "name" => "HEADLINE Box",
     	    "category" => "posts",
-            "id" => "post_headline_style",
+             "id" => "post_headline_style",
             "std" => "",
             "type" => "textarea-large",
             "info" => "<img src=\"" . $templateURI . "/options/images/post-headline.gif\" 
@@ -2281,7 +2343,7 @@ __('Category:','atahualpa') . " %categories-linked(', ')% %edit(' | ', '" . __('
 
     array(    "name" => "HEADLINE Box: Text",
     	    "category" => "posts",
-            "id" => "post_headline_style_text",
+             "id" => "post_headline_style_text",
             "std" => "padding: 0;\nmargin: 0;",
             "type" => "textarea-large",
             "info" => "<img src=\"" . $templateURI . "/options/images/post-headline-text.gif\" 
@@ -2290,7 +2352,7 @@ __('Category:','atahualpa') . " %categories-linked(', ')% %edit(' | ', '" . __('
 			
     array(    "name" => "HEADLINE Box: Links",
     	    "category" => "posts",
-            "id" => "post_headline_style_links",
+             "id" => "post_headline_style_links",
             "std" => "color: #666666;\ntext-decoration: none;",
             "type" => "textarea-large",
             "info" => "<img src=\"" . $templateURI . "/options/images/post-headline-links.gif\" 
@@ -2301,7 +2363,7 @@ __('Category:','atahualpa') . " %categories-linked(', ')% %edit(' | ', '" . __('
 
 	array(    "name" => "HEADLINE Box: Links: Hover",
     	    "category" => "posts",
-            "id" => "post_headline_style_links_hover",
+             "id" => "post_headline_style_links_hover",
             "std" => "color: #000000;\ntext-decoration: none;",
             "type" => "textarea-large",
             "info" => "<img src=\"" . $templateURI . "/options/images/post-headline-links-hover.gif\" 
@@ -2310,7 +2372,7 @@ __('Category:','atahualpa') . " %categories-linked(', ')% %edit(' | ', '" . __('
 
     array(    "name" => "BYLINE Box",
     	    "category" => "posts",
-            "id" => "post_byline_style",
+             "id" => "post_byline_style",
             "type" => "textarea-large",
             "std" => "margin: 5px 0 10px 0;",
             "info" => "<img src=\"" . $templateURI . "/options/images/post-byline.gif\" 
@@ -2319,7 +2381,7 @@ __('Category:','atahualpa') . " %categories-linked(', ')% %edit(' | ', '" . __('
 
 	array(    "name" => "BYLINE Box: Links",
     	    "category" => "posts",
-            "id" => "post_byline_style_links",
+             "id" => "post_byline_style_links",
             "type" => "textarea-large",
             "std" => "",
             "info" => "<img src=\"" . $templateURI . "/options/images/post-byline-links.gif\" 
@@ -2328,7 +2390,7 @@ __('Category:','atahualpa') . " %categories-linked(', ')% %edit(' | ', '" . __('
 
 	array(    "name" => "BYLINE Box: Links: Hover",
     	    "category" => "posts",
-            "id" => "post_byline_style_links_hover",
+             "id" => "post_byline_style_links_hover",
             "type" => "textarea-large",
             "std" => "",
             "info" => "<img src=\"" . $templateURI . "/options/images/post-byline-links-hover.gif\" 
@@ -2337,7 +2399,7 @@ __('Category:','atahualpa') . " %categories-linked(', ')% %edit(' | ', '" . __('
 
     array(    "name" => "BODY Box",
     	    "category" => "posts",
-            "id" => "post_bodycopy_style",
+             "id" => "post_bodycopy_style",
             "type" => "textarea-large",
             "std" => "",
             "info" => "<img src=\"" . $templateURI . "/options/images/post-body.gif\" 
@@ -2347,7 +2409,7 @@ __('Category:','atahualpa') . " %categories-linked(', ')% %edit(' | ', '" . __('
 		
 	array(    "name" => "FOOTER Box",
     	    "category" => "posts",
-            "id" => "post_footer_style",
+             "id" => "post_footer_style",
             "type" => "textarea-large",
             "std" => "margin: 0;\npadding: 5px;\nbackground: #eeeeee;\ncolor: #666;\nline-height: 18px;",
             "info" => "<img src=\"" . $templateURI . "/options/images/post-footer.gif\" 
@@ -2356,7 +2418,7 @@ __('Category:','atahualpa') . " %categories-linked(', ')% %edit(' | ', '" . __('
 
 	array(    "name" => "FOOTER Box: Links",
     	    "category" => "posts",
-            "id" => "post_footer_style_links",
+             "id" => "post_footer_style_links",
             "type" => "textarea-large",
             "std" => "color: #333;\nfont-weight: normal;\ntext-decoration: none;",
             "info" => "<img src=\"" . $templateURI . "/options/images/post-footer-links.gif\" 
@@ -2364,7 +2426,7 @@ __('Category:','atahualpa') . " %categories-linked(', ')% %edit(' | ', '" . __('
 
 	array(    "name" => "FOOTER Box: Links: Hover",
     	    "category" => "posts",
-            "id" => "post_footer_style_links_hover",
+             "id" => "post_footer_style_links_hover",
             "type" => "textarea-large",
             "std" => "color: #333;\nfont-weight: normal;\ntext-decoration: underline;",
 			"lastoption" => "yes", 
@@ -2378,7 +2440,7 @@ __('Category:','atahualpa') . " %categories-linked(', ')% %edit(' | ', '" . __('
     array(    "name" => "Excerpt length",
     	    "category" => "posts-or-excerpts",
 			"switch" => "yes",
-            "id" => "excerpt_length",
+             "id" => "excerpt_length",
             "type" => "text",
             "size" => 6,
             "std" => 55,
@@ -2387,7 +2449,7 @@ __('Category:','atahualpa') . " %categories-linked(', ')% %edit(' | ', '" . __('
      array(    "name" => "Don't strip these tags",
 			"escape" => "yes",
     	    "category" => "posts-or-excerpts",
-            "id" => "dont_strip_excerpts",
+             "id" => "dont_strip_excerpts",
             "type" => "text",
             "size" => 40,
             "std" => "<p>",
@@ -2399,7 +2461,7 @@ __('Category:','atahualpa') . " %categories-linked(', ')% %edit(' | ', '" . __('
             
     array(    "name" => "Custom read more",
     	    "category" => "posts-or-excerpts",
-            "id" => "custom_read_more",
+             "id" => "custom_read_more",
             "type" => "textarea-large",
             "std" => "[...]",
             "info" => "By default, WordPress puts an ellipsis <code>[...]</code> at the bottom of excerpts. You can customize this with 
@@ -2410,7 +2472,7 @@ __('Category:','atahualpa') . " %categories-linked(', ')% %edit(' | ', '" . __('
                 
     array(    "name" => "Posts or excerpts on HOME page?",
     	    "category" => "posts-or-excerpts",
-            "id" => "excerpts_home",
+             "id" => "excerpts_home",
             "type" => "select",
             "std" => "Full Posts",
             "options" => array("Only Excerpts", "Full Posts"),
@@ -2418,7 +2480,7 @@ __('Category:','atahualpa') . " %categories-linked(', ')% %edit(' | ', '" . __('
 
     array(    "name" => "Show the first X posts on HOME page as full posts?",
     	    "category" => "posts-or-excerpts",
-            "id" => "full_posts_homepage",
+             "id" => "full_posts_homepage",
             "type" => "select",
             "std" => 0,
             "options" => array(0,1,2,3,4,5,6,7,8,9,10),
@@ -2427,7 +2489,7 @@ __('Category:','atahualpa') . " %categories-linked(', ')% %edit(' | ', '" . __('
 			
     array(    "name" => "Posts or excerpts on CATEGORY pages?",
     	    "category" => "posts-or-excerpts",
-            "id" => "excerpts_category",
+             "id" => "excerpts_category",
             "type" => "select",
             "std" => "Only Excerpts",
             "options" => array("Only Excerpts", "Full Posts"),
@@ -2435,7 +2497,7 @@ __('Category:','atahualpa') . " %categories-linked(', ')% %edit(' | ', '" . __('
             
     array(    "name" => "Posts or excerpts on ARCHIVE pages?",
     	    "category" => "posts-or-excerpts",
-            "id" => "excerpts_archive",
+             "id" => "excerpts_archive",
             "type" => "select",
             "std" => "Only Excerpts",
             "options" => array("Only Excerpts", "Full Posts"),
@@ -2443,7 +2505,7 @@ __('Category:','atahualpa') . " %categories-linked(', ')% %edit(' | ', '" . __('
 
     array(    "name" => "Posts or excerpts on TAG pages?",
     	    "category" => "posts-or-excerpts",
-            "id" => "excerpts_tag",
+             "id" => "excerpts_tag",
             "type" => "select",
             "std" => "Only Excerpts",
             "options" => array("Only Excerpts", "Full Posts"),
@@ -2451,7 +2513,7 @@ __('Category:','atahualpa') . " %categories-linked(', ')% %edit(' | ', '" . __('
             
     array(    "name" => "Posts or excerpts on SEARCH RESULT pages?",
     	    "category" => "posts-or-excerpts",
-            "id" => "excerpts_search",
+             "id" => "excerpts_search",
             "type" => "select",
             "std" => "Only Excerpts",
             "options" => array("Only Excerpts", "Full Posts"),
@@ -2459,7 +2521,7 @@ __('Category:','atahualpa') . " %categories-linked(', ')% %edit(' | ', '" . __('
 
     array(    "name" => "Posts or excerpts on AUTHOR pages?",
     	    "category" => "posts-or-excerpts",
-            "id" => "excerpts_author",
+             "id" => "excerpts_author",
             "type" => "select",
             "std" => "Only Excerpts",
             "options" => array("Only Excerpts", "Full Posts"),
@@ -2471,7 +2533,7 @@ __('Category:','atahualpa') . " %categories-linked(', ')% %edit(' | ', '" . __('
     array(    "name" => "Post Thumbnail Width",
     	    "category" => "post-thumbnails",
 			"switch" => "yes",
-            "id" => "post_thumbnail_width",
+             "id" => "post_thumbnail_width",
             "type" => "text",
             "size" => 6,
             "std" => 150,
@@ -2480,7 +2542,7 @@ __('Category:','atahualpa') . " %categories-linked(', ')% %edit(' | ', '" . __('
 
     array(    "name" => "Post Thumbnail Height",
     	    "category" => "post-thumbnails",
-            "id" => "post_thumbnail_height",
+             "id" => "post_thumbnail_height",
             "type" => "text",
             "size" => 6,
             "std" => 150,
@@ -2488,7 +2550,7 @@ __('Category:','atahualpa') . " %categories-linked(', ')% %edit(' | ', '" . __('
 
     array(    "name" => "Crop Post Thumbnails?",
     	    "category" => "post-thumbnails",
-            "id" => "post_thumbnail_crop",
+             "id" => "post_thumbnail_crop",
             "type" => "select",
             "std" => "No",
             "options" => array("Yes", "No"),
@@ -2498,7 +2560,7 @@ __('Category:','atahualpa') . " %categories-linked(', ')% %edit(' | ', '" . __('
 
     array(    "name" => "Post Thumbnail CSS",
     	    "category" => "post-thumbnails",
-            "id" => "post_thumbnail_css",
+             "id" => "post_thumbnail_css",
             "type" => "textarea-large",
             "std" => "float: left;\nborder: 0;\npadding: 0;\nbackground: none;\nmargin: 0 10px 5px 0;\n",
 			"lastoption" => "yes", 
@@ -2512,7 +2574,7 @@ __('Category:','atahualpa') . " %categories-linked(', ')% %edit(' | ', '" . __('
     array(    "name" => "Read More",
     	    "category" => "more-tag",
 			"switch" => "yes",
-           "id" => "more_tag",
+            "id" => "more_tag",
             "std" => __("Continue reading %post-title%","atahualpa"),
             "type" => "text",
 			"size" => "30", 
@@ -2545,7 +2607,7 @@ __('Category:','atahualpa') . " %categories-linked(', ')% %edit(' | ', '" . __('
     array(    "name" => "Highlight Author comments?",
     	    "category" => "comments",
 			"switch" => "yes",
-            "id" => "author_highlight",
+             "id" => "author_highlight",
             "type" => "select",
             "std" => "Yes",
             "options" => array("Yes", "No"),
@@ -2553,14 +2615,14 @@ __('Category:','atahualpa') . " %categories-linked(', ')% %edit(' | ', '" . __('
 
     array(    "name" => "Color for Author comment highlighting",
     	    "category" => "comments",
-           "id" => "author_highlight_color",
+            "id" => "author_highlight_color",
             "std" => "ffecec",
             "type" => "text",
             "info" => "If you chose Yes above, set the background color for author comments here."),
 
     array(    "name" => "Border color for 2nd or lower level Author comments",
     	    "category" => "comments",
-           "id" => "author_highlight_border_color",
+            "id" => "author_highlight_border_color",
             "std" => "ffbfbf",
             "type" => "text",
             "info" => "If you chose Yes above, set the border color for author comments in the 2nd 
@@ -2568,14 +2630,14 @@ __('Category:','atahualpa') . " %categories-linked(', ')% %edit(' | ', '" . __('
 			
     array(    "name" => "Regular Comment Background Color",
     	    "category" => "comments",
-           "id" => "comment_background_color",
+            "id" => "comment_background_color",
             "std" => "ffffff",
             "type" => "text",
             "info" => "Background color for comments"),
 
     array(    "name" => "Alternating Comment Background Color",
     	    "category" => "comments",
-           "id" => "comment_alt_background_color",
+            "id" => "comment_alt_background_color",
             "std" => "eeeeee",
             "type" => "text",
             "info" => "Background color for every second comment. Choose the same color as one option above if 
@@ -2583,14 +2645,14 @@ __('Category:','atahualpa') . " %categories-linked(', ')% %edit(' | ', '" . __('
 
     array(    "name" => "Border between single comments",
     	    "category" => "comments",
-           "id" => "comment_border",
+            "id" => "comment_border",
             "std" => "dotted 1px #cccccc",
             "type" => "text",
             "info" => "Style the line that separates every comment from the next. No semicolon here."),
 
     array(    "name" => "Comment Author Name Size",
     	    "category" => "comments",
-            "id" => "comment_author_size",
+             "id" => "comment_author_size",
             "type" => "select",
             "std" => "110%",
             "options" => array("100%", "105%", "110%", "115%", "120%", "125%", "130%", "135%", "140%", "145%", "150%"),
@@ -2598,7 +2660,7 @@ __('Category:','atahualpa') . " %categories-linked(', ')% %edit(' | ', '" . __('
 
     array(    "name" => "Comment Reply link text",
     	    "category" => "comments",
-           "id" => "comment_reply_link_text",
+            "id" => "comment_reply_link_text",
             "std" => __(" &middot; Reply", "atahualpa"),
             "type" => "text",
             "editable" => "yes",
@@ -2606,7 +2668,7 @@ __('Category:','atahualpa') . " %categories-linked(', ')% %edit(' | ', '" . __('
 
     array(    "name" => "Comment Edit link text",
     	    "category" => "comments",
-           "id" => "comment_edit_link_text",
+            "id" => "comment_edit_link_text",
             "std" => __(" &middot; Edit", "atahualpa"),
             "type" => "text",
             "editable" => "yes",
@@ -2615,7 +2677,7 @@ __('Category:','atahualpa') . " %categories-linked(', ')% %edit(' | ', '" . __('
 
     array(    "name" => "Comment In Moderation text",
     	    "category" => "comments",
-           "id" => "comment_moderation_text",
+            "id" => "comment_moderation_text",
             "std" => __("Your comment is awaiting moderation.", "atahualpa"),
             "type" => "text",
             "editable" => "yes",
@@ -2624,7 +2686,7 @@ __('Category:','atahualpa') . " %categories-linked(', ')% %edit(' | ', '" . __('
 
     array(    "name" => "Comments Are Closed text",
     	    "category" => "comments",
-           "id" => "comments_are_closed_text",
+            "id" => "comments_are_closed_text",
             "std" => __("<p>Comments are closed.</p>", "atahualpa"),
             "type" => "text",
             "editable" => "yes",
@@ -2632,7 +2694,7 @@ __('Category:','atahualpa') . " %categories-linked(', ')% %edit(' | ', '" . __('
 
     array(    "name" => "Allow comments on \"Page\" pages, too?",
     	    "category" => "comments",
-            "id" => "comments_on_pages",
+             "id" => "comments_on_pages",
             "type" => "select",
             "std" => "No",
             "options" => array("No", "Yes"),
@@ -2640,7 +2702,7 @@ __('Category:','atahualpa') . " %categories-linked(', ')% %edit(' | ', '" . __('
 
     array(    "name" => "Separate trackbacks/pings from comments?",
     	    "category" => "comments",
-            "id" => "separate_trackbacks",
+             "id" => "separate_trackbacks",
             "type" => "select",
             "std" => "No",
             "options" => array("Yes", "No"),
@@ -2651,7 +2713,7 @@ __('Category:','atahualpa') . " %categories-linked(', ')% %edit(' | ', '" . __('
 
     array(    "name" => "Avatar Size",
     	    "category" => "comments",
-           "id" => "avatar_size",
+            "id" => "avatar_size",
             "type" => "select",
             "std" => "55",
             "options" => array("0", "20", "25", "30", "35", "40", "45", "50", "55", "60", "65", "70", "75", "80"),
@@ -2660,14 +2722,14 @@ __('Category:','atahualpa') . " %categories-linked(', ')% %edit(' | ', '" . __('
 
     array(    "name" => "Avatar Style",
     	    "category" => "comments",
-           "id" => "avatar_style",
+            "id" => "avatar_style",
             "std" => "margin: 0 8px 1px 0;\npadding: 3px;\nborder: solid 1px #ddd;\nbackground-color: #f3f3f3;\n-moz-border-radius: 3px;\n-khtml-border-radius: 3px;\n-webkit-border-radius: 3px;\nborder-radius: 3px;",
             "type" => "textarea-large",
             "info" => "Style avatars. The lines with \"radius\" create rounded corners in Firefox and Safari."), 
 
     array(    "name" => "Show XHTML tags?",
     	    "category" => "comments",
-           "id" => "show_xhtml_tags",
+            "id" => "show_xhtml_tags",
             "type" => "select",
             "std" => "Yes",
             "options" => array("Yes", "No"),
@@ -2675,14 +2737,14 @@ __('Category:','atahualpa') . " %categories-linked(', ')% %edit(' | ', '" . __('
 
     array(    "name" => "Comment Form Style",
     	    "category" => "comments",
-           "id" => "comment_form_style",
+            "id" => "comment_form_style",
             "std" => "margin: 25px 0;\npadding: 25px;\nbackground: #eee;\n-moz-border-radius: 8px;\n-khtml-border-radius: 8px;\n-webkit-border-radius: 8px;\nborder-radius: 8px;",
             "type" => "textarea-large",
             "info" => "Style the comment form area = Box that contains the Name, Email, Website input fields, the comment textarea and the submit button."), 
 			
     array(    "name" => "Submit Button Style",
     	    "category" => "comments",
-           "id" => "submit_button_style",
+            "id" => "submit_button_style",
             "std" => "padding: 4px 10px 4px 10px;\nfont-size: 1.2em;\nline-height: 1.5em;\nheight: 36px;",
             "type" => "textarea-large",
             "info" => "Style the comment submit button, i.e. give it margin to move it around. This section here is 
@@ -2691,7 +2753,7 @@ __('Category:','atahualpa') . " %categories-linked(', ')% %edit(' | ', '" . __('
 			
     array(    "name" => "Comment display order",
     	    "category" => "comments",
-            "id" => "comment_display_order",
+             "id" => "comment_display_order",
             "type" => "select",
             "std" => "Oldest on top",
             "options" => array("Oldest on top", "Newest on top"),
@@ -2704,7 +2766,7 @@ __('Category:','atahualpa') . " %categories-linked(', ')% %edit(' | ', '" . __('
     array(    "name" => "Footer Style",
     	    "category" => "footer-style",
 			"switch" => "yes",
-           "id" => "footer_style",
+            "id" => "footer_style",
             "std" => "background-color: #ffffff;\nborder-top: dashed 1px #cccccc;\npadding: 10px;
 text-align: center;\ncolor: #777777;\nfont-size: 95%;",
             "type" => "textarea-large",
@@ -2712,21 +2774,21 @@ text-align: center;\ncolor: #777777;\nfont-size: 95%;",
 
     array(    "name" => "Footer Style: Links",
     	    "category" => "footer-style",
-           "id" => "footer_style_links",
+            "id" => "footer_style_links",
             "std" => "text-decoration: none;\ncolor: #777777;\nfont-weight: normal;",
             "type" => "textarea-large",
             "info" => "Style the links in the footer."), 
 
     array(    "name" => "Footer Style: Links: Hover",
     	    "category" => "footer-style",
-           "id" => "footer_style_links_hover",
+            "id" => "footer_style_links_hover",
             "std" => "text-decoration: none;\ncolor: #777777;\nfont-weight: normal;",
             "type" => "textarea-large",
             "info" => "Style the links in the footer in hover state."), 
 
     array(    "name" => "Footer: Content",
     	    "category" => "footer-style",
-           "id" => "footer_style_content",
+            "id" => "footer_style_content",
             "std" => __("Copyright &copy; %current-year% %home% - All Rights Reserved","atahualpa"),
             "type" => "textarea-large",
 			"editable" => "yes", 
@@ -2748,9 +2810,18 @@ text-align: center;\ncolor: #777777;\nfont-size: 95%;",
 			<span style=\"font-size:24px\">&trade;</span> with <code>&amp;trade;</code> and 
 			<span style=\"font-size:24px\">&reg;</span> with <code>&amp;reg;</code></li></ul>"), 
 
+    array(    "name" => "Full Width Footer",
+    	    "category" => "footer-style",
+             "id" => "full_width_footer",
+            "type" => "select",
+            "std" => "No",
+            "options" => array("Yes", "No"),
+            "info" => "When this option is set to<code>Yes</code>the FOOTER will extend across the full width of the browser window.
+            When set to<code>No</code>it will only span the width of the LAYOUT."),
+
 	array(    "name" => "Sticky footer on short pages?",
     	    "category" => "footer-style",
-            "id" => "sticky_layout_footer",
+             "id" => "sticky_layout_footer",
             "type" => "select",
             "std" => "No",
             "options" => array("No", "Yes"),
@@ -2758,7 +2829,7 @@ text-align: center;\ncolor: #777777;\nfont-size: 95%;",
 			
     array(    "name" => "Show number of queries &amp; timer?",
     	    "category" => "footer-style",
-            "id" => "footer_show_queries",
+             "id" => "footer_show_queries",
             "type" => "select",
             "std" => "No",
             "options" => array("No", "Yes - visible", "Yes - in source code"),
@@ -2772,14 +2843,14 @@ text-align: center;\ncolor: #777777;\nfont-size: 95%;",
     array(    "name" => "Table Style",
     	    "category" => "tables",
 			"switch" => "yes",
-            "id" => "table",
+             "id" => "table",
             "std" => "border-collapse: collapse;\nmargin: 10px 0;",
             "type" => "textarea-large",
             "info" => "Style the table as a whole <code>&lt;table&gt;</code> ... <code>&lt;/table&gt;</code>"),
 			
     array(    "name" => "Table Caption Style",
     	    "category" => "tables",
-            "id" => "table_caption",
+             "id" => "table_caption",
             "std" => "background: #eeeeee;\nborder: #999999;\npadding: 4px 8px;\ncolor: #666666;",
             "type" => "textarea-large",
             "info" => "The table caption (if you use any) is (usually) the first row in a table.<br /><br />
@@ -2792,7 +2863,7 @@ text-align: center;\ncolor: #777777;\nfont-size: 95%;",
 
     array(    "name" => "Table Header Cells",
     	    "category" => "tables",
-            "id" => "table_th",
+             "id" => "table_th",
             "std" => "background: #888888;\ncolor: #ffffff;\nfont-weight: bold;\nfont-size: 90%;\npadding: 4px 8px;\n
 			border: solid 1px #ffffff;\ntext-align: left;",
             "type" => "textarea-large",
@@ -2800,14 +2871,14 @@ text-align: center;\ncolor: #777777;\nfont-size: 95%;",
 
     array(    "name" => "Table Body Cells",
     	    "category" => "tables",
-            "id" => "table_td",
+             "id" => "table_td",
             "std" => "padding: 4px 8px;\nbackground-color: #ffffff;\nborder-bottom: 1px solid #dddddd;\ntext-align: left;",
             "type" => "textarea-large",
             "info" => "Style the regular table cells <code>&lt;td&gt;</code> ... <code>&lt;/td&gt;</code>"),
 
     array(    "name" => "Table Footer Cells",
     	    "category" => "tables",
-            "id" => "table_tfoot_td",
+             "id" => "table_tfoot_td",
             "std" => "",
             "type" => "textarea-large",
             "info" => "You can style the table footer cells individually. <em>Or else they'll get the
@@ -2815,7 +2886,7 @@ text-align: center;\ncolor: #777777;\nfont-size: 95%;",
 			
     array(    "name" => "Zebra stripe all tables?",
     	    "category" => "tables",
-            "id" => "table_zebra_stripes",
+             "id" => "table_zebra_stripes",
             "type" => "select",
             "std" => "Yes",
             "options" => array("Yes", "No"),
@@ -2825,14 +2896,14 @@ text-align: center;\ncolor: #777777;\nfont-size: 95%;",
 
     array(    "name" => "Zebra row TD style",
     	    "category" => "tables",
-            "id" => "table_zebra_td",
+             "id" => "table_zebra_td",
             "std" => "background: #f4f4f4;",
             "type" => "textarea-large",
             "info" => "If you chose to zebra stripe tables, set the style for the cells in every second row here."),
 			
     array(    "name" => "Hover effect for all tables?",
     	    "category" => "tables",
-            "id" => "table_hover_rows",
+             "id" => "table_hover_rows",
             "type" => "select",
             "std" => "Yes",
             "options" => array("Yes", "No"),
@@ -2845,7 +2916,7 @@ text-align: center;\ncolor: #777777;\nfont-size: 95%;",
 
     array(    "name" => "Hover row TD style",
     	    "category" => "tables",
-            "id" => "table_hover_td",
+             "id" => "table_hover_td",
             "std" => "background: #e2e2e2;",
             "type" => "textarea-large",
 			"lastoption" => "yes", 
@@ -2856,14 +2927,14 @@ text-align: center;\ncolor: #777777;\nfont-size: 95%;",
     array(    "name" => "Form fields: Style",
     	    "category" => "forms",
 			"switch" => "yes",
-            "id" => "form_input_field_style",
+             "id" => "form_input_field_style",
             "std" => "color: #000000;\nborder-top: solid 1px #333333;\nborder-left: solid 1px #333333;\nborder-right: solid 1px #999999;\nborder-bottom: solid 1px #cccccc;",
             "type" => "textarea-large",
             "info" => "Style the text input fields and textareas in forms. "),
 
     array(    "name" => "Form fields: Background image",
     	    "category" => "forms",
-           "id" => "form_input_field_background",
+            "id" => "form_input_field_background",
             "std" => "inputbackgr.gif",
             "type" => "text", 
 			"size" => "35", 
@@ -2873,7 +2944,7 @@ text-align: center;\ncolor: #777777;\nfont-size: 95%;",
 			
     array(    "name" => "Highlight form fields?",
     	    "category" => "forms",
-            "id" => "highlight_forms",
+             "id" => "highlight_forms",
             "type" => "select",
             "std" => "Yes",
             "options" => array("Yes", "No"),
@@ -2881,21 +2952,21 @@ text-align: center;\ncolor: #777777;\nfont-size: 95%;",
 
     array(    "name" => "Highlight form fields: Style",
     	    "category" => "forms",
-            "id" => "highlight_forms_style",
+             "id" => "highlight_forms_style",
             "std" => "background: #e8eff7;\nborder-color: #37699f;",
             "type" => "textarea-large",
             "info" => "If you chose \"Yes\" above, style the highlighted state of input fields here."),
 
     array(    "name" => "Submit Buttons: Default Style",
     	    "category" => "forms",
-            "id" => "button_style",
+             "id" => "button_style",
             "std" => "background-color: #777777;\ncolor: #ffffff;\nborder: solid 2px #555555;\nfont-weight: bold;",
             "type" => "textarea-large",
             "info" => "Style submit buttons in their <strong>default</strong> state."),
 
     array(    "name" => "Submit Buttons: Hover Style",
     	    "category" => "forms",
-            "id" => "button_style_hover",
+             "id" => "button_style_hover",
             "std" => "background-color: #6b9c6b;\ncolor: #ffffff;\nborder: solid 2px #496d49;",
             "type" => "textarea-large",
 			"lastoption" => "yes", 
@@ -2906,7 +2977,7 @@ text-align: center;\ncolor: #777777;\nfont-size: 95%;",
     array(    "name" => "Blockquotes: Style",
     	    "category" => "blockquotes",
 			"switch" => "yes",
-            "id" => "blockquote_style",
+             "id" => "blockquote_style",
             "std" => "color: #555555;\npadding: 1em 1em;\nbackground: #f4f4f4;\nborder: solid 1px #e1e1e1;",
             "type" => "textarea-large",
             "info" => "<img src=\"" . $templateURI . "/options/images/blockquotes.gif\" style=\"float: right; margin: 0 0 10px 10px;\">" . 
@@ -2916,7 +2987,7 @@ text-align: center;\ncolor: #777777;\nfont-size: 95%;",
 			
     array(    "name" => "Blockquotes in blockquotes: Style",
     	    "category" => "blockquotes",
-            "id" => "blockquote_style_2nd_level",
+             "id" => "blockquote_style_2nd_level",
             "std" => "color: #444444;\npadding: 1em 1em;\nbackground: #e1e1e1;\nborder: solid 1px #d3d3d3;",
             "type" => "textarea-large",
 			"lastoption" => "yes", 
@@ -2927,7 +2998,7 @@ text-align: center;\ncolor: #777777;\nfont-size: 95%;",
     array(    "name" => "Images in Posts",
     	    "category" => "images",
 			"switch" => "yes",
-            "id" => "post_image_style",
+             "id" => "post_image_style",
             "std" => "padding: 5px;\nborder: solid 1px #dddddd;\nbackground-color: #f3f3f3;\n-moz-border-radius: 3px;\n-khtml-border-radius: 3px;\n-webkit-border-radius: 3px;\nborder-radius: 3px;",
             "type" => "textarea-large",
             "info" => "Style images in posts, when they have no caption. The lines with \"radius\" create
@@ -2935,7 +3006,7 @@ text-align: center;\ncolor: #777777;\nfont-size: 95%;",
 			
     array(    "name" => "Images in Posts: Caption Style",
     	    "category" => "images",
-            "id" => "post_image_caption_style",
+             "id" => "post_image_caption_style",
             "std" => "border: 1px solid #dddddd;\ntext-align: center;\nbackground-color: #f3f3f3;\npadding-top: 4px;\nmargin: 10px 0 0 0;\n-moz-border-radius: 3px;\n-khtml-border-radius: 3px;\n-webkit-border-radius: 3px;\nborder-radius: 3px;",
             "type" => "textarea-large",
             "info" => "Style the caption box for images in posts, that have a caption. The lines with \"radius\"
@@ -2943,7 +3014,7 @@ text-align: center;\ncolor: #777777;\nfont-size: 95%;",
 
     array(    "name" => "Caption Text: Style",
     	    "category" => "images",
-            "id" => "image_caption_text",
+             "id" => "image_caption_text",
             "std" => "font-size: 0.8em;\nline-height: 13px;\npadding: 2px 4px 5px;\nmargin: 0;\ncolor: #666666;",
             "type" => "textarea-large",
 			"lastoption" => "yes", 
@@ -2954,7 +3025,7 @@ text-align: center;\ncolor: #777777;\nfont-size: 95%;",
     array(    "name" => "HTML Inserts: Header",
     	    "category" => "html-inserts",
 			"switch" => "yes",
-            "id" => "html_inserts_header",
+             "id" => "html_inserts_header",
             "std" => "",
             "type" => "textarea-large",
 			"editable" => "yes", 
@@ -2963,12 +3034,12 @@ text-align: center;\ncolor: #777777;\nfont-size: 95%;",
 			\"visible\" HTML such as a table or a DIV container. If you put HTML here, then it would be machine parsable code, something like a 
 			meta tag, such as:<br /><code>&lt;meta name=\"author\" content=\"John W. Doe\" /&gt;</code>.
 			<br /><br />Since 3.6.5 <span style='color:red'>PHP code cannot be used anymore</span> in HTML/CSS Inserts.
-			<strong>Google Analytics code</strong> would go here. '. 
+			<strong>Google Analytics code</strong> would go here. 
 			"),
 
     array(    "name" => "HTML Inserts: Body Tag",
     	    "category" => "html-inserts",
-            "id" => "html_inserts_body_tag",
+             "id" => "html_inserts_body_tag",
             "std" => "",
             "type" => "textarea-large",
 			"editable" => "yes", 
@@ -2980,7 +3051,7 @@ text-align: center;\ncolor: #777777;\nfont-size: 95%;",
 
     array(    "name" => "HTML Inserts: Body Top",
     	    "category" => "html-inserts",
-            "id" => "html_inserts_body_top",
+             "id" => "html_inserts_body_top",
             "std" => "",
             "type" => "textarea-large",
 			"editable" => "yes", 
@@ -2990,7 +3061,7 @@ text-align: center;\ncolor: #777777;\nfont-size: 95%;",
 
     array(    "name" => "HTML Inserts: Body Bottom",
     	    "category" => "html-inserts",
-            "id" => "html_inserts_body_bottom",
+             "id" => "html_inserts_body_bottom",
             "std" => "",
             "type" => "textarea-large",
 			"editable" => "yes", 
@@ -3000,7 +3071,7 @@ text-align: center;\ncolor: #777777;\nfont-size: 95%;",
 
     array(    "name" => "CSS Inserts",
     	    "category" => "html-inserts",
-            "id" => "html_inserts_css",
+             "id" => "html_inserts_css",
             "std" => "",
             "type" => "textarea-large",
 			"editable" => "yes", 
@@ -3022,7 +3093,7 @@ h6 { font-size: 1.15em; margin: 1.67em 0; font-weight: bold; }<br /></code><br /
     array(    "name" => "Archives Page ID",
     	    "category" => "archives-page",
 			"switch" => "yes",
-           "id" => "archives_page_id",
+            "id" => "archives_page_id",
             "std" => "",
             "type" => "text",
 			"size" => "5",
@@ -3036,7 +3107,7 @@ h6 { font-size: 1.15em; margin: 1.67em 0; font-weight: bold; }<br /></code><br /
 
     array(    "name" => "Show Archives by Date?",
     	    "category" => "archives-page",
-           "id" => "archives_date_show",
+            "id" => "archives_date_show",
             "type" => "select",
             "std" => "Yes",
             "options" => array("Yes", "No"),
@@ -3044,14 +3115,14 @@ h6 { font-size: 1.15em; margin: 1.67em 0; font-weight: bold; }<br /></code><br /
 			
     array(    "name" => "Archives by Date: Title",
     	    "category" => "archives-page",
-           "id" => "archives_date_title",
+            "id" => "archives_date_title",
             "std" => __("Archives by Month","atahualpa"),
             "type" => "text",
             "info" => "The headline for the yearly/monthly/daily/postbypost archives"),
 
     array(    "name" => "Archives by Date: Type",
     	    "category" => "archives-page",
-           "id" => "archives_date_type",
+            "id" => "archives_date_type",
             "type" => "select",
             "std" => "monthly",
             "options" => array("yearly", "monthly", "weekly", "daily", "postbypost"),
@@ -3059,7 +3130,7 @@ h6 { font-size: 1.15em; margin: 1.67em 0; font-weight: bold; }<br /></code><br /
 
     array(    "name" => "Archives by Date: Limit",
     	    "category" => "archives-page",
-           "id" => "archives_date_limit",
+            "id" => "archives_date_limit",
             "std" => "",
             "type" => "text",
             "info" => "Optional: Limit the amount of date based archive links. Leave blank for no limit. 
@@ -3067,7 +3138,7 @@ h6 { font-size: 1.15em; margin: 1.67em 0; font-weight: bold; }<br /></code><br /
 
     array(    "name" => "Archives by Date: Show post count?",
     	    "category" => "archives-page",
-           "id" => "archives_date_count",
+            "id" => "archives_date_count",
             "type" => "select",
             "std" => "Yes",
             "options" => array("Yes", "No"),
@@ -3075,7 +3146,7 @@ h6 { font-size: 1.15em; margin: 1.67em 0; font-weight: bold; }<br /></code><br /
 
     array(    "name" => "Show Archives by Category?",
     	    "category" => "archives-page",
-           "id" => "archives_category_show",
+            "id" => "archives_category_show",
             "type" => "select",
             "std" => "Yes",
             "options" => array("Yes", "No"),
@@ -3083,14 +3154,14 @@ h6 { font-size: 1.15em; margin: 1.67em 0; font-weight: bold; }<br /></code><br /
 			
     array(    "name" => "Archives by Category: Title",
     	    "category" => "archives-page",
-           "id" => "archives_category_title",
+            "id" => "archives_category_title",
             "std" => __("Archives by Category","atahualpa"),
             "type" => "text",
             "info" => "The headline for the category archives"),
 
     array(    "name" => "Archives by Category: Show post count?",
     	    "category" => "archives-page",
-           "id" => "archives_category_count",
+            "id" => "archives_category_count",
             "type" => "select",
             "std" => "Yes",
             "options" => array("Yes", "No"),
@@ -3098,7 +3169,7 @@ h6 { font-size: 1.15em; margin: 1.67em 0; font-weight: bold; }<br /></code><br /
 
     array(    "name" => "Archives by Category: Depth",
     	    "category" => "archives-page",
-           "id" => "archives_category_depth",
+            "id" => "archives_category_depth",
             "type" => "select",
             "std" => "0",
             "options" => array("0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"),
@@ -3106,7 +3177,7 @@ h6 { font-size: 1.15em; margin: 1.67em 0; font-weight: bold; }<br /></code><br /
 
     array(    "name" => "Archives by Category: Order by",
     	    "category" => "archives-page",
-           "id" => "archives_category_orderby",
+            "id" => "archives_category_orderby",
             "type" => "select",
             "std" => "name",
             "options" => array("ID", "name", "count"),
@@ -3115,7 +3186,7 @@ h6 { font-size: 1.15em; margin: 1.67em 0; font-weight: bold; }<br /></code><br /
 
     array(    "name" => "Archives by Category: Order",
     	    "category" => "archives-page",
-           "id" => "archives_category_order",
+            "id" => "archives_category_order",
             "type" => "select",
             "std" => "ASC",
             "options" => array("ASC", "DESC"),
@@ -3124,7 +3195,7 @@ h6 { font-size: 1.15em; margin: 1.67em 0; font-weight: bold; }<br /></code><br /
 
     array(    "name" => "Archives by Category: Feed Link",
     	    "category" => "archives-page",
-           "id" => "archives_category_feed",
+            "id" => "archives_category_feed",
             "type" => "select",
             "std" => "No",
             "options" => array("Yes", "No"),
@@ -3137,7 +3208,7 @@ h6 { font-size: 1.15em; margin: 1.67em 0; font-weight: bold; }<br /></code><br /
     array(    "name" => "CSS: External file or inline?",
     	    "category" => "css-javascript",
 			"switch" => "yes",
-           "id" => "css_external",
+             "id" => "css_external",
             "type" => "select",
             "std" => "Inline",
             # "options" => array("External & Static", "External", "Inline"),
@@ -3154,7 +3225,7 @@ h6 { font-size: 1.15em; margin: 1.67em 0; font-weight: bold; }<br /></code><br /
 
     array(    "name" => "Javascript: External file or inline?",
     	    "category" => "css-javascript",
-           "id" => "javascript_external",
+             "id" => "javascript_external",
             "type" => "select",
             "std" => "Inline",
             # "options" => array("External & Static", "External", "Inline"),
@@ -3170,7 +3241,7 @@ h6 { font-size: 1.15em; margin: 1.67em 0; font-weight: bold; }<br /></code><br /
 
     array(    "name" => "IE6 PNG Fix CSS Selectors",
     	    "category" => "css-javascript",
-           "id" => "pngfix_selectors",
+             "id" => "pngfix_selectors",
             "type" => "textarea-large",
             "std" => "",
             "info" => "If you're using transparent PNG images, put the CSS selectors here that contain tranparent PNG images, so 
@@ -3178,7 +3249,7 @@ h6 { font-size: 1.15em; margin: 1.67em 0; font-weight: bold; }<br /></code><br /
 			
     array(    "name" => "CSS: Compress?",
     	    "category" => "css-javascript",
-           "id" => "css_compress",
+             "id" => "css_compress",
             "type" => "select",
             "std" => "Yes",
             "options" => array("Yes", "No"),
@@ -3189,7 +3260,7 @@ h6 { font-size: 1.15em; margin: 1.67em 0; font-weight: bold; }<br /></code><br /
 
     array(    "name" => "Allow debugging?",
     	    "category" => "css-javascript",
-           "id" => "allow_debug",
+             "id" => "allow_debug",
             "type" => "select",
             "std" => "Yes",
             "lastoption" => "yes",
@@ -3201,7 +3272,7 @@ h6 { font-size: 1.15em; margin: 1.67em 0; font-weight: bold; }<br /></code><br /
 /*                                
     array(    "name" => "Javascript: Compress?",
     	    "category" => "css-javascript",
-           "id" => "javascript_compress",
+            "id" => "javascript_compress",
             "type" => "select",
             "std" => "Yes",
             	"lastoption" => "yes",
@@ -3215,7 +3286,7 @@ h6 { font-size: 1.15em; margin: 1.67em 0; font-weight: bold; }<br /></code><br /
 /* 
     array(    "name" => "Remove comment-reply.js?",
     	    "category" => "css-javascript",
-           "id" => "include_wp_comment_reply_js",
+            "id" => "include_wp_comment_reply_js",
             "type" => "select",
             "std" => "No",
 			"lastoption" => "yes", 

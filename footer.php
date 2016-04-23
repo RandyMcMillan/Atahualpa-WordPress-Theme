@@ -88,6 +88,8 @@ list($bfa_ata, $cols, $left_col, $left_col2, $right_col, $right_col2, $bfa_ata['
 
 </tr>
 <!-- / Main Body -->
+
+<?php if ($bfa_ata['full_width_footer'] == "No") { ?>
 <tr>
 
 <!-- Footer -->
@@ -110,9 +112,32 @@ list($bfa_ata, $cols, $left_col, $left_col2, $right_col, $right_col2, $bfa_ata['
 
 
 </tr>
+<?php } ?>
+
 </table><!-- / layout -->
 </div><!-- / container -->
 </div><!-- / wrapper -->
+<?php if ($bfa_ata['full_width_footer'] == "Yes") { ?>
+		<!-- Full Width Footer -->
+		<div id="footer" class="full-width">
+    <?php echo bfa_footer(); ?>
+    <?php if ($bfa_ata['footer_show_queries'] == "Yes - visible") { ?>
+    <p>
+    <?php echo $wpdb->num_queries; ?><?php _e(' queries. ','atahualpa'); ?><?php timer_stop(1); ?><?php _e(' seconds.','atahualpa'); ?>
+    </p>
+    <?php } ?>
+
+    <?php if ($bfa_ata['footer_show_queries'] == "Yes - in source code") { ?>
+    <!--
+    <?php echo $wpdb->num_queries; ?><?php _e(' queries. ','atahualpa'); ?><?php timer_stop(1); ?><?php _e(' seconds.','atahualpa'); ?>
+    -->
+    <?php } ?>
+
+    <?php wp_footer(); ?>
+		</div>
+		<!-- / Full Width Footer -->
+<?php } ?>
+
 <?php bfa_incl('html_inserts_body_bottom'); ?>
 </body>
 </html>

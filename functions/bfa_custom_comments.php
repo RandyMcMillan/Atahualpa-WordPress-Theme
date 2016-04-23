@@ -1,16 +1,15 @@
 <?php
 function bfa_comments($comment, $args, $depth) {
 
-global $bfa_ata;
+global $bfa_ata, $post;
 
    $GLOBALS['comment'] = $comment; ?>
 		<li <?php comment_class($class='clearfix') ?> id="comment-<?php comment_ID(); ?>">
 		<div id="div-comment-<?php comment_ID(); ?>" class="clearfix comment-container<?php 
 		$comment = get_comment($comment_id);
-		if ( $post = get_post($post_id) ) {
-			if ( $comment->user_id === $post->post_author )
-				echo ' bypostauthor';
-		} ?>">
+		if ( $comment->user_id === $post->post_author )
+			echo ' bypostauthor';
+		?>">
 		<div class="comment-author vcard">
 		<?php if ($args['avatar_size'] != 0) echo get_avatar( $comment, $args['avatar_size'] ); ?>
 		<span class="authorname"><?php comment_author_link(); ?></span>

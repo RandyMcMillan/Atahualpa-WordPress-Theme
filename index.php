@@ -8,6 +8,10 @@ global $bfa_ata_postcount;
 <?php /* If there are any posts: */
 if (have_posts()) : $bfa_ata_postcount = 0; /* Postcount needed for option "XX first posts full posts, rest excerpts" */ ?>
 
+    <?php  if ($bfa_ata['widget_center_top'] <> '') { 
+          echo bfa_parse_widget_areas($bfa_ata['widget_center_top']); 
+	} ?>
+
 	<?php // Deactivated since 3.6.5
 	# include 'bfa://content_above_loop'; 
 	// Uses the following static code instead: ?>
@@ -43,6 +47,10 @@ if (have_posts()) : $bfa_ata_postcount = 0; /* Postcount needed for option "XX f
 	<?php bfa_get_comments(); // Load Comments template (on single post pages, and static pages, if set on options page): ?>
 	<?php bfa_next_previous_post_links('Bottom'); // Displayed on SINGLE post pages if activated at ATO -> Next/Previous Navigation: ?>
 	<?php bfa_next_previous_page_links('Bottom'); // Displayed on MULTI post pages if activated at ATO -> Next/Previous Navigation: ?>
+
+    <?php if ($bfa_ata['widget_center_bottom'] <> '') { 
+          echo bfa_parse_widget_areas($bfa_ata['widget_center_bottom']); 
+    } ?>
 
 <?php /* END of: If there are any posts */
 else : /* If there are no posts: */ ?>

@@ -30,6 +30,9 @@ echo $bfa_ata_version; ?>" width="98%" height="40" scrolling="no" frameborder="0
 	<strong>Overall Style & Config.</strong>
 	<li><a href="#" rel="body-font-links">Body, Text &amp; Links</a></li>
 	<li><a href="#" rel="layout">Style & configure LAYOUT</a></li>
+	
+	<strong>Image Locations</strong>
+	<li><a href="#" rel="image-location">Image Location</a></li>
 	<li><a href="#" rel="favicon">Add a FAVICON</a></li>
 	
 	<strong>Header Area</strong>
@@ -46,7 +49,7 @@ echo $bfa_ata_version; ?>" width="98%" height="40" scrolling="no" frameborder="0
 	<strong>Sidebars & Widgets</strong>
 	<li><a href="#" rel="sidebars">Style & configure SIDEBARS</a></li>
 	<li><a href="#" rel="widgets">Style WIDGETS</a></li>
-	<li><a href="#" rel="widget-areas">Add new WIDGET AREAS</a></li>
+	<li><a href="#" rel="widget-areas">Add DYNAMIC WIDGET AREAS</a></li>
 	
 	<strong>Post & Pages</strong>
 	<li><a href="#" rel="postinfos">Edit POST/PAGE INFO ITEMS</a></li>

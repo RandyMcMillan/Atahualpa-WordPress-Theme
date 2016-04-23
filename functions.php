@@ -1,24 +1,25 @@
 <?php
-$bfa_ata_version = "3.7.10";
+$bfa_ata_version = "3.7.24";
 
 // Load translation file above
 load_theme_textdomain('atahualpa');
-
-// To disable some default WP filters, remove the '#' character
-#remove_filter('the_content', 'wptexturize');
-#remove_filter('the_excerpt', 'wptexturize');
-#remove_filter('comment_text', 'wptexturize');
-#remove_filter('the_title', 'wptexturize');
 
 // get default theme options
 include_once (get_template_directory() . '/functions/bfa_theme_options.php');
 // Load options
 include_once (get_template_directory() . '/functions/bfa_get_options.php');
 list($bfa_ata, $cols, $left_col, $left_col2, $right_col, $right_col2, $bfa_ata['h_blogtitle'], $bfa_ata['h_posttitle']) = bfa_get_options();
+
+
 // Sidebars:
-if ( function_exists('register_sidebar') ) {
+add_action( 'widgets_init', 'bfa_widgets_init' );
+function bfa_widgets_init() {
+
+	global $bfa_ata;
+
 	register_sidebar(array(
 		'name'=>'Left Sidebar',
+		'id'=> 'bfa-ata-left-sidebar',
 		'before_widget' => '<div id="%1$s" class="widget %2$s">',
 		'after_widget' => '</div>',
 		'before_title' => '<div class="widget-title"><h3>',
@@ -26,6 +27,7 @@ if ( function_exists('register_sidebar') ) {
 	));
 	register_sidebar(array(
 		'name'=>'Right Sidebar',
+		'id'=> 'bfa-ata-right-sidebar',
 		'before_widget' => '<div id="%1$s" class="widget %2$s">',
 		'after_widget' => '</div>',
 		'before_title' => '<div class="widget-title"><h3>',
@@ -33,6 +35,7 @@ if ( function_exists('register_sidebar') ) {
 	));
 	register_sidebar(array(
 		'name'=>'Left Inner Sidebar',
+		'id'=> 'bfa-ata-left-inner-sidebar',
 		'before_widget' => '<div id="%1$s" class="widget %2$s">',
 		'after_widget' => '</div>',
 		'before_title' => '<div class="widget-title"><h3>',
@@ -40,6 +43,7 @@ if ( function_exists('register_sidebar') ) {
 	));
 	register_sidebar(array(
 		'name'=>'Right Inner Sidebar',
+		'id'=> 'bfa-ata-right-inner-sidebar',
 		'before_widget' => '<div id="%1$s" class="widget %2$s">',
 		'after_widget' => '</div>',
 		'before_title' => '<div class="widget-title"><h3>',
@@ -52,9 +56,13 @@ if ( function_exists('register_sidebar') ) {
 	else $bfa_ata_extra_widget_areas = '';
 	
 	if ($bfa_ata_extra_widget_areas != '') {
-		foreach ($bfa_ata_extra_widget_areas as $widget_area) { 
+		$n = 0;
+		foreach ($bfa_ata_extra_widget_areas as $widget_area) {
+			$n++; 
+			$id_name = 'bfa-ata-extra-widget-area-'.$n;
 			register_sidebar(array(
 				'name' => $widget_area['name'],
+				'id'=> $id_name,
 				'before_widget' => $widget_area['before_widget'],
 				'after_widget' => $widget_area['after_widget'],
 				'before_title' => $widget_area['before_title'],
@@ -62,7 +70,8 @@ if ( function_exists('register_sidebar') ) {
 			));
 		}
 	}
-} 
+}
+
 
 #global $bfa_ata;
 // Load functions
@@ -121,19 +130,6 @@ function bfa_escape($string) {
 	$string = str_replace("'", '&#39;', $string);
 	return $string;
 }
-
-
-
-/**
- * Since 3.7.9
- * Redirect users to Theme Options after activation, this will also create the 
- * CSS file in the uploads dir, for the first time
- */
-if ( is_admin() && isset($_GET['activated'] ) && $pagenow == "themes.php" )
-	wp_redirect( 'themes.php?page=atahualpa-options' );
-	
-
-
 
 function bfa_footer_output($footer_content) {
 	global $bfa_ata;
@@ -408,8 +404,11 @@ function bfa_widget_area($args = '') {
 			for ( $i = 1; $i <= $r['cells']; $i++ ) {
 				echo '<col';
 				$current_width = "width_" . $i;
-				if ( $r[$current_width] ) {
-					echo ' style="width:' . $r[$current_width] . 'px"';
+				if ( isset($r[$current_width]) ) {
+					if (!preg_match('/(%|px|pX|Px|PX)/',$r[$current_width]) ) {
+						$r[$current_width] = $r[$current_width].'px';
+					}
+					echo ' style="width:' . $r[$current_width] . '"';
 				}
 				echo ' />';
 			}
@@ -426,7 +425,7 @@ function bfa_widget_area($args = '') {
 				
 				echo "\n" . '<td id="' . $current_id .'" ';
 				
-				if ( $r[$current_align] ) 
+				if ( isset($r[$current_align]) ) 
 					$align_type = $r["$current_align"];
 				else 
 					$align_type = $r['align'];
@@ -657,18 +656,21 @@ function bfa_ata_save_postdata( $post_id ) {
 
   /* verify this came from the our screen and with proper authorization,
   because save_post can be triggered at other times */
+// Before using $_POST['value']    
+if (isset($_POST['bfa_ata_noncename']))    
+{     
 
-  if ( !wp_verify_nonce( $_POST['bfa_ata_noncename'], plugin_basename(__FILE__) )) {
-    return $post_id;
-  }
+	if ( !wp_verify_nonce( $_POST['bfa_ata_noncename'], plugin_basename(__FILE__) )) {
+		return $post_id;
+	}
 
-  if ( 'page' == $_POST['post_type'] ) {
-    if ( !current_user_can( 'edit_page', $post_id ))
-      return $post_id;
-  } else {
-    if ( !current_user_can( 'edit_post', $post_id ))
-      return $post_id;
-  }
+	if ( 'page' == $_POST['post_type'] ) {
+		if ( !current_user_can( 'edit_page', $post_id ))
+			return $post_id;
+	} else {
+		if ( !current_user_can( 'edit_post', $post_id ))
+			return $post_id;
+		}
 
 	// Save the data
 	
@@ -686,10 +688,7 @@ function bfa_ata_save_postdata( $post_id ) {
 	update_post_meta($post_id, 'bfa_ata_meta_keywords', $new_meta_keywords);
 	update_post_meta($post_id, 'bfa_ata_meta_description', $new_meta_description);
 
-
-}
-
-
+}}
 
 if ( function_exists( 'add_theme_support' ) ) { // Added in 2.9
 
@@ -888,55 +887,6 @@ function bfa_ddroundiesHead() {
 if ( ! isset( $content_width ) )
 	$content_width = 640;
 
-// editor style, custom background & custom image header not activted yet. background & header work
-// Atahualpa has most of this - confusing to have 2 places to set header images etc. ?
-/*
-add_editor_style();
-add_custom_background(); 
-
-
-define('HEADER_TEXTCOLOR', 'ffffff');
-define('HEADER_IMAGE', '%s/images/header/header6.jpg'); 
-define('HEADER_IMAGE_WIDTH', 775); 
-define('HEADER_IMAGE_HEIGHT', 200);
-
-function header_style() {
-    ?><style type="text/css">
-        #header {
-            background: url(<?php header_image(); ?>);
-        }
-    </style><?php
-}
-
-function admin_header_style() {
-    ?><style type="text/css">
-        #headimg {
-            width: <?php echo HEADER_IMAGE_WIDTH; ?>px;
-            height: <?php echo HEADER_IMAGE_HEIGHT; ?>px;
-        }
-    </style><?php
-}
-add_custom_image_header('header_style', 'admin_header_style');
-
-register_default_headers( array(
-	'header6' => array(
-		'url' => '%s/images/header/header6.jpg',
-		'thumbnail_url' => '%s/images/header/header6-thumb.jpg',
-		'description' => __( 'Raspberry', 'twentyten' )
-	),
-	'IMG_1479' => array(
-		'url' => '%s/images/header/IMG_1479.jpg',
-		'thumbnail_url' => '%s/images/header/IMG_1479-thumb.jpg',
-		'description' => __( 'Apple Blossom', 'twentyten' )
-	),
-	'IMG_1496.jpg' => array(
-		'url' => '%s/images/header/IMG_1496.jpg',
-		'thumbnail_url' => '%s/images/header/IMG_1496-thumb.jpg',
-		'description' => __( 'Spring', 'twentyten' )
-	)
-) );
-
-*/
 
 // Since 3.6.5: Process or don't process user included PHP code. 
 function bfa_incl($option) {
@@ -987,5 +937,14 @@ function bfa_is_pagetemplate_active($pagetemplate = '') {
 		return 0;
 	}
 }
-
+// add category nicenames in body and post class
+	function bfa_category_id_class($classes) {
+	    global $post;
+	    if (is_single()) {	
+	    	foreach((get_the_category($post->ID)) as $category)
+	        	$classes[] = 'category-'.$category->slug;
+		}
+		return $classes;
+	}
+	add_filter('body_class', 'bfa_category_id_class');
 ?>
